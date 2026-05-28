@@ -8,14 +8,33 @@ Usable standalone (re-render everything after editing JSON or templates):
 import html
 import json
 import sys
-from datetime import date
 from pathlib import Path
 
-REGION_FLAG = {"Brazil": "🇧🇷", "World": "🌍", "Brazil & World": "🌐"}
+CATEGORIES = ["Brazil", "Europe", "USA", "International", "Technology"]
+CAT_ICON = {
+    "Brazil": "🇧🇷",
+    "Europe": "🇪🇺",
+    "USA": "🇺🇸",
+    "International": "🌍",
+    "Technology": "💻",
+}
+# Back-compat for any old data that used a single "region" string.
+REGION_TO_CATS = {"Brazil": ["Brazil"], "World": ["International"], "Brazil & World": ["Brazil", "International"]}
 
 
 def esc(s: str) -> str:
     return html.escape(s or "", quote=True)
+
+
+def get_cats(article) -> list:
+    cats = article.get("categories")
+    if not cats:
+        cats = REGION_TO_CATS.get(article.get("region", ""), [])
+    return [c for c in cats if c in CATEGORIES] or ["International"]
+
+
+def cats_attr(cats) -> str:
+    return " ".join(cats)
 
 
 def paras(body) -> str:
@@ -24,9 +43,8 @@ def paras(body) -> str:
     return "\n".join(f"<p>{esc(p)}</p>" for p in (body or []) if p and p.strip())
 
 
-def region_tag(region: str) -> str:
-    flag = REGION_FLAG.get(region, "🌐")
-    return f'<span class="tag">{flag} {esc(region or "World")}</span>'
+def cat_tags(cats) -> str:
+    return "".join(f'<span class="tag">{CAT_ICON.get(c, "🌍")} {esc(c)}</span>' for c in cats)
 
 
 def sources_block(sources) -> str:
@@ -36,9 +54,7 @@ def sources_block(sources) -> str:
         f'<li><a href="{esc(s.get("url",""))}" target="_blank" rel="noopener">{esc(s.get("title","source"))}</a></li>'
         for s in sources if s.get("url")
     )
-    if not items:
-        return ""
-    return f'<div class="sources"><span class="sources-label">Sources</span><ul>{items}</ul></div>'
+    return f'<div class="sources"><span class="sources-label">Sources</span><ul>{items}</ul></div>' if items else ""
 
 
 def theory_box(lens) -> str:
@@ -50,9 +66,7 @@ def theory_box(lens) -> str:
         rows += f'<div class="lens-row"><span class="lens-name">The mainstream view</span><p>{esc(lens["orthodox"])}</p></div>'
     if lens.get("heterodox"):
         rows += f'<div class="lens-row"><span class="lens-name">The heterodox view</span><p>{esc(lens["heterodox"])}</p></div>'
-    takeaway = ""
-    if lens.get("takeaway"):
-        takeaway = f'<p class="lens-takeaway"><strong>Where we land:</strong> {esc(lens["takeaway"])}</p>'
+    takeaway = f'<p class="lens-takeaway"><strong>Where we land:</strong> {esc(lens["takeaway"])}</p>' if lens.get("takeaway") else ""
     return f"""
     <aside class="theory">
       <span class="theory-kicker">The theory underneath</span>
@@ -69,9 +83,10 @@ def why_box(text) -> str:
 
 
 def lead_html(a) -> str:
+    cats = get_cats(a)
     return f"""
-  <article class="lead">
-    {region_tag(a.get("region"))}
+  <article class="lead" data-cats="{cats_attr(cats)}">
+    <div class="tag-row">{cat_tags(cats)}</div>
     <h2>{esc(a.get("headline",""))}</h2>
     <p class="dek">{esc(a.get("dek",""))}</p>
     <div class="body">{paras(a.get("body"))}</div>
@@ -82,12 +97,11 @@ def lead_html(a) -> str:
 
 
 def brief_html(a) -> str:
-    concept = ""
-    if a.get("concept"):
-        concept = f'<span class="concept">The idea: {esc(a["concept"])}</span>'
+    cats = get_cats(a)
+    concept = f'<span class="concept">The idea: {esc(a["concept"])}</span>' if a.get("concept") else ""
     return f"""
-  <article class="brief">
-    <div class="brief-head">{region_tag(a.get("region"))}{concept}</div>
+  <article class="brief" data-cats="{cats_attr(cats)}">
+    <div class="brief-head"><div class="tag-row">{cat_tags(cats)}</div>{concept}</div>
     <h3>{esc(a.get("headline",""))}</h3>
     <div class="body">{paras(a.get("body"))}</div>
     {why_box(a.get("why_it_matters"))}
@@ -102,13 +116,74 @@ def glossary_html(glossary) -> str:
         f'<div class="gloss-item"><dt>{esc(g.get("term",""))}</dt><dd>{esc(g.get("plain",""))}</dd></div>'
         for g in glossary if g.get("term")
     )
-    if not items:
-        return ""
-    return f"""
-  <section class="glossary">
-    <h3>Plain-English glossary</h3>
-    <dl>{items}</dl>
-  </section>"""
+    return f'<section class="glossary"><h3>Plain-English glossary</h3><dl>{items}</dl></section>' if items else ""
+
+
+def pills_bar() -> str:
+    btns = '<button class="pill active" data-cat="all">All</button>'
+    btns += "".join(
+        f'<button class="pill" data-cat="{c}">{CAT_ICON[c]} {c}</button>' for c in CATEGORIES
+    )
+    return f'<nav class="pills" id="pills" aria-label="Filter by topic">{btns}</nav>'
+
+
+ISSUE_FILTER_JS = """
+<script>
+(function(){
+  var pills = Array.prototype.slice.call(document.querySelectorAll('#pills .pill'));
+  var arts = Array.prototype.slice.call(document.querySelectorAll('[data-cats]'));
+  var briefsSection = document.getElementById('briefs-section');
+  function catsOf(el){ return el.getAttribute('data-cats').split(' ').filter(Boolean); }
+  pills.forEach(function(p){
+    var cat = p.getAttribute('data-cat');
+    if(cat === 'all') return;
+    var n = arts.filter(function(a){ return catsOf(a).indexOf(cat) > -1; }).length;
+    if(n === 0){ p.disabled = true; p.classList.add('empty'); }
+  });
+  function apply(cat){
+    arts.forEach(function(a){
+      var show = cat === 'all' || catsOf(a).indexOf(cat) > -1;
+      a.style.display = show ? '' : 'none';
+    });
+    if(briefsSection){
+      var anyBrief = arts.some(function(a){
+        return a.classList.contains('brief') && a.style.display !== 'none';
+      });
+      briefsSection.querySelector('.section-rule').style.display = anyBrief ? '' : 'none';
+    }
+    pills.forEach(function(p){ p.classList.toggle('active', p.getAttribute('data-cat') === cat); });
+  }
+  pills.forEach(function(p){
+    p.addEventListener('click', function(){ if(!p.disabled) apply(p.getAttribute('data-cat')); });
+  });
+})();
+</script>"""
+
+
+HOME_FILTER_JS = """
+<script>
+(function(){
+  var pills = Array.prototype.slice.call(document.querySelectorAll('#pills .pill'));
+  var rows = Array.prototype.slice.call(document.querySelectorAll('[data-cats]'));
+  function catsOf(el){ return el.getAttribute('data-cats').split(' ').filter(Boolean); }
+  pills.forEach(function(p){
+    var cat = p.getAttribute('data-cat');
+    if(cat === 'all') return;
+    var n = rows.filter(function(r){ return catsOf(r).indexOf(cat) > -1; }).length;
+    if(n === 0){ p.disabled = true; p.classList.add('empty'); }
+  });
+  function apply(cat){
+    rows.forEach(function(r){
+      var show = cat === 'all' || catsOf(r).indexOf(cat) > -1;
+      r.style.display = show ? '' : 'none';
+    });
+    pills.forEach(function(p){ p.classList.toggle('active', p.getAttribute('data-cat') === cat); });
+  }
+  pills.forEach(function(p){
+    p.addEventListener('click', function(){ if(!p.disabled) apply(p.getAttribute('data-cat')); });
+  });
+})();
+</script>"""
 
 
 def page_head(title, desc, css="style.css") -> str:
@@ -130,7 +205,11 @@ def page_head(title, desc, css="style.css") -> str:
 def render_issue_page(issue, pub, tagline) -> str:
     leads = "\n".join(lead_html(a) for a in issue.get("leads", []))
     briefs = "".join(brief_html(a) for a in issue.get("briefs", []))
-    briefs_section = f'<section class="briefs"><h2 class="section-rule">Also this week</h2><div class="brief-grid">{briefs}</div></section>' if briefs else ""
+    briefs_section = (
+        f'<section class="briefs" id="briefs-section"><h2 class="section-rule">Also this week</h2>'
+        f'<div class="brief-grid">{briefs}</div></section>'
+        if briefs else ""
+    )
     title = f'{esc(issue.get("title") or pub)} — {pub} #{issue.get("number","")}'
     desc = (issue.get("editors_note") or tagline)[:200]
     return f"""{page_head(title, desc, css="../style.css")}
@@ -145,6 +224,7 @@ def render_issue_page(issue, pub, tagline) -> str:
     </div>
     <h1 class="issue-title">{esc(issue.get("title",""))}</h1>
     <p class="editors-note">{esc(issue.get("editors_note",""))}</p>
+    {pills_bar()}
     {leads}
     {briefs_section}
     {glossary_html(issue.get("glossary"))}
@@ -153,6 +233,7 @@ def render_issue_page(issue, pub, tagline) -> str:
       <span>{esc(pub)} · explained, not summarised</span>
     </footer>
   </main>
+  {ISSUE_FILTER_JS}
 </body>
 </html>"""
 
@@ -164,7 +245,7 @@ def render_index(issues, pub, tagline) -> str:
     else:
         latest = issues[0]
         feat = f"""
-    <a class="feature" href="issues/{esc(latest['slug'])}.html">
+    <a class="feature" href="issues/{esc(latest['slug'])}.html" data-cats="{cats_attr(latest.get('categories', []))}">
       <span class="feature-kicker">Latest issue · #{esc(str(latest.get('number','')))} · {esc(latest.get('week_of',''))}</span>
       <h2>{esc(latest.get('title',''))}</h2>
       <p>{esc(latest.get('editors_note',''))}</p>
@@ -173,7 +254,7 @@ def render_index(issues, pub, tagline) -> str:
         rows = ""
         for i in issues[1:]:
             rows += f"""
-      <a class="archive-row" href="issues/{esc(i['slug'])}.html">
+      <a class="archive-row" href="issues/{esc(i['slug'])}.html" data-cats="{cats_attr(i.get('categories', []))}">
         <span class="arch-num">#{esc(str(i.get('number','')))}</span>
         <span class="arch-title">{esc(i.get('title',''))}</span>
         <span class="arch-date">{esc(i.get('week_of',''))}</span>
@@ -186,12 +267,15 @@ def render_index(issues, pub, tagline) -> str:
     <p class="mast-tag">{esc(tagline)}</p>
   </header>
   <main class="home-main">
+    {pills_bar()}
     {body}
     <footer class="home-foot">
-      <p>A weekly read on economics &amp; politics — the facts, then the <em>why</em>,
-      with the economic theory (orthodox and heterodox) underneath. New issue every Monday.</p>
+      <p>A weekly read on economics, politics and technology. The facts, then the
+      <em>why</em>, with the economic theory (orthodox and heterodox) underneath.
+      New issue every Monday.</p>
     </footer>
   </main>
+  {HOME_FILTER_JS}
 </body>
 </html>"""
 
@@ -206,6 +290,11 @@ def render_all(root: Path, pub: str, tagline: str):
     for f in sorted(data_dir.glob("*.json")):
         issue = json.loads(f.read_text())
         (issues_dir / f"{issue['slug']}.html").write_text(render_issue_page(issue, pub, tagline))
+        cats = []
+        for a in issue.get("leads", []) + issue.get("briefs", []):
+            for c in get_cats(a):
+                if c not in cats:
+                    cats.append(c)
         issues.append({
             "slug": issue["slug"],
             "number": issue.get("number"),
@@ -213,6 +302,7 @@ def render_all(root: Path, pub: str, tagline: str):
             "week_of": issue.get("week_of"),
             "title": issue.get("title"),
             "editors_note": issue.get("editors_note"),
+            "categories": [c for c in CATEGORIES if c in cats],
             "lead_count": len(issue.get("leads", [])),
             "brief_count": len(issue.get("briefs", [])),
         })
@@ -226,6 +316,6 @@ if __name__ == "__main__":
     here = Path(__file__).parent
     idx = json.loads((here / "issues.json").read_text()) if (here / "issues.json").exists() else {}
     pub = idx.get("publication", "The Long Run")
-    tag = idx.get("tagline", "Economics & politics, explained.")
+    tag = idx.get("tagline", "Economics, politics & technology, explained.")
     render_all(here, pub, tag)
     print("rendered.")

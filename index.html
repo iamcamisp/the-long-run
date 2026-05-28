@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Long Run</title>
-  <meta name="description" content="Economics &amp; politics, explained.">
+  <meta name="description" content="Economics, politics &amp; technology, explained. Once a week, with the theory underneath.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Newsreader:ital,opsz@0,6..72;1,6..72&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,20 +13,40 @@
 <body>
   <header class="masthead home">
     <span class="mast-name">The Long Run</span>
-    <p class="mast-tag">Economics &amp; politics, explained.</p>
+    <p class="mast-tag">Economics, politics &amp; technology, explained. Once a week, with the theory underneath.</p>
   </header>
   <main class="home-main">
-    
-    <a class="feature" href="issues/2026-05-25.html">
-      <span class="feature-kicker">Latest issue · #1 · May 19–25, 2026</span>
-      <h2>Test theme</h2>
-      <p>A test note.</p>
-      <span class="feature-go">Read this week →</span>
-    </a>
+    <nav class="pills" id="pills" aria-label="Filter by topic"><button class="pill active" data-cat="all">All</button><button class="pill" data-cat="Brazil">🇧🇷 Brazil</button><button class="pill" data-cat="Europe">🇪🇺 Europe</button><button class="pill" data-cat="USA">🇺🇸 USA</button><button class="pill" data-cat="International">🌍 International</button><button class="pill" data-cat="Technology">💻 Technology</button></nav>
+    <p class="empty">First issue lands soon.</p>
     <footer class="home-foot">
-      <p>A weekly read on economics &amp; politics — the facts, then the <em>why</em>,
-      with the economic theory (orthodox and heterodox) underneath. New issue every Monday.</p>
+      <p>A weekly read on economics, politics and technology. The facts, then the
+      <em>why</em>, with the economic theory (orthodox and heterodox) underneath.
+      New issue every Monday.</p>
     </footer>
   </main>
+  
+<script>
+(function(){
+  var pills = Array.prototype.slice.call(document.querySelectorAll('#pills .pill'));
+  var rows = Array.prototype.slice.call(document.querySelectorAll('[data-cats]'));
+  function catsOf(el){ return el.getAttribute('data-cats').split(' ').filter(Boolean); }
+  pills.forEach(function(p){
+    var cat = p.getAttribute('data-cat');
+    if(cat === 'all') return;
+    var n = rows.filter(function(r){ return catsOf(r).indexOf(cat) > -1; }).length;
+    if(n === 0){ p.disabled = true; p.classList.add('empty'); }
+  });
+  function apply(cat){
+    rows.forEach(function(r){
+      var show = cat === 'all' || catsOf(r).indexOf(cat) > -1;
+      r.style.display = show ? '' : 'none';
+    });
+    pills.forEach(function(p){ p.classList.toggle('active', p.getAttribute('data-cat') === cat); });
+  }
+  pills.forEach(function(p){
+    p.addEventListener('click', function(){ if(!p.disabled) apply(p.getAttribute('data-cat')); });
+  });
+})();
+</script>
 </body>
 </html>

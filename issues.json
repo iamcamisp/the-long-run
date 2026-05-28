@@ -1,16 +1,5 @@
 {
   "publication": "The Long Run",
-  "tagline": "Economics & politics, explained.",
-  "issues": [
-    {
-      "slug": "2026-05-25",
-      "number": 1,
-      "date": "2026-05-25",
-      "week_of": "May 19–25, 2026",
-      "title": "Test theme",
-      "editors_note": "A test note.",
-      "lead_count": 1,
-      "brief_count": 1
-    }
-  ]
+  "tagline": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+  "issues": []
 }

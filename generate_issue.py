@@ -39,7 +39,10 @@ CREDS_PATH = Path.home() / ".claude" / ".credentials.json"
 DEFAULT_MODEL = "claude-sonnet-4-6"  # strong + OAuth/web_search friendly; bump to opus for depth
 
 PUBLICATION = "The Long Run"
-TAGLINE = "Economics & politics, explained — once a week, with the theory underneath."
+TAGLINE = "Economics, politics & technology, explained. Once a week, with the theory underneath."
+
+# The filter pills on the site. Each article is tagged with one or more of these.
+CATEGORIES = ["Brazil", "Europe", "USA", "International", "Technology"]
 
 
 # ──────────────────────────────────────────────────────────────────────────
@@ -76,40 +79,55 @@ Produce ONE issue as a single JSON object. Output ONLY the JSON, wrapped in a
 {
   "title": "a short thematic title for this week's issue (not a headline, a theme)",
   "editors_note": "2-4 friendly sentences: what tied the week together, what to read for. Warm, human, a little wry. No 'In this issue'.",
-  "leads": [            // 1 to 2 deep-dive articles — the big stories of the week
+  "leads": [            // 1 to 2 deep-dive articles, the big stories of the week
     {
       "headline": "punchy, specific, not clickbait",
       "dek": "one sentence that says what the piece argues",
-      "region": "Brazil" | "World" | "Brazil & World",
-      "body": ["paragraph", "paragraph", ...],   // 5-9 paragraphs, friendly explainer prose
+      "categories": ["Brazil"],   // 1 to 2 of: Brazil, Europe, USA, International, Technology
+      "body": ["paragraph", "paragraph", ...],   // 5-9 paragraphs of friendly explainer prose
       "why_it_matters": "2-3 sentences a reader could repeat to a friend",
       "theory_lens": {
-        "concept": "the core economic/political-economy idea (e.g. 'Center-periphery & terms of trade')",
+        "concept": "the core economic or political economy idea (for example 'the center and periphery model')",
         "orthodox": "how the mainstream reads this (1-3 sentences)",
         "heterodox": "how a heterodox economist reads it differently (1-3 sentences)",
-        "takeaway": "plain-language bottom line — what YOU think and why (1-2 sentences)"
+        "takeaway": "the plain bottom line, what YOU think and why (1-2 sentences)"
       },
       "sources": [ {"title": "outlet/source name", "url": "https://..."} ]   // 2-5 real sources you actually used
     }
   ],
-  "briefs": [           // 4 to 6 short explainers — smaller but still 'why it matters'
+  "briefs": [           // 4 to 6 short explainers, smaller but still with a 'why it matters'
     {
       "headline": "...",
-      "region": "Brazil" | "World" | "Brazil & World",
+      "categories": ["Technology"],   // 1 to 2 of: Brazil, Europe, USA, International, Technology
       "body": ["paragraph", "paragraph"],   // 2-3 tight paragraphs
       "why_it_matters": "1-2 sentences",
-      "concept": "the one econ/poli-econ idea this story illustrates",
+      "concept": "the one econ or political economy idea this story illustrates",
       "sources": [ {"title": "...", "url": "https://..."} ]
     }
   ],
-  "glossary": [ {"term": "...", "plain": "a one-line plain-English definition"} ]  // 3-6 terms you used that a curious non-economist might not know
+  "glossary": [ {"term": "...", "plain": "a one-line plain definition"} ]  // 3-6 terms you used that a curious non-economist might not know
 }
 
+Categories (use ONLY these, 1-2 per article, choose the best fit):
+  - "Brazil"        anything centred on Brazil.
+  - "Europe"        the euro area, the ECB, the EU, individual European countries.
+  - "USA"           the United States, the Fed, US politics and policy.
+  - "International"  global/cross-border stories, China, emerging markets, trade,
+                     commodities, multilateral bodies, or anything not tied to one
+                     of the regions above.
+  - "Technology"    AI, chips, platforms, digital policy and the economics of tech.
+                     Tag a story Technology AND its region when both fit (e.g. a US
+                     chip-export story is ["USA", "Technology"]).
+
 Hard rules:
-- Cover BOTH Brazil and the wider world. At least one lead or several briefs must be Brazil-focused.
-- Every claim with a number or a specific fact must trace to a source in that item's "sources" (use real URLs from your searches).
-- Theory must be load-bearing, not decoration: the lens should actually change how you read the story.
-- Write in the persona's voice. Do not sound like an AI or a wire-service report.
+- Spread coverage across the categories. At least one Brazil item every issue, and
+  include at least one Technology item (the tech-and-economy angle).
+- Every claim with a number or a specific fact must trace to a source in that item's
+  "sources" (use real URLs from your searches).
+- Theory must be load-bearing, not decoration: the lens should change how you read it.
+- Write in the persona's voice. Do not sound like AI or like a wire report.
+- NEVER use em dashes. Use commas, periods, parentheses, or colons.
+- Do NOT coin complex hyphenated compound words. Write them out in plain words.
 - Valid JSON only: escape quotes, no trailing commas, no comments in the actual output.
 """
 
@@ -122,12 +140,16 @@ Write this week's issue of *The Long Run*. The week is {label} \
 First, use the web_search tool to find the most relevant and consequential
 economics & politics news from THIS week — both Brazil and international. Search
 several times and from different angles. Prioritise:
-  - Brazil: monetary policy (Copom/Selic), fiscal policy & the arcabouço, inflation
-    (IPCA), the real, Congress/STF, commodities, industry, labour, social policy.
-  - World: the Fed/ECB/major central banks, US & China, trade and tariffs, energy
-    and commodities, elections and major political shifts, anything that reshapes
-    the global configuration Brazil sits inside.
-Favour stories with real analytical meat over celebrity-politics noise. Verify the
+  - Brazil: monetary policy (Copom and the Selic), fiscal policy and the spending
+    framework, inflation (the IPCA), the real, Congress and the STF, commodities,
+    industry, labour, social policy.
+  - USA: the Fed, US politics and policy, the dollar, tariffs.
+  - Europe: the ECB, the euro area, the EU, major European elections and policy.
+  - International: China, emerging markets, global trade, energy and commodities,
+    multilateral bodies, anything that reshapes the world Brazil sits inside.
+  - Technology: AI, semiconductors, platforms and big tech, digital regulation,
+    and what they mean for productivity, jobs, market power, and geopolitics.
+Favour stories with real analytical meat over celebrity politics noise. Verify the
 key facts against primary or reputable sources before you write.
 
 Then write the issue. {SCHEMA_INSTRUCTIONS}"""
