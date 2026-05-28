@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+refresh.log
+.DS_Store
