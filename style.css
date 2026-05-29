@@ -15,6 +15,39 @@
 
 html { -webkit-text-size-adjust: 100%; }
 
+/* bilingual visibility */
+[data-lang] { }
+html[lang="en"] [data-lang="pt"] { display: none; }
+html[lang="pt"] [data-lang="en"] { display: none; }
+
+/* language switcher */
+.lang-switch {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 50;
+  display: flex;
+  gap: 3px;
+  background: #fffdf9;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 3px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+}
+.lang-switch button {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: none;
+  background: transparent;
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 4px 11px;
+  cursor: pointer;
+}
+.lang-switch button.active { background: var(--accent); color: #fff; }
+
 body {
   margin: 0;
   background: var(--paper);

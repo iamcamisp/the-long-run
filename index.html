@@ -11,24 +11,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+  <div class="lang-switch" id="lang-switch" aria-label="Language">
+    <button data-set="en">EN</button><button data-set="pt">PT</button>
+  </div>
   <header class="masthead home">
     <span class="mast-name">The Long Run</span>
-    <p class="mast-tag">Economics, politics &amp; technology, explained. Once a week, with the theory underneath.</p>
+    <p class="mast-tag"><span data-lang="en">Economics, politics &amp; technology, explained. Once a week, with the theory underneath.</span><span data-lang="pt">Economics, politics &amp; technology, explained. Once a week, with the theory underneath.</span></p>
   </header>
   <main class="home-main">
-    <nav class="pills" id="pills" aria-label="Filter by topic"><button class="pill active" data-cat="all">All</button><button class="pill" data-cat="Brazil">🇧🇷 Brazil</button><button class="pill" data-cat="Europe">🇪🇺 Europe</button><button class="pill" data-cat="USA">🇺🇸 USA</button><button class="pill" data-cat="International">🌍 International</button><button class="pill" data-cat="Technology">💻 Technology</button></nav>
+    <nav class="pills" id="pills" aria-label="Filter by topic"><button class="pill active" data-cat="all"><span data-lang="en">All</span><span data-lang="pt">Tudo</span></button><button class="pill" data-cat="Brazil">🇧🇷 <span data-lang="en">Brazil</span><span data-lang="pt">Brasil</span></button><button class="pill" data-cat="Europe">🇪🇺 <span data-lang="en">Europe</span><span data-lang="pt">Europa</span></button><button class="pill" data-cat="USA">🇺🇸 <span data-lang="en">USA</span><span data-lang="pt">EUA</span></button><button class="pill" data-cat="International">🌍 <span data-lang="en">International</span><span data-lang="pt">Internacional</span></button><button class="pill" data-cat="Technology">💻 <span data-lang="en">Technology</span><span data-lang="pt">Tecnologia</span></button></nav>
     
     <a class="feature" href="issues/2026-05-28.html" data-cats="Brazil USA International Technology">
-      <span class="feature-kicker">Latest issue · #1 · May 28, 2026</span>
-      <h2>Energy shocks, embedded rates, and the great tech bifurcation</h2>
-      <p>This week, three stories collided. Brazil&#x27;s central bank admitted its inflation anchors are slipping even as it cuts rates, the US and China effectively split the semiconductor supply chain into two incompatible systems, and the AI industry moved decisively from models to enterprise deployment. All three expose the same problem: when you&#x27;re dealing with structural shocks and geopolitical divides, monetary policy and trade law act like antibiotics on a resistant infection. Let us explain why.</p>
-      <span class="feature-go">Read this week →</span>
+      <span class="feature-kicker"><span data-lang="en">Latest issue</span><span data-lang="pt">Última edição</span> · #1 · <span data-lang="en">May 28, 2026</span><span data-lang="pt">maio 28, 2026</span></span>
+      <h2><span data-lang="en">Energy shocks, embedded rates, and the great tech bifurcation</span><span data-lang="pt">Energy shocks, embedded rates, and the great tech bifurcation</span></h2>
+      <p><span data-lang="en">This week, three stories collided. Brazil&#x27;s central bank admitted its inflation anchors are slipping even as it cuts rates, the US and China effectively split the semiconductor supply chain into two incompatible systems, and the AI industry moved decisively from models to enterprise deployment. All three expose the same problem: when you&#x27;re dealing with structural shocks and geopolitical divides, monetary policy and trade law act like antibiotics on a resistant infection. Let us explain why.</span><span data-lang="pt">This week, three stories collided. Brazil&#x27;s central bank admitted its inflation anchors are slipping even as it cuts rates, the US and China effectively split the semiconductor supply chain into two incompatible systems, and the AI industry moved decisively from models to enterprise deployment. All three expose the same problem: when you&#x27;re dealing with structural shocks and geopolitical divides, monetary policy and trade law act like antibiotics on a resistant infection. Let us explain why.</span></p>
+      <span class="feature-go"><span data-lang="en">Read this week →</span><span data-lang="pt">Ler esta edição →</span></span>
     </a>
-    <footer class="home-foot">
-      <p>A weekly read on economics, politics and technology. The facts, then the
-      <em>why</em>, with the economic theory (orthodox and heterodox) underneath.
-      New issue every Monday.</p>
-    </footer>
+    <footer class="home-foot"><p><span data-lang="en">A weekly read on economics, politics and technology. The facts, then the why, with the economic theory (orthodox and heterodox) underneath. New issue every Monday.</span><span data-lang="pt">Uma leitura semanal sobre economia, política e tecnologia. Os fatos, depois o porquê, com a teoria econômica (ortodoxa e heterodoxa) por trás. Edição nova toda segunda.</span></p></footer>
   </main>
   
 <script>
@@ -39,19 +39,29 @@
   pills.forEach(function(p){
     var cat = p.getAttribute('data-cat');
     if(cat === 'all') return;
-    var n = rows.filter(function(r){ return catsOf(r).indexOf(cat) > -1; }).length;
-    if(n === 0){ p.disabled = true; p.classList.add('empty'); }
+    if(rows.filter(function(r){ return catsOf(r).indexOf(cat) > -1; }).length === 0){
+      p.disabled = true; p.classList.add('empty');
+    }
   });
   function apply(cat){
-    rows.forEach(function(r){
-      var show = cat === 'all' || catsOf(r).indexOf(cat) > -1;
-      r.style.display = show ? '' : 'none';
-    });
+    rows.forEach(function(r){ r.style.display = (cat === 'all' || catsOf(r).indexOf(cat) > -1) ? '' : 'none'; });
     pills.forEach(function(p){ p.classList.toggle('active', p.getAttribute('data-cat') === cat); });
   }
-  pills.forEach(function(p){
-    p.addEventListener('click', function(){ if(!p.disabled) apply(p.getAttribute('data-cat')); });
-  });
+  pills.forEach(function(p){ p.addEventListener('click', function(){ if(!p.disabled) apply(p.getAttribute('data-cat')); }); });
+})();
+</script>
+  
+<script>
+(function(){
+  var saved = localStorage.getItem('lr-lang') || 'en';
+  var btns = Array.prototype.slice.call(document.querySelectorAll('#lang-switch button'));
+  function set(l){
+    document.documentElement.setAttribute('lang', l);
+    localStorage.setItem('lr-lang', l);
+    btns.forEach(function(b){ b.classList.toggle('active', b.getAttribute('data-set') === l); });
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ set(b.getAttribute('data-set')); }); });
+  set(saved);
 })();
 </script>
 </body>

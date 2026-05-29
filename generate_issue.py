@@ -39,10 +39,17 @@ CREDS_PATH = Path.home() / ".claude" / ".credentials.json"
 DEFAULT_MODEL = "claude-sonnet-4-6"  # strong + OAuth/web_search friendly; bump to opus for depth
 
 PUBLICATION = "The Long Run"
-TAGLINE = "Economics, politics & technology, explained. Once a week, with the theory underneath."
+TAGLINE = {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás.",
+}
 
 # The filter pills on the site. Each article is tagged with one or more of these.
 CATEGORIES = ["Brazil", "Europe", "USA", "International", "Technology"]
+
+# Keys whose values are the human-readable content of an issue (everything else is
+# metadata or structure). Used to split content from the wrapper before translating.
+CONTENT_KEYS = ("title", "editors_note", "leads", "briefs", "glossary")
 
 
 # ──────────────────────────────────────────────────────────────────────────
@@ -128,6 +135,15 @@ Hard rules:
 - Write in the persona's voice. Do not sound like AI or like a wire report.
 - NEVER use em dashes. Use commas, periods, parentheses, or colons.
 - Do NOT coin complex hyphenated compound words. Write them out in plain words.
+- BANNED writing tics (these read as AI, avoid completely):
+    * the "not X, it's Y" / "isn't just X, it's Y" antithesis. State the point directly.
+    * staccato one-line fragments for drama. Write full, connected sentences in
+      paragraphs of roughly 3-6 sentences each.
+    * the reflexive rule of three (three adjectives, three examples, three clauses).
+      Vary the count; one strong example beats three weak ones.
+    * hype filler: "here's the thing", "here's the kicker", "let that sink in",
+      "make no mistake", "it's worth noting", "the result?", rhetorical one-word
+      questions, and limp both-sides hedging.
 - Valid JSON only: escape quotes, no trailing commas, no comments in the actual output.
 """
 
@@ -283,6 +299,49 @@ def generate(client, model, start, end, label, today_only=False, retries=8) -> d
     raise last_err
 
 
+TRANSLATE_SYSTEM = """\
+You are a Brazilian translator and editor. You render English economics writing into
+natural, fluent Brazilian Portuguese (pt-BR) that a smart Brazilian reader would enjoy.
+You translate meaning and voice, not words. Keep the same friendly, plain, opinionated
+tone. Use the standard Brazilian terms for economic and political concepts (Selic, IPCA,
+arcabouço fiscal, juros, câmbio, and so on). Same house style as the original: never use
+em dashes, do not coin complex hyphenated words, avoid the "não é X, é Y" antithesis,
+no staccato fragments, no reflexive groups of three."""
+
+
+def translate_issue(client, model, content: dict, retries=6) -> dict:
+    """Translate an issue's content dict (title/editors_note/leads/briefs/glossary) to
+    pt-BR, preserving the exact JSON structure. No tools needed (pure translation)."""
+    instruction = (
+        "Translate the human-readable text in this JSON into Brazilian Portuguese. "
+        "Return ONLY the same JSON object with the SAME keys and the SAME array lengths, "
+        "wrapped in a ```json fenced block. Do NOT translate or change: any \"url\" value, "
+        "and any value inside a \"categories\" list (leave those exactly as they are in "
+        "English). Translate everything else (titles, deks, body paragraphs, why_it_matters, "
+        "the theory fields, concepts, glossary terms and definitions).\n\n"
+        "```json\n" + json.dumps(content, ensure_ascii=False) + "\n```"
+    )
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            resp = client.messages.create(
+                model=model,
+                max_tokens=16000,
+                system=[{"type": "text", "text": TRANSLATE_SYSTEM}],
+                messages=[{"role": "user", "content": instruction}],
+            )
+            text = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
+            return extract_json(text)
+        except (anthropic.RateLimitError, anthropic.InternalServerError, anthropic.APIStatusError) as e:
+            last_err = e
+            if attempt == retries:
+                break
+            wait = min(60 * (2 ** (attempt - 1)), 300)
+            print(f"  [translate {type(e).__name__}] attempt {attempt}/{retries} — backing off {wait:.0f}s", flush=True)
+            time.sleep(wait)
+    raise last_err
+
+
 # ──────────────────────────────────────────────────────────────────────────
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -306,24 +365,31 @@ def main() -> int:
 
     print(f"→ Generating issue #{num} — {scope_word} (slug {slug}) with {args.model}")
     client = get_client()
-    issue = generate(client, args.model, start, end, label, today_only=args.today)
-    issue = clean_issue(issue)  # strip citation markup + enforce house style
+    raw = clean_issue(generate(client, args.model, start, end, label, today_only=args.today))
+    en = {k: raw.get(k, [] if k in ("leads", "briefs", "glossary") else "") for k in CONTENT_KEYS}
+    print(f"  EN written — {len(en['leads'])} leads, {len(en['briefs'])} briefs")
 
-    # Stamp metadata (don't trust the model with these)
-    issue["slug"] = slug
-    issue["number"] = num
-    issue["date"] = end.isoformat()
-    issue["week_of"] = label
-    issue["publication"] = PUBLICATION
-    issue["tagline"] = TAGLINE
-    issue.setdefault("leads", [])
-    issue.setdefault("briefs", [])
-    issue.setdefault("glossary", [])
+    print("  translating to pt-BR ...")
+    try:
+        pt = clean_issue(translate_issue(client, args.model, en))
+    except Exception as e:  # never let a translation hiccup lose the English issue
+        print(f"  translation failed ({type(e).__name__}); falling back to EN for pt", flush=True)
+        pt = en
+
+    issue = {
+        "slug": slug,
+        "number": num,
+        "date": end.isoformat(),
+        "week_of": label,
+        "publication": PUBLICATION,
+        "tagline": TAGLINE,
+        "content": {"en": en, "pt": pt},
+    }
 
     DATA_DIR.mkdir(exist_ok=True)
     data_path = DATA_DIR / f"{slug}.json"
     data_path.write_text(json.dumps(issue, ensure_ascii=False, indent=2))
-    print(f"  saved {data_path.relative_to(ROOT)} — {len(issue['leads'])} leads, {len(issue['briefs'])} briefs")
+    print(f"  saved {data_path.relative_to(ROOT)}")
 
     if args.dry_run:
         print("  --dry-run: skipping render")
