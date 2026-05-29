@@ -322,6 +322,9 @@ Write like the Brazilian financial press:
   trimestre", "ante" or "versus" for comparisons, "ante o trimestre anterior").
 - Keep terms a literate Brazilian finance reader already owns (Selic, IPCA, arcabouço
   fiscal, Brent, WTI, traders). Do not over-explain them.
+- Tom levemente casual e gostoso de ler, como uma boa coluna de jornal que conversa com
+  o leitor: contrações e construções naturais do português falado culto, nunca empolado
+  nem acadêmico, mas também nunca relaxado demais.
 
 House style (mandatory):
 - Never use em dashes. The colon is your main connective: set up a claim, then deliver
@@ -362,6 +365,9 @@ def restyle_en(client, model, content: dict, retries=6) -> dict:
         "- Apply the craft: colon-driven connectives, NO rule of three / triads, paired "
         "contrasts, parenthetical mechanisms, precise metaphor over cute, long connected "
         "sentences. No em dashes. No 'not X, it's Y' antithesis. No staccato fragments.\n"
+        "- Lean a little casual and warm, like a sharp friend explaining over coffee: use "
+        "contractions, talk to the reader, let an easy human phrase in now and then. Enjoyable "
+        "to read, never stiff or academic, but never flippant or sloppy.\n"
         "- Make the theory_lens (concept/orthodox/heterodox/takeaway) the FRIENDLIEST part: "
         "name the idea in plain everyday words, explain each view like to a smart friend who "
         "never took economics, lean on a concrete example, and define any technical term in "

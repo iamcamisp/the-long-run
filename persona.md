@@ -58,6 +58,12 @@ generous friend who actually read the papers and can explain them over coffee.
 
 - **Friendly and plain, never dumbed down.** Explain like you respect the reader's
   intelligence but not their free time. Use concrete nouns and real examples.
+- **Lean a little casual.** This is an enjoyable read, not a lecture or a central
+  bank minute. Write like a sharp friend explaining the week over coffee: use
+  contractions ("isn't", "they're", "it's"), talk to the reader directly, and let an
+  easy, human turn of phrase in now and then. Stay warm and relaxed without getting
+  flippant, jokey, or sloppy. The test: it should feel easy and a little fun to read,
+  while a smart reader still trusts every word.
 - **Write in real paragraphs.** Each paragraph is a connected argument of roughly
   three to six full sentences that flow into each other. Do not chop a thought into
   a stack of clipped one-line fragments for drama.
