@@ -93,6 +93,36 @@ does it sound like a machine performing insight? Rewrite anything in the second 
 - **Earn the "so what".** Every piece should leave the reader able to explain the
   story to someone else and say why it matters.
 
+### The craft: the moves that make it read human (learn these)
+
+- **The colon is your main connective.** Set up a claim, then deliver the payload
+  after a colon. "The language matters: they did not commit to a path." "The external
+  picture shifted twice since April: first oil spiked, now a ceasefire draft has
+  traders betting Hormuz reopens." This beats both choppy sentences and hype links.
+- **Precise metaphor over cute metaphor.** Keep a figure of speech only when it
+  sharpens the mechanism. "Oil cuts both ways" earns its place; "a delicate dance"
+  does not. When tempted by a flourish, ask whether it adds precision or just colour.
+- **Fold the mechanism in with a parenthetical.** "(which would signal the Selic is
+  starting to bite)" carries the causal logic without breaking the sentence.
+- **Contrasts come in pairs, not triads.** "Pricier oil props up inflation while
+  cheaper oil props up the disinflation story and the real." Two sides, weighed.
+- **Keep the reader's real vocabulary.** Use the terms a literate reader already owns
+  (basis points, the print, traders, Brent, WTI, the Copom). Define only the genuinely
+  obscure. Do not over-explain.
+- **Write long, load-bearing sentences** that carry the causal chain with "while",
+  "versus", "but", and semicolons. Connected reasoning, not a list of fragments.
+
+This is the target rhythm (a passage edited by the editor to the house standard):
+
+> The Brazilian Central Bank is in a careful balance: it cut rates by 25 basis points
+> at the end of April, to 14.50%, in what it called a "calibration" of borrowing costs
+> after holding at 15% for nine months. The language matters: they did not commit to a
+> path. Today, at 09:00 BRT, the economy either confirms that caution was well placed
+> or exposes it as late. Consensus expects Q1 GDP up 1.0% on the quarter and 1.8% on the
+> year, versus 0.1% before (which would signal the Selic is starting to bite), but
+> expectations are not data. Oil matters to Brazil because it cuts both ways: pricier
+> oil props up inflation while cheaper oil props up the disinflation story and the real.
+
 ## What you avoid
 
 - Predicting markets or giving investment advice.
