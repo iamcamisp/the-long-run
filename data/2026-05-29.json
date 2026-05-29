@@ -1,0 +1,405 @@
+{
+  "slug": "2026-05-29",
+  "number": 1,
+  "date": "2026-05-29",
+  "week_of": "May 29, 2026",
+  "publication": "The Long Run",
+  "tagline": {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
+  },
+  "content": {
+    "en": {
+      "title": "The Fragile Trade: Oil, Growth, and the Cost of Optionality",
+      "editors_note": "Today Brazil releases its Q1 GDP, a test of whether the Selic rate at 14.50 is actually slowing the economy or just the data is weak. Meanwhile, traders are betting on a ceasefire deal that nobody has signed yet, a pattern that shows how fragile the de-escalation really is. We look at what happens when central banks have to choose between growth and inflation, when markets price a deal before the deal exists, and how AI is becoming a tool for regulating other AI.",
+      "leads": [
+        {
+          "headline": "Brazil's Growth Test: Does the High Rate Do Its Job, or Is the Economy Cracking?",
+          "dek": "Today's Q1 GDP print will reveal whether the Central Bank's 14.50 percent Selic is actually transmitting to demand, or whether a surprise miss forces the Copom to recalibrate its easing path in June.",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "The Brazilian Central Bank is in the middle of a careful dance. It cut rates by 25 basis points at the end of April, to 14.50 percent, joining what it called a 'calibration' of borrowing costs after holding at 15 percent for nine months. The language matters: they did not commit to a path. Today, at 09:00 BRT, the economy either confirms their caution was well placed or exposes it as too late.",
+            "The consensus expects Q1 GDP to grow 1.0 percent quarter on quarter and 1.8 percent year on year, versus 0.1 percent in the prior quarter, which would signal that the Selic is starting to work. But expectations are not the same as data. The external environment has shifted twice since April: first, oil volatility spiked when the Iran war escalated in February and March; now, a tentative ceasefire framework has traders betting on Hormuz reopening, pushing Brent back toward $96 and WTI above $90. The oil game matters for Brazil because it cuts both ways. Higher oil supports inflation; lower oil supports both the disinflation narrative and the real. Today's GDP number will tell the Copom whether the domestic economy is actually slowing or whether last quarter's 0.1 percent print was a fluke.",
+            "Unemployment fell to 5.8 percent, and the IGP-M wholesale price index cooled sharply to 0.84 percent from 2.73 percent as fuel relief flowed through, which is constructive. But there is a crack in the labor market. CAGED net payroll jobs collapsed to just 85.89 thousand against a 230 thousand expectation, a first sign that the high real rate carry is biting the labor market. If the economy is already slowing enough to hurt jobs, but inflation is still stubborn, the Copom faces a bind. The policy rate itself is the highest real rate carry among major emerging markets right now, which is a feature and a bug: it attracts capital and keeps the real firm, but it also compresses domestic activity.",
+            "The market is already positioned for what comes next. Focus survey consensus puts the Selic at 12.25 percent by year-end, implying roughly 225 basis points of cuts through December. But Goldman Sachs has moved its next cut forecast to September, signaling that consensus could shift if growth disappoints or if the Iran ceasefire breaks again. The key variable for Copom next month is not whether they will cut, but how far they will go. If Q1 GDP misses below 1.0 percent, easing pressure builds. If it hits consensus or better, the committee can move at a 25-basis-point pace and preserve credibility.",
+            "Here is the political economy at work: Brazil has a deficit problem and a debt problem. The government is pushing a spending framework to show fiscal discipline, and the Central Bank is independent in law but not in politics. A sharper slowdown invites calls for the Bank to cut faster. But every basis point cut the Bank makes when inflation is still above target is a signal that politics or growth anxiety won the day. The Copom under Gabriel Galípolo has rebuilt credibility by raising rates by 275 basis points in his first year and then cutting carefully. Today's GDP print will show whether that caution was wisdom or delay."
+          ],
+          "why_it_matters": "Brazil's Copom is at an inflection point between growth and inflation. If Q1 GDP is weak, the June meeting will likely see faster easing; if it is strong, caution holds and rate cuts proceed in 25-basis-point steps. Either way, today's number resets market expectations for how many cuts are really coming and when. For investors long the real or positioned for emerging market risk-on, the GDP miss or beat is the day's binary.",
+          "theory_lens": {
+            "concept": "The transmission mechanism of monetary policy and the time lag of policy impact",
+            "orthodox": "Orthodox central banking holds that the real interest rate (nominal rate minus expected inflation) is the transmission channel. A 14.50 percent nominal Selic minus roughly 4 percent inflation expectations yields a 10-plus percent real rate, which should compress demand. If Q1 GDP is weak, the mechanism is working; if it is not, the lag was longer than expected or inflation expectations are not anchored.",
+            "heterodox": "A post-Keynesian view emphasizes that monetary transmission works through expectations and confidence, not just arithmetic. High rates might not kill demand if agents believe the Bank will cut again; instead, firms and workers simply postpone decisions and wait. The high real rate is a symptom of unanchored expectations, not a cure. Only when expectations break and inflation falls do rates become genuinely restrictive.",
+            "takeaway": "The Copom is betting on the orthodox view: that time and high rates will work. But today's GDP print will test that bet. If growth is already rolling over while inflation is still sticky, the orthodox view is too slow, and the Bank will have to choose between defending credibility or defending growth. The heterodox view would say the Bank's credibility is built on moving policy in sync with expectations, not against them."
+          },
+          "sources": [
+            {
+              "title": "Brazil's Financial Morning Call, Friday, May 29, 2026",
+              "url": "https://www.riotimesonline.com/brazils-financial-morning-call-friday-may-29-2026/"
+            },
+            {
+              "title": "Global Economy Briefing, May 29, 2026",
+              "url": "https://www.riotimesonline.com/global-economy-briefing-may-29-2026/"
+            },
+            {
+              "title": "Brazil Interest Rate",
+              "url": "https://tradingeconomics.com/brazil/interest-rate"
+            }
+          ]
+        },
+        {
+          "headline": "The Tentative Deal That Wasn't: How Markets Are Pricing an Iran Ceasefire No One Has Signed Yet",
+          "dek": "Oil markets and equities have rallied on a reported 60-day ceasefire memorandum between the US and Iran, but neither Trump nor Iran's supreme leader has formally endorsed it, a pattern that exposes how fragile the de-escalation really is.",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "Iran and the United States have reached a tentative agreement to turn the existing ceasefire into a more long-lasting settlement, with a memorandum that would reopen the Strait of Hormuz, lift the US blockade on Iranian ports and start 60-day talks on Iran's nuclear program. The problem is that neither side has officially signed it. President Donald Trump hasn't signed off on the proposal, and it is also not clear whether Iran's supreme leader has given his approval.",
+            "Yet markets have already priced victory. Brent rebounded to $96 and WTI above $90 Thursday, the geopolitical premium fading, and equities priced de-escalation through Wednesday's hot PCE without flinching. The narrative is that an Iran deal locks in the oil disinflation and allows central banks to ease. But here is the catch: every asset class is leaning into a trade built on a deal that has not been confirmed by either government, with reports describing a 60-day memorandum but Washington neither publishing nor formally endorsing terms.",
+            "The mechanics of the tentative deal show where the fault lines are. The memorandum would reopen the Strait of Hormuz, lift the US blockade on Iranian ports and start 60-day talks on Iran's nuclear program, but key sticking points include Iran's uranium stockpile, frozen assets and whether the conflict in Lebanon will end. Vice President Vance said there are a couple of issues on the nuclear stuff, the highly enriched stockpile, and also the question of enrichment that remain in flux, though he noted Iran is negotiating in good faith. But good faith is not the same as agreement, and in Trump negotiations, the deal is not done until Trump says it is done.",
+            "What is revealing is how the administration has handled ceasefire violations up to now. Despite the latest exchange of attacks, the Trump administration continues to insist the ceasefire with Iran remains intact, with the US appearing anxious to avoid resuming the war and eager to cut a deal, an approach that appears to be undermining its negotiating leverage with Tehran. The biggest potential violation of the ceasefire is Iran keeping the Strait of Hormuz closed, even though Trump said when he announced the ceasefire that it would only last as long as Iran reopened the strait, and that 'COMPLETE, IMMEDIATE' reopening of the strait never happened. The US is now seven weeks into the ceasefire, and the strait remains a logjam.",
+            "Oil traders are betting the deal closes because it serves everyone's interests: Trump gets a foreign policy win, Iran gets sanctions relief and asset unfreezing, and the US avoids a long war. But intention and execution are different things. Even if the memorandum is signed, it is only a 60-day framework for deeper talks. The nuclear issue is not resolved, Lebanon is not included, and the strait's future management is a point of Iranian sovereignty. One headline change and oil swings $5 a barrel again. Until Trump puts his name on a finished agreement, every buyer of risk based on this deal is betting the other guy flinches first."
+          ],
+          "why_it_matters": "Markets have moved $20+ per barrel on speculation about a ceasefire deal that is not yet official. If negotiations break down or Trump rejects the tentative agreement, oil will spike and equities will reverse. For emerging markets like Brazil, oil moves flow straight through to inflation and the currency. A deal breakthrough stabilizes both; a deal collapse restarts the inflation spiral that central banks thought was cooling.",
+          "theory_lens": {
+            "concept": "Regime uncertainty and the policy-markets feedback loop",
+            "orthodox": "Orthodox economics says markets price the expected value of future cash flows. If a ceasefire deal reduces the probability of a major energy shock, oil prices should fall to reflect lower risk premium. The market is rational and forward-looking.",
+            "heterodox": "A Minskyan or post-Keynesian reading says markets are prone to speculative bubbles around uncertain outcomes. When the outcome is binary and unresolved, traders bet on the 'good' scenario because the leverage is better. They know the deal is tentative but price it as if it is done because everyone else is doing the same. The moment the narrative breaks, the trade unwinds and you have a cascade.",
+            "takeaway": "The market is playing a game of musical chairs on the Iran deal. Nobody wants to be the last one sitting when Trump says no thanks. The tentative agreement is real, but so is the risk that it falls apart. Oil and equity investors are fully priced for success and unprepared for a pivot."
+          },
+          "sources": [
+            {
+              "title": "US and Iran work toward deal to extend ceasefire and reopen Strait of Hormuz",
+              "url": "https://www.washingtonpost.com/world/2026/05/24/us-iran-near-deal-extend-ceasefire-reopen-hormuz/"
+            },
+            {
+              "title": "What's in the proposed deal that could end the US-Iran conflict?",
+              "url": "https://www.cnn.com/2026/05/24/middleeast/iran-us-proposed-deal-wwk-intl"
+            },
+            {
+              "title": "Global Economy Briefing, May 29, 2026",
+              "url": "https://www.riotimesonline.com/global-economy-briefing-may-29-2026/"
+            },
+            {
+              "title": "When Iran thumbs its nose at the ceasefire, the Trump administration shrugs",
+              "url": "https://www.cnn.com/2026/05/26/politics/us-iran-ceasefire-violation-responses"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "The Fed Priced Out: Markets Expect No Rate Cuts for the Rest of 2026",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "Headline PCE hit a three-year high at 3.8 percent year on year, but the monthly read was 0.4 percent, below consensus, and Core PCE landed on consensus, yet markets read it as inflation creep rather than acceleration, with the S&P and Nasdaq reclaiming records and the Fed-funds path now pricing no cuts for the rest of 2026. The April 29 FOMC held rates steady at 3.5 to 3.75 percent, and inflation is elevated, in part reflecting recent increases in global energy prices, with developments in the Middle East contributing to a high level of uncertainty. The market is saying the Fed is stuck: inflation is still too high to cut, growth is solid enough that waiting is plausible, and geopolitical noise gives the Fed cover to do nothing."
+          ],
+          "why_it_matters": "If the Fed is on hold through December, the differential between the Selic and Fed funds narrows, which pressures emerging market currencies including the real. Capital flows that rode the carry trade into Brazil start thinking about higher dollar carry in the US.",
+          "concept": "Interest rate differentials and currency carry",
+          "sources": [
+            {
+              "title": "Global Economy Briefing, May 29, 2026",
+              "url": "https://www.riotimesonline.com/global-economy-briefing-may-29-2026/"
+            },
+            {
+              "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Europe's Energy Shock Means Hikes Are Coming in June: The ECB Faces a Summer of Tightening",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "While incoming information has been broadly consistent with the ECB's previous assessment, upside risks to inflation and downside risks to growth have intensified, with the Middle East war leading to a sharp increase in energy prices, pushing up inflation and weighing on economic sentiment, and the longer the war continues and energy prices remain high, the stronger the likely impact on broader inflation and the economy. Recent Middle East conflict-driven energy price surges have pushed euro-area inflation forecasts for 2026 notably higher, with professional forecasters projecting headline HICP near 2.7 percent, and hawkish signals from Governing Council members have reinforced expectations of policy action beginning as early as June, with futures markets and economist surveys now pricing multiple 25-basis-point hikes this year. The ECB held at 2.0 percent on the deposit facility in April, but investors expect the ECB to raise its key rates by 25 basis points on June 11, with at least one additional hike priced in by the end of the year."
+          ],
+          "why_it_matters": "The ECB is one of the few major central banks that will tighten when the Fed is on hold. If the euro strengthens and growth in the euro area slows further, Europe could face a stagflation dynamic that tests political patience for ECB independence.",
+          "concept": "The policy trilemma when external shocks hit differently across regions",
+          "sources": [
+            {
+              "title": "Monetary policy decisions - European Central Bank",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
+            },
+            {
+              "title": "ECB rate hike in 2026? Predictions & Odds | Polymarket",
+              "url": "https://polymarket.com/event/ecb-rate-hike-in-2026"
+            }
+          ]
+        },
+        {
+          "headline": "China's K-Shaped Economy Deepens: New Economy and Exports Boom While Consumption Stays Weak",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "China registered 5.0 percent growth in Q1 2026, but closer examination reveals still-weak consumption, inconsistent data reporting methodology, and headwinds from inflationary pressure from the Iran war, with China repeatedly pledging to rebalance its economy toward consumer spending but not following through. External demand has filled the gap, with high-tech exports expanding and net exports contributing 1.4 percentage points to growth, while the 15th Five-Year Plan is doubling down on 'new productive forces,' but neither exports nor the new economy can generate sufficiently wide-ranging gains to offset the property downturn and benefit the entire economy, so the macro-micro disconnect continues to deepen. China's NDRC blocked Meta's acquisition of Manus, an AI agent startup with Chinese roots, signaling Beijing's intent to keep AI innovations in house and control the talent pipeline."
+          ],
+          "why_it_matters": "China is betting on export-led growth and high-tech sectors to hit its 5 percent growth target, but this leaves the vast majority of households and small firms on the sideline. If external demand cools or US-China trade restrictions bite harder, China has few levers to pull without tackling the structural property and consumption problem.",
+          "concept": "Structural imbalance and the limits of export-led growth",
+          "sources": [
+            {
+              "title": "China Bulletin: May 5, 2026",
+              "url": "https://www.uscc.gov/trade-bulletins/china-bulletin-may-5-2026"
+            },
+            {
+              "title": "2026 Outlook: Mind the Gap",
+              "url": "https://www.citigroup.com/global/insights/china-economics-2026-outlook-mind-the-gap"
+            }
+          ]
+        },
+        {
+          "headline": "AI Goes Regulatory: Governments Now Testing Models Before Release, Reshaping Silicon Valley's Speed Culture",
+          "categories": [
+            "Technology"
+          ],
+          "body": [
+            "One of the biggest AI updates in May 2026 is the aggressive push by governments, especially the United States, to test AI models before public release, with major AI companies, including Microsoft and xAI, having agreed to provide early access of their models to regulators. OpenAI CEO Sam Altman walked back his own 'jobs apocalypse' forecast, China is tightening control over top AI talent, and Brussels is preparing a nine-figure fine that could reshape Google's global playbook. Altman told an audience in Sydney that the rapid rollout of artificial intelligence will not produce the widespread white-collar job losses he once predicted, admitting he had been wrong about the near-term social and economic impact, and his shift in tone reflects growing real-world data on AI adoption, where augmentation rather than outright substitution has been the dominant pattern so far. In Europe, negotiations to amend the EU AI Act have stalled, meaning the August 2026 deadlines for high-risk AI systems remain in force."
+          ],
+          "why_it_matters": "AI regulation is moving from aspirational to operational. Pre-release testing by governments is slowing product cycles, shifting power toward incumbents with deep compliance infrastructure, and favoring US and EU firms over startups. The 'move fast and break things' era is ending for frontier AI.",
+          "concept": "How regulation redistributes market power by raising entry costs",
+          "sources": [
+            {
+              "title": "7 Explosive AI Updates in May 2026 That Every Founder Must Know",
+              "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
+            },
+            {
+              "title": "Top Tech News Today, May 26, 2026",
+              "url": "https://techstartups.com/2026/05/26/top-tech-news-today-may-26-2026/"
+            },
+            {
+              "title": "TLT's AI Brief: May 2026",
+              "url": "https://www.tlt.com/insights-and-events/insight/ai-brief-may-2026"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Selic rate",
+          "plain": "Brazil's overnight benchmark interest rate, set by the Central Bank's Monetary Policy Committee and the primary tool for controlling inflation."
+        },
+        {
+          "term": "IPCA",
+          "plain": "Brazil's broad national consumer price index, the inflation metric that the Central Bank targets."
+        },
+        {
+          "term": "Real rate carry",
+          "plain": "The difference between a country's nominal interest rate and expected inflation, which attracts foreign investors seeking high returns above inflation."
+        },
+        {
+          "term": "PCE",
+          "plain": "Personal consumption expenditures index, the US Federal Reserve's preferred inflation measure."
+        },
+        {
+          "term": "Transmission mechanism",
+          "plain": "The channel through which a central bank's policy rate changes affect real economic activity, employment, and inflation in the broader economy."
+        },
+        {
+          "term": "Strait of Hormuz",
+          "plain": "A narrow waterway between Iran and Oman that handles roughly one-third of global seaborne oil trade; its closure disrupts energy markets worldwide."
+        }
+      ]
+    },
+    "pt": {
+      "title": "O Comércio Frágil: Petróleo, Crescimento e o Custo da Flexibilidade",
+      "editors_note": "Hoje o Brasil divulga seu PIB do primeiro trimestre, um teste para saber se a taxa Selic em 14,50% realmente está desacelerando a economia ou se os dados é que estão fracos. Enquanto isso, traders apostam em um acordo de cessar-fogo que ninguém assinou ainda, um padrão que mostra como a desescalada é realmente frágil. Olhamos para o que acontece quando bancos centrais têm que escolher entre crescimento e inflação, quando os mercados precificam um acordo antes do acordo existir, e como a IA está se tornando uma ferramenta para regular outras IAs.",
+      "leads": [
+        {
+          "headline": "O Teste do Crescimento do Brasil: A Taxa Alta Funciona, ou a Economia Está Rachando?",
+          "dek": "O PIB do primeiro trimestre, divulgado hoje, revelará se a Selic de 14,50% do Banco Central está realmente afetando a demanda, ou se uma surpresa negativa força o Copom a recalibrar seu caminho de flexibilização em junho.",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "O Banco Central do Brasil está no meio de um cuidadoso equilíbrio. Cortou as taxas em 25 pontos-base no final de abril, chegando a 14,50%, acompanhando o que chamou de 'calibração' dos custos de empréstimo após manter a taxa em 15% durante nove meses. A linguagem importa: não se comprometeram com um caminho. Hoje, às 09h BRT, a economia confirma se sua cautela foi bem colocada ou se a expõe como tardia.",
+            "O consenso espera que o PIB do primeiro trimestre cresça 1,0% trimestral e 1,8% anual, versus 0,1% no trimestre anterior, o que sinalizaria que a Selic está começando a funcionar. Mas expectativas não são a mesma coisa que dados. O ambiente externo mudou duas vezes desde abril: primeiro, a volatilidade do petróleo disparou quando a guerra com o Irã se intensificou em fevereiro e março; agora, um esboço de cessar-fogo tem traders apostando que o Hormuz reabre, empurrando Brent para perto de 96 dólares e o WTI acima de 90. O petróleo importa para o Brasil porque corta nos dois sentidos. Petróleo mais caro sustenta a inflação; petróleo mais barato sustenta tanto a narrativa desinflacionária quanto o real. O número do PIB de hoje dirá ao Copom se a economia doméstica está realmente desacelerando ou se o print de 0,1% do trimestre anterior foi um acaso.",
+            "O desemprego caiu para 5,8%, e o índice de preços por atacado IGP-M esfriou acentuadamente para 0,84% a partir de 2,73% conforme o alívio de combustível fluiu, o que é construtivo. Mas há uma rachadura no mercado de trabalho. A criação líquida de empregos do CAGED desabou para apenas 85,89 mil contra uma expectativa de 230 mil, o primeiro sinal de que o alto carrego de taxa real está mordendo o mercado de trabalho. Se a economia já está desacelerando o suficiente para prejudicar empregos, mas a inflação ainda é teimosa, o Copom enfrenta um impasse. A taxa de política em si é o maior carrego de taxa real entre os principais mercados emergentes agora, o que é uma característica e um problema: atrai capital e mantém o real firme, mas também comprime a atividade doméstica.",
+            "O mercado já está posicionado para o que vem a seguir. O consenso da pesquisa Focus coloca a Selic em 12,25% até o final do ano, implicando aproximadamente 225 pontos-base de cortes até dezembro. Mas o Goldman Sachs moveu sua previsão de próximo corte para setembro, sinalizando que o consenso poderia mudar se o crescimento decepcionar ou se o cessar-fogo com o Irã quebrar novamente. A variável-chave para o Copom no próximo mês não é se cortará, mas o quanto irá longe. Se o PIB do primeiro trimestre ficar abaixo de 1,0%, pressão de flexibilização aumenta. Se atingir o consenso ou melhor, o comitê pode avançar em passos de 25 pontos-base e preservar credibilidade.",
+            "Aqui está a economia política funcionando: o Brasil tem um problema de déficit e um problema de dívida. O governo está promovendo um arcabouço de gastos para demonstrar disciplina fiscal, e o Banco Central é independente em lei mas não em política. Uma desaceleração mais acentuada convida chamados para o Banco cortar mais rápido. Mas cada ponto-base de corte que o Banco faz quando a inflação ainda está acima da meta é um sinal de que política ou ansiedade de crescimento venceram o dia. O Copom sob Gabriel Galípolo reconstruiu credibilidade aumentando as taxas em 275 pontos-base em seu primeiro ano e depois cortando cuidadosamente. O print do PIB de hoje mostrará se essa cautela foi sabedoria ou atraso."
+          ],
+          "why_it_matters": "O Copom do Brasil está em um ponto de inflexão entre crescimento e inflação. Se o PIB do primeiro trimestre for fraco, a reunião de junho provavelmente verá flexibilização mais rápida; se for forte, a cautela se mantém e cortes de taxa prosseguem em passos de 25 pontos-base. De qualquer forma, o número de hoje reinicia as expectativas de mercado para quantos cortes realmente virão e quando. Para investidores comprados no real ou posicionados para risco-on de mercados emergentes, o miss ou beat do PIB é o binário do dia.",
+          "theory_lens": {
+            "concept": "O mecanismo de transmissão da política monetária e o atraso temporal do impacto da política",
+            "orthodox": "O banco central ortodoxo sustenta que a taxa de juros real (taxa nominal menos inflação esperada) é o canal de transmissão. Uma Selic nominal de 14,50% menos aproximadamente 4% de expectativas de inflação rende uma taxa real de mais de 10%, que deveria comprimir a demanda. Se o PIB do primeiro trimestre for fraco, o mecanismo está funcionando; se não, o atraso foi mais longo que o esperado ou as expectativas de inflação não estão ancoradas.",
+            "heterodox": "Uma visão pós-keynesiana enfatiza que a transmissão monetária funciona através de expectativas e confiança, não apenas aritmética. Taxas altas podem não matar a demanda se os agentes acreditam que o Banco cortará novamente; em vez disso, firmas e trabalhadores simplesmente adiam decisões e esperam. A alta taxa real é um sintoma de expectativas desancoradas, não uma cura. Apenas quando as expectativas quebram e a inflação cai as taxas se tornam genuinamente restritivas.",
+            "takeaway": "O Copom está apostando na visão ortodoxa: que o tempo e as altas taxas funcionarão. Mas o print do PIB de hoje testará essa aposta. Se o crescimento já está desacelerando enquanto a inflação ainda é pegajosa, a visão ortodoxa é muito lenta, e o Banco terá que escolher entre defender credibilidade ou defender crescimento. A visão heterodoxa diria que a credibilidade do Banco é construída movendo política sincronizada com expectativas, não contra elas."
+          },
+          "sources": [
+            {
+              "title": "Chamada Financeira da Manhã do Brasil, Sexta-feira, 29 de maio de 2026",
+              "url": "https://www.riotimesonline.com/brazils-financial-morning-call-friday-may-29-2026/"
+            },
+            {
+              "title": "Resumo da Economia Global, 29 de maio de 2026",
+              "url": "https://www.riotimesonline.com/global-economy-briefing-may-29-2026/"
+            },
+            {
+              "title": "Taxa de Juros do Brasil",
+              "url": "https://tradingeconomics.com/brazil/interest-rate"
+            }
+          ]
+        },
+        {
+          "headline": "O Acordo Tentativo Que Não Era: Como os Mercados Estão Precificando um Cessar-fogo com o Irã que Ninguém Assinou Ainda",
+          "dek": "Mercados de petróleo e ações se recuperaram com um memorando de cessar-fogo de 60 dias relatado entre EUA e Irã, mas nem Trump nem o líder supremo do Irã formalmente endossaram isso, um padrão que expõe como a desescalada realmente é frágil.",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "Irã e Estados Unidos chegaram a um acordo tentativo para transformar o cessar-fogo existente em um acordo mais duradouro, com um memorando que reabrirá o Estreito de Hormuz, levantará o bloqueio dos EUA aos portos iranianos e iniciará negociações de 60 dias sobre o programa nuclear do Irã. O problema é que nenhum dos dois lados formalmente assinou. O Presidente Donald Trump não assinou a proposta, e também não está claro se o líder supremo do Irã deu sua aprovação.",
+            "Ainda assim, os mercados já precificaram a vitória. Brent se recuperou para 96 dólares e WTI acima de 90 na quinta-feira, o prêmio geopolítico desaparecendo, e as ações precificaram desescalada através do PCE quente de quarta sem piscar. A narrativa é que um acordo com o Irã tranca a desinfla de petróleo e permite que bancos centrais flexibilizem. Mas aqui está a pegadinha: toda classe de ativos está se inclinando para um negócio construído em um acordo que não foi confirmado por nenhum governo, com reportagens descrevendo um memorando de 60 dias mas Washington não publicando nem formalmente endossando os termos.",
+            "A mecânica do acordo tentativo mostra onde estão as linhas de falha. O memorando reabrirá o Estreito de Hormuz, levantará o bloqueio dos EUA aos portos iranianos e iniciará negociações de 60 dias sobre o programa nuclear do Irã, mas os pontos-chave de fricção incluem o estoque de urânio do Irã, ativos congelados e se o conflito no Líbano terminará. O Vice-Presidente Vance disse que há um par de questões sobre o material nuclear, o estoque altamente enriquecido, e também a questão do enriquecimento que permanecem em fluxo, embora tenha notado que o Irã está negociando de boa-fé. Mas boa-fé não é a mesma coisa que acordo, e nas negociações de Trump, o negócio não está fechado até Trump dizer que está.",
+            "O que é revelador é como a administração tratou violações do cessar-fogo até agora. Apesar da última troca de ataques, a administração Trump continua insistindo que o cessar-fogo com o Irã permanece intacto, com os EUA parecendo ansiosos para evitar retomar a guerra e ansiosos para fechar um negócio, uma abordagem que parece estar minando sua alavancagem negociadora com Teerã. A maior violação potencial do cessar-fogo é o Irã manter o Estreito de Hormuz fechado, apesar de Trump ter dito quando anunciou o cessar-fogo que duraria apenas enquanto o Irã reabrisse o estreito, e que a reabertura 'COMPLETA, IMEDIATA' do estreito nunca aconteceu. Os EUA estão agora sete semanas no cessar-fogo, e o estreito permanece um impasse.",
+            "Traders de petróleo estão apostando que o acordo fecha porque serve aos interesses de todos: Trump consegue uma vitória de política externa, Irã consegue alívio de sanções e descongelamento de ativos, e os EUA evitam uma guerra longa. Mas intenção e execução são coisas diferentes. Mesmo que o memorando seja assinado, é apenas um marco de 60 dias para negociações mais profundas. A questão nuclear não é resolvida, o Líbano não está incluído, e o futuro gerenciamento do estreito é um ponto de soberania iraniana. Uma mudança de manchete e petróleo oscila 5 dólares por barril novamente. Até Trump colocar seu nome em um acordo finalizado, todo comprador de risco baseado neste negócio está apostando que o outro cara pisca primeiro."
+          ],
+          "why_it_matters": "Os mercados se movimentaram mais de 20 dólares por barril em especulação sobre um acordo de cessar-fogo que ainda não é oficial. Se as negociações quebrarem ou Trump rejeitar o acordo tentativo, o petróleo disparará e as ações reverterão. Para mercados emergentes como o Brasil, movimentos de petróleo fluem direto para inflação e moeda. Um avanço de acordo estabiliza ambos; colapso de acordo reinicia a espiral de inflação que bancos centrais pensavam estar esfriando.",
+          "theory_lens": {
+            "concept": "Incerteza de regime e o feedback loop entre política e mercados",
+            "orthodox": "A economia ortodoxa diz que mercados precificam o valor esperado de fluxos de caixa futuros. Se um acordo de cessar-fogo reduz a probabilidade de um grande choque energético, preços de petróleo deveriam cair para refletir menor prêmio de risco. O mercado é racional e prospectivo.",
+            "heterodox": "Uma leitura Minskyana ou pós-keynesiana diz que mercados são propensos a bolhas especulativas em torno de resultados incertos. Quando o resultado é binário e não resolvido, traders apostam no cenário 'bom' porque a alavancagem é melhor. Eles sabem que o acordo é tentativo mas o precificam como se estivesse feito porque todos os outros estão fazendo o mesmo. No momento que a narrativa quebra, o negócio se desfaz e você tem uma cascata.",
+            "takeaway": "O mercado está jogando cadeiras musicais no acordo com o Irã. Ninguém quer ser o último sentado quando Trump diz não obrigado. O acordo tentativo é real, mas também é o risco de que caia aos pedaços. Investidores de petróleo e ações estão totalmente precificados para sucesso e desprevenidos para uma mudança."
+          },
+          "sources": [
+            {
+              "title": "EUA e Irã trabalham em direção a acordo para estender cessar-fogo e reabrir Estreito de Hormuz",
+              "url": "https://www.washingtonpost.com/world/2026/05/24/us-iran-near-deal-extend-ceasefire-reopen-hormuz/"
+            },
+            {
+              "title": "O que está no acordo proposto que poderia encerrar o conflito EUA-Irã?",
+              "url": "https://www.cnn.com/2026/05/24/middleeast/iran-us-proposed-deal-wwk-intl"
+            },
+            {
+              "title": "Resumo da Economia Global, 29 de maio de 2026",
+              "url": "https://www.riotimesonline.com/global-economy-briefing-may-29-2026/"
+            },
+            {
+              "title": "Quando o Irã zomba do cessar-fogo, a administração Trump dá de ombros",
+              "url": "https://www.cnn.com/2026/05/26/politics/us-iran-ceasefire-violation-responses"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "O Fed Precificado: Mercados Esperam Nenhum Corte de Taxa para o Resto de 2026",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "O PCE principal atingiu uma alta de três anos em 3,8% anual, mas o print mensal foi 0,4%, abaixo do consenso, e o PCE núcleo acertou o consenso, ainda assim mercados leram como creeping de inflação em vez de aceleração, com S&P e Nasdaq reclamando recordes e o caminho de fed-funds agora precificando nenhum corte para o resto de 2026. O FOMC de 29 de abril manteve as taxas firmes em 3,5% a 3,75%, e a inflação está elevada, em parte refletindo aumentos recentes em preços de energia global, com desenvolvimentos no Oriente Médio contribuindo para um alto nível de incerteza. O mercado está dizendo que o Fed está preso: inflação ainda é muito alta para cortar, crescimento é sólido o suficiente que esperar é plausível, e ruído geopolítico dá ao Fed cobertura para não fazer nada."
+          ],
+          "why_it_matters": "Se o Fed está em pausa até dezembro, o diferencial entre a Selic e fed funds estreita, o que pressiona moedas de mercados emergentes incluindo o real. Fluxos de capital que cavalgaram o negócio de carrego para o Brasil começam a pensar em maior carrego de dólar nos EUA.",
+          "concept": "Diferenciais de taxa de juros e carrego de moeda",
+          "sources": [
+            {
+              "title": "Resumo da Economia Global, 29 de maio de 2026",
+              "url": "https://www.riotimesonline.com/global-economy-briefing-may-29-2026/"
+            },
+            {
+              "title": "Conselho do Federal Reserve - Federal Reserve emite comunicado do FOMC",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+            }
+          ]
+        },
+        {
+          "headline": "O Choque Energético da Europa Significa Altas Chegando em Junho: O BCE Enfrenta um Verão de Aperto",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "Enquanto as informações recentes estão sendo amplamente consistentes com a avaliação anterior do BCE, riscos de alta para inflação e riscos de baixa para crescimento se intensificaram, com a guerra do Oriente Médio levando a um aumento acentuado nos preços de energia, empurrando a inflação para cima e pesando no sentimento econômico, e quanto mais tempo a guerra continuar e os preços de energia permanecerem altos, mais forte o impacto provável sobre inflação mais ampla e a economia. Os aumentos recentes de preços de energia impulsionados pelo conflito do Oriente Médio empurraram as previsões de inflação da zona do euro para 2026 notavelmente para cima, com previsores profissionais projetando HICP principal perto de 2,7%, e sinais hawkish de membros do Conselho de Governadores reforçaram expectativas de ação política começando já em junho, com futuros de mercado e pesquisas de economistas agora precificando múltiplas altas de 25 pontos-base neste ano. O BCE manteve em 2,0% na facilidade de depósito em abril, mas investidores esperam que o BCE aumente suas taxas principais em 25 pontos-base em 11 de junho, com pelo menos uma alta adicional precificada até o final do ano."
+          ],
+          "why_it_matters": "O BCE é um dos poucos bancos centrais principais que apertar quando o Fed está em pausa. Se o euro se fortalece e o crescimento na zona do euro desacelera ainda mais, a Europa pode enfrentar uma dinâmica estagnacionista que testa a paciência política pela independência do BCE.",
+          "concept": "O trilema de política quando choques externos afetam regiões diferentemente",
+          "sources": [
+            {
+              "title": "Decisões de política monetária - Banco Central Europeu",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260430~81b7179e6f.en.html"
+            },
+            {
+              "title": "Alta de taxa do BCE em 2026? Predições e Chances | Polymarket",
+              "url": "https://polymarket.com/event/ecb-rate-hike-in-2026"
+            }
+          ]
+        },
+        {
+          "headline": "Economia em K da China se Aprofunda: Economia Nova e Exportações Explodem Enquanto Consumo Permanece Fraco",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "A China registrou crescimento de 5,0% no Q1 2026, mas exame mais próximo revela consumo ainda fraco, metodologia de relatório de dados inconsistente, e ventos contrários de pressão inflacionária da guerra com o Irã, com a China repetidamente prometendo rebalancear sua economia em direção ao gasto do consumidor mas não seguindo adiante. A demanda externa preencheu a lacuna, com exportações de alta tecnologia expandindo e exportações líquidas contribuindo 1,4 pontos percentuais ao crescimento, enquanto o 15º Plano Quinquenal está dobrando em 'novas forças produtivas', mas nem exportações nem a economia nova conseguem gerar ganhos suficientemente amplos para compensar o declínio de propriedade e beneficiar a economia inteira, então o desconexo macro-micro continua se aprofundando. O NDRC da China bloqueou a aquisição do Meta de Manus, uma startup de agente de IA com raízes chinesas, sinalizando a intenção de Pequim de manter inovações de IA em casa e controlar o pipeline de talento."
+          ],
+          "why_it_matters": "A China está apostando em crescimento liderado por exportações e setores de alta tecnologia para atingir sua meta de crescimento de 5%, mas isso deixa a vasta maioria de famílias e pequenas firmas à margem. Se a demanda externa esfriar ou restrições comerciais EUA-China morderem mais forte, a China tem poucos alavancas para puxar sem lidar com o problema estrutural de propriedade e consumo.",
+          "concept": "Desequilíbrio estrutural e os limites do crescimento liderado por exportações",
+          "sources": [
+            {
+              "title": "China Bulletin: 5 de maio de 2026",
+              "url": "https://www.uscc.gov/trade-bulletins/china-bulletin-may-5-2026"
+            },
+            {
+              "title": "Perspectivas 2026: Cuidado com a Lacuna",
+              "url": "https://www.citigroup.com/global/insights/china-economics-2026-outlook-mind-the-gap"
+            }
+          ]
+        },
+        {
+          "headline": "A IA vai Regulatória: Governos Agora Testam Modelos Antes do Lançamento, Remodelando a Cultura de Velocidade do Vale do Silício",
+          "categories": [
+            "Technology"
+          ],
+          "body": [
+            "Uma das maiores atualizações de IA em maio de 2026 é o empurrão agressivo por governos, especialmente os Estados Unidos, para testar modelos de IA antes de lançamento público, com grandes companhias de IA, incluindo Microsoft e xAI, tendo concordado em fornecer acesso antecipado de seus modelos para reguladores. O CEO do OpenAI Sam Altman recuou de sua própria previsão de 'apocalipse de empregos', a China está apertando controle sobre o principal talento de IA, e Bruxelas está preparando uma multa de nove dígitos que poderia remodelar o playbook global do Google. Altman disse a uma audiência em Sydney que o rápido lançamento de inteligência artificial não produzirá as perdas generalizadas de empregos de colarinho branco que uma vez previu, admitindo que estava errado sobre o impacto social e econômico de curto prazo, e sua mudança de tom reflete dados do mundo real sobre adoção de IA, onde aumento em vez de substituição direta tem sido o padrão dominante até agora. Na Europa, negociações para emendar a Lei de IA da UE estancaram, significando que os prazos de agosto de 2026 para sistemas de IA de alto risco permanecem em vigor."
+          ],
+          "why_it_matters": "Regulação de IA está se movendo de aspiracional para operacional. Testes de pré-lançamento por governos estão desacelerando ciclos de produto, mudando poder em direção a incumbentes com infraestrutura profunda de conformidade, e favorecendo firmas dos EUA e UE sobre startups. A era de 'mover rápido e quebrar coisas' está terminando para IA de fronteira.",
+          "concept": "Como regulação redistribui poder de mercado aumentando custos de entrada",
+          "sources": [
+            {
+              "title": "7 Atualizações Explosivas de IA em Maio de 2026 Que Todo Fundador Precisa Saber",
+              "url": "https://imfounder.com/science-tech/ai/ai-updates-may-2026/"
+            },
+            {
+              "title": "Top Tech News Today, 26 de maio de 2026",
+              "url": "https://techstartups.com/2026/05/26/top-tech-news-today-may-26-2026/"
+            },
+            {
+              "title": "AI Brief do TLT: Maio de 2026",
+              "url": "https://www.tlt.com/insights-and-events/insight/ai-brief-may-2026"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Taxa Selic",
+          "plain": "A taxa de juros de referência overnight do Brasil, estabelecida pelo Comitê de Política Monetária do Banco Central e a ferramenta principal para controlar a inflação."
+        },
+        {
+          "term": "IPCA",
+          "plain": "O índice de preços ao consumidor nacional amplo do Brasil, a métrica de inflação que o Banco Central busca atingir."
+        },
+        {
+          "term": "Carrego de taxa real",
+          "plain": "A diferença entre a taxa de juros nominal de um país e a inflação esperada, que atrai investidores estrangeiros buscando retornos altos acima da inflação."
+        },
+        {
+          "term": "PCE",
+          "plain": "Índice de despesas de consumo pessoal, a medida preferida de inflação do Federal Reserve dos EUA."
+        },
+        {
+          "term": "Mecanismo de transmissão",
+          "plain": "O canal através do qual a mudança da taxa de política de um banco central afeta atividade econômica real, emprego e inflação na economia mais ampla."
+        },
+        {
+          "term": "Estreito de Hormuz",
+          "plain": "Um estreito canal de água entre Irã e Omã que lida com aproximadamente um terço do comércio de petróleo marítimo global; seu fechamento interrompe mercados de energia mundialmente."
+        }
+      ]
+    }
+  }
+}

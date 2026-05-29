@@ -68,12 +68,13 @@ def week_window(anchor: date):
 
 
 def issue_number(slug: str) -> int:
-    """Sequential issue number = count of existing issues with an earlier slug + 1."""
-    if not INDEX_PATH.exists():
-        return 1
-    idx = json.loads(INDEX_PATH.read_text())
-    slugs = sorted({i["slug"] for i in idx.get("issues", [])} | {slug})
-    return slugs.index(slug) + 1
+    """Sequential issue number = rank of this slug among the actual data files.
+
+    Based on data/*.json (the source of truth) rather than issues.json, so deleting
+    an issue renumbers cleanly instead of leaving a gap.
+    """
+    slugs = {p.stem for p in DATA_DIR.glob("*.json")} | {slug}
+    return sorted(slugs).index(slug) + 1
 
 
 # ──────────────────────────────────────────────────────────────────────────

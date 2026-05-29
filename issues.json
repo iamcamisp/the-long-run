@@ -2,20 +2,21 @@
   "publication": "The Long Run",
   "tagline": {
     "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
-    "pt": "Economics, politics & technology, explained. Once a week, with the theory underneath."
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
   },
   "issues": [
     {
-      "slug": "2026-05-28",
+      "slug": "2026-05-29",
       "number": 1,
-      "date": "2026-05-28",
-      "week_of": "May 28, 2026",
-      "title_en": "Energy shocks, embedded rates, and the great tech bifurcation",
-      "title_pt": "Energy shocks, embedded rates, and the great tech bifurcation",
-      "note_en": "This week, three stories collided. Brazil's central bank admitted its inflation anchors are slipping even as it cuts rates, the US and China effectively split the semiconductor supply chain into two incompatible systems, and the AI industry moved decisively from models to enterprise deployment. All three expose the same problem: when you're dealing with structural shocks and geopolitical divides, monetary policy and trade law act like antibiotics on a resistant infection. Let us explain why.",
-      "note_pt": "This week, three stories collided. Brazil's central bank admitted its inflation anchors are slipping even as it cuts rates, the US and China effectively split the semiconductor supply chain into two incompatible systems, and the AI industry moved decisively from models to enterprise deployment. All three expose the same problem: when you're dealing with structural shocks and geopolitical divides, monetary policy and trade law act like antibiotics on a resistant infection. Let us explain why.",
+      "date": "2026-05-29",
+      "week_of": "May 29, 2026",
+      "title_en": "The Fragile Trade: Oil, Growth, and the Cost of Optionality",
+      "title_pt": "O Comércio Frágil: Petróleo, Crescimento e o Custo da Flexibilidade",
+      "note_en": "Today Brazil releases its Q1 GDP, a test of whether the Selic rate at 14.50 is actually slowing the economy or just the data is weak. Meanwhile, traders are betting on a ceasefire deal that nobody has signed yet, a pattern that shows how fragile the de-escalation really is. We look at what happens when central banks have to choose between growth and inflation, when markets price a deal before the deal exists, and how AI is becoming a tool for regulating other AI.",
+      "note_pt": "Hoje o Brasil divulga seu PIB do primeiro trimestre, um teste para saber se a taxa Selic em 14,50% realmente está desacelerando a economia ou se os dados é que estão fracos. Enquanto isso, traders apostam em um acordo de cessar-fogo que ninguém assinou ainda, um padrão que mostra como a desescalada é realmente frágil. Olhamos para o que acontece quando bancos centrais têm que escolher entre crescimento e inflação, quando os mercados precificam um acordo antes do acordo existir, e como a IA está se tornando uma ferramenta para regular outras IAs.",
       "categories": [
         "Brazil",
+        "Europe",
         "USA",
         "International",
         "Technology"
