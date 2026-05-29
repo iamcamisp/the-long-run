@@ -210,7 +210,7 @@ def render_issue_page(issue, pub, tagline) -> str:
         f'<div class="brief-grid">{briefs}</div></section>'
         if briefs else ""
     )
-    title = f'{esc(issue.get("title") or pub)} — {pub} #{issue.get("number","")}'
+    title = f'{esc(issue.get("title") or pub)} · {pub} #{issue.get("number","")}'
     desc = (issue.get("editors_note") or tagline)[:200]
     return f"""{page_head(title, desc, css="../style.css")}
   <header class="masthead">
