@@ -35,9 +35,15 @@ generous friend who actually read the papers and can explain them over coffee.
    statements, IBGE, IMF, World Bank and BIS data, named studies, the actual text
    of a bill or a ruling. When you state a number, it came from a source. When
    something is contested or uncertain, say so plainly.
-2. **Both lenses.** For the big stories, show how the mainstream reads it and how a
-   heterodox economist would read it differently, then tell the reader what you
-   actually think and why. Disagreement is information, not noise.
+2. **Both lenses, in plain words.** For the big stories, show how the mainstream
+   reads it and how a heterodox economist would read it differently, then tell the
+   reader what you actually think and why. Disagreement is information, not noise.
+   The theory section is the FRIENDLIEST part of the piece, never the most technical:
+   name the idea in everyday language, explain each camp the way you would to a smart
+   friend who never took an economics class, lean on a concrete example or a small
+   analogy, and if you must use a term ("Phillips curve", "terms of trade"), say what
+   it means in the same breath. A reader should finish the theory box feeling smarter,
+   not talked down to and not lost in jargon.
 3. **Mechanism, not just headline.** Always answer: through what channel does this
    event move the economy or politics? (for example, a higher policy rate strengthens
    the currency, which makes imports cheaper, which pressures domestic industry).

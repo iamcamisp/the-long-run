@@ -94,11 +94,11 @@ Produce ONE issue as a single JSON object. Output ONLY the JSON, wrapped in a
       "categories": ["Brazil"],   // 1 to 2 of: Brazil, Europe, USA, International, Technology
       "body": ["paragraph", "paragraph", ...],   // 5-9 paragraphs of friendly explainer prose
       "why_it_matters": "2-3 sentences a reader could repeat to a friend",
-      "theory_lens": {
-        "concept": "the core economic or political economy idea (for example 'the center and periphery model')",
-        "orthodox": "how the mainstream reads this (1-3 sentences)",
-        "heterodox": "how a heterodox economist reads it differently (1-3 sentences)",
-        "takeaway": "the plain bottom line, what YOU think and why (1-2 sentences)"
+      "theory_lens": {   // the FRIENDLIEST part of the piece, not the most technical
+        "concept": "name the core idea in plain words a non-economist instantly gets (for example 'why a country that mostly sells raw materials stays at the mercy of richer ones', not 'center-periphery terms-of-trade dynamics')",
+        "orthodox": "how mainstream economists read it, explained like to a smart friend who never took economics: everyday words, a concrete example, and define any term in the same breath (1-3 sentences)",
+        "heterodox": "how the other camp reads it differently, same plain and friendly treatment (1-3 sentences)",
+        "takeaway": "the plain bottom line: what YOU think and why (1-2 sentences)"
       },
       "sources": [ {"title": "outlet/source name", "url": "https://..."} ]   // 2-5 real sources you actually used
     }
@@ -301,12 +301,27 @@ def generate(client, model, start, end, label, today_only=False, retries=8) -> d
 
 
 TRANSLATE_SYSTEM = """\
-You are a Brazilian editor (not a literal translator) rewriting English economics
-writing into natural, fluent Brazilian Portuguese (pt-BR) that a smart Brazilian reader
-would enjoy. You render meaning and voice, not words. Keep the friendly, plain,
-opinionated tone. Use standard Brazilian terms (Selic, IPCA, arcabouço fiscal, juros,
-câmbio, pontos-base, Copom) and keep the vocabulary a literate finance reader already
-owns (traders, print, Brent, WTI, versus). Do not over-translate or over-explain.
+You are a Brazilian economics journalist writing for the financial pages of Valor
+Econômico, Folha, Estadão or O Globo. You are NOT translating: you are rewriting the
+story in Brazilian Portuguese the way a Brazilian reporter would have written it from
+scratch. A Brazilian reader must never sense the text came from English. Render the
+meaning and the argument, then reach for the natural Brazilian phrasing, not the literal
+one.
+
+Write like the Brazilian financial press:
+- Use the vocabulary the Brazilian press actually uses: "o Banco Central" / "o BC", "o
+  Copom", "os juros" (not "as taxas de juros" every time), "alta" and "queda" or "recuo",
+  "o ciclo de cortes", "afrouxamento" / "aperto monetário", "a ata", "o mercado",
+  "investidores", "o teto da meta", "o núcleo da inflação", "a atividade", "o câmbio",
+  "o real", "expectativas de inflação", "ponto-base"/"pontos-base", "R$".
+- Avoid calques and anglicisms that betray a translation. Do not translate idioms word
+  for word: "props up" is "sustenta" or "segura", "cuts both ways" is "tem efeito nos dois
+  sentidos", "bet" is "aposta", "is in flux" is "ainda em aberto". Prefer the verb a
+  Brazilian would use ("pesa sobre", "sinaliza", "ancora", "derruba", "segura").
+- Brazilian number and date conventions (14,50%, 1,8%, R$, "no fim de abril", "no primeiro
+  trimestre", "ante" or "versus" for comparisons, "ante o trimestre anterior").
+- Keep terms a literate Brazilian finance reader already owns (Selic, IPCA, arcabouço
+  fiscal, Brent, WTI, traders). Do not over-explain them.
 
 House style (mandatory):
 - Never use em dashes. The colon is your main connective: set up a claim, then deliver
@@ -332,6 +347,48 @@ anterior (o que sinalizaria que a Selic está começando a funcionar), mas expec
 são a mesma coisa que dados. O petróleo importa para o Brasil porque corta nos dois
 sentidos: petróleo mais caro sustenta a inflação enquanto que petróleo mais barato
 sustenta a narrativa desinflacionária e o real.”"""
+
+
+def restyle_en(client, model, content: dict, retries=6) -> dict:
+    """Editor pass: rewrite an issue's ENGLISH prose into the house voice without
+    touching facts, numbers, sources, categories, or JSON structure. No tools."""
+    persona = PERSONA_PATH.read_text()
+    instruction = (
+        "Below is the content of an issue as JSON. Rewrite ONLY the English prose into "
+        "the house voice described in your instructions (the 'How you write' and 'The "
+        "craft' sections). This is an edit, not a rewrite of the reporting:\n"
+        "- Keep every fact, number, date, name, quote, URL, and category EXACTLY as is.\n"
+        "- Keep the JSON structure identical: same keys, same array lengths.\n"
+        "- Apply the craft: colon-driven connectives, NO rule of three / triads, paired "
+        "contrasts, parenthetical mechanisms, precise metaphor over cute, long connected "
+        "sentences. No em dashes. No 'not X, it's Y' antithesis. No staccato fragments.\n"
+        "- Make the theory_lens (concept/orthodox/heterodox/takeaway) the FRIENDLIEST part: "
+        "name the idea in plain everyday words, explain each view like to a smart friend who "
+        "never took economics, lean on a concrete example, and define any technical term in "
+        "the same breath. Strip textbook jargon. You MAY rewrite these freely for clarity "
+        "(unlike the factual reporting, the theory framing is yours to simplify).\n"
+        "Return ONLY the same JSON object wrapped in a ```json fenced block.\n\n"
+        "```json\n" + json.dumps(content, ensure_ascii=False) + "\n```"
+    )
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            resp = client.messages.create(
+                model=model,
+                max_tokens=16000,
+                system=[{"type": "text", "text": persona, "cache_control": {"type": "ephemeral"}}],
+                messages=[{"role": "user", "content": instruction}],
+            )
+            text = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
+            return extract_json(text)
+        except (anthropic.RateLimitError, anthropic.InternalServerError, anthropic.APIStatusError) as e:
+            last_err = e
+            if attempt == retries:
+                break
+            wait = min(60 * (2 ** (attempt - 1)), 300)
+            print(f"  [restyle {type(e).__name__}] attempt {attempt}/{retries} — backing off {wait:.0f}s", flush=True)
+            time.sleep(wait)
+    raise last_err
 
 
 def translate_issue(client, model, content: dict, retries=6) -> dict:
@@ -374,7 +431,11 @@ def main() -> int:
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--dry-run", action="store_true", help="save JSON only, skip HTML render")
     ap.add_argument("--today", action="store_true", help="TODAY edition: scope to today's news only")
+    ap.add_argument("--restyle", metavar="SLUG", help="editor pass: rewrite an existing issue's prose to the house voice (no new reporting)")
     args = ap.parse_args()
+
+    if args.restyle:
+        return restyle_main(args.restyle, args.model, args.dry_run)
 
     anchor = datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else date.today()
 
@@ -420,6 +481,43 @@ def main() -> int:
         print("  --dry-run: skipping render")
         return 0
 
+    renderer.render_all(ROOT, PUBLICATION, TAGLINE)
+    print("  rendered HTML + updated archive")
+    return 0
+
+
+def restyle_main(slug: str, model: str, dry_run: bool) -> int:
+    data_path = DATA_DIR / f"{slug}.json"
+    if not data_path.exists():
+        print(f"no such issue: {data_path}", file=sys.stderr)
+        return 1
+    issue = json.loads(data_path.read_text())
+    if "content" in issue:
+        en_in = issue["content"].get("en", {})
+    else:  # legacy flat issue
+        en_in = {k: issue.get(k) for k in CONTENT_KEYS}
+
+    print(f"→ Restyling issue {slug} to the house voice with {model}")
+    client = get_client()
+    en = clean_issue(restyle_en(client, model, en_in))
+    print(f"  EN restyled — {len(en.get('leads',[]))} leads, {len(en.get('briefs',[]))} briefs")
+
+    print("  re-translating to pt-BR ...")
+    try:
+        pt = clean_issue(translate_issue(client, model, en))
+    except Exception as e:
+        print(f"  translation failed ({type(e).__name__}); falling back to EN for pt", flush=True)
+        pt = en
+
+    issue["content"] = {"en": en, "pt": pt}
+    issue["tagline"] = TAGLINE
+    issue["publication"] = PUBLICATION
+    data_path.write_text(json.dumps(issue, ensure_ascii=False, indent=2))
+    print(f"  saved {data_path.relative_to(ROOT)}")
+
+    if dry_run:
+        print("  --dry-run: skipping render")
+        return 0
     renderer.render_all(ROOT, PUBLICATION, TAGLINE)
     print("  rendered HTML + updated archive")
     return 0
