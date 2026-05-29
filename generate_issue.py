@@ -132,14 +132,28 @@ Hard rules:
 """
 
 
-def build_user_prompt(monday: date, sunday: date, label: str) -> str:
+def build_user_prompt(start: date, end: date, label: str, today_only: bool = False) -> str:
+    if today_only:
+        scope = (
+            f"Write a special TODAY edition of *The Long Run* for {label} "
+            f"({start.isoformat()}).\n\n"
+            f"First, use the web_search tool to find the most relevant and consequential "
+            f"economics, politics & technology news from TODAY and the last day or two "
+            f"({start.isoformat()}). Search several times and from different angles. "
+            f"A single day may be quiet, so it is fine to run fewer briefs (2-4) and a "
+            f"single lead if only one story really earns the depth. Quality over filling slots. "
+            f"Prioritise:"
+        )
+    else:
+        scope = (
+            f"Write this week's issue of *The Long Run*. The week is {label} "
+            f"(Monday {start.isoformat()} to Sunday {end.isoformat()}).\n\n"
+            f"First, use the web_search tool to find the most relevant and consequential "
+            f"economics, politics & technology news from THIS week, both Brazil and "
+            f"international. Search several times and from different angles. Prioritise:"
+        )
     return f"""\
-Write this week's issue of *The Long Run*. The week is {label} \
-(Monday {monday.isoformat()} to Sunday {sunday.isoformat()}).
-
-First, use the web_search tool to find the most relevant and consequential
-economics & politics news from THIS week — both Brazil and international. Search
-several times and from different angles. Prioritise:
+{scope}
   - Brazil: monetary policy (Copom and the Selic), fiscal policy and the spending
     framework, inflation (the IPCA), the real, Congress and the STF, commodities,
     industry, labour, social policy.
@@ -164,6 +178,57 @@ def get_client() -> anthropic.Anthropic:
     )
 
 
+# Common hyphenated compounds the model coins despite instructions. Mapped to the
+# plain form. Keeps real fixed terms / proper nouns alone (handled by not listing them).
+DEHYPHEN = {
+    "wage-setting": "wage setting",
+    "price-setting": "price setting",
+    "consumer-price": "consumer price",
+    "central-bank": "central bank",
+    "year-on-year": "year on year",
+    "inflation-targeting": "inflation targeting",
+    "interest-rate": "interest rate",
+    "long-run": "long run",
+    "short-run": "short run",
+    "second-order": "second order",
+    "first-order": "first order",
+    "supply-chain": "supply chain",
+    "lock-in": "lock in",
+    "decision-making": "decision making",
+    "rate-setting": "rate setting",
+}
+
+
+def sanitize_text(s: str) -> str:
+    """Strip web_search citation markup and apply the house style (no em dashes,
+    no coined hyphenated compounds). Safe to run on any string field."""
+    if not isinstance(s, str) or not s:
+        return s
+    # 1) remove leaked <cite ...>...</cite> markup, keep the inner text
+    s = re.sub(r"</?cite[^>]*>", "", s)
+    # 2) em dash / en dash -> comma pause (collapse surrounding spaces)
+    s = re.sub(r"\s*[—–]\s*", ", ", s)
+    # 3) de-hyphenate known coined compounds (case-insensitive, preserve nothing fancy)
+    for bad, good in DEHYPHEN.items():
+        s = re.sub(rf"\b{re.escape(bad)}\b", good, s, flags=re.IGNORECASE)
+    # 4) tidy artefacts: ", ," / space before comma / doubled spaces
+    s = re.sub(r",\s*,", ",", s)
+    s = re.sub(r"\s+,", ",", s)
+    s = re.sub(r"[ \t]{2,}", " ", s)
+    return s.strip()
+
+
+def clean_issue(obj):
+    """Recursively sanitize every string in the issue, EXCEPT source URLs."""
+    if isinstance(obj, dict):
+        return {k: (v if k == "url" else clean_issue(v)) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [clean_issue(v) for v in obj]
+    if isinstance(obj, str):
+        return sanitize_text(obj)
+    return obj
+
+
 def extract_json(text: str) -> dict:
     """Pull the last ```json fenced block (or the last {...}) and parse it."""
     blocks = re.findall(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
@@ -177,14 +242,15 @@ def extract_json(text: str) -> dict:
     return json.loads(candidate)
 
 
-def generate(client, model, monday, sunday, label, retries=5) -> dict:
+def generate(client, model, start, end, label, today_only=False, retries=8) -> dict:
     """Call Claude with web_search; retry with backoff on rate limits/overload.
 
     The OAuth token shares rate limits with any active Claude Code session, so 429s
-    are expected when run alongside one. The weekly cron runs alone and rarely hits this.
+    are expected when run alongside one. Honour Retry-After when the server sends it,
+    otherwise back off exponentially up to ~5 min between attempts. The weekly cron
+    runs with no live session and rarely hits this.
     """
     persona = PERSONA_PATH.read_text()
-    delay = 30
     last_err = None
     for attempt in range(1, retries + 1):
         try:
@@ -193,7 +259,7 @@ def generate(client, model, monday, sunday, label, retries=5) -> dict:
                 max_tokens=16000,
                 system=[{"type": "text", "text": persona, "cache_control": {"type": "ephemeral"}}],
                 tools=[{"type": "web_search_20260209", "name": "web_search", "allowed_callers": ["direct"]}],
-                messages=[{"role": "user", "content": build_user_prompt(monday, sunday, label)}],
+                messages=[{"role": "user", "content": build_user_prompt(start, end, label, today_only)}],
             )
             text = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
             if not text.strip():
@@ -203,8 +269,16 @@ def generate(client, model, monday, sunday, label, retries=5) -> dict:
             last_err = e
             if attempt == retries:
                 break
-            wait = delay * attempt
-            print(f"  [{type(e).__name__}] attempt {attempt}/{retries} — backing off {wait}s")
+            wait = 60 * (2 ** (attempt - 1))            # 60,120,240,480 -> capped
+            retry_after = getattr(getattr(e, "response", None), "headers", {})
+            try:
+                ra = float(retry_after.get("retry-after")) if retry_after else None
+                if ra:
+                    wait = ra + 5
+            except (TypeError, ValueError):
+                pass
+            wait = min(wait, 300)
+            print(f"  [{type(e).__name__}] attempt {attempt}/{retries} — backing off {wait:.0f}s", flush=True)
             time.sleep(wait)
     raise last_err
 
@@ -215,20 +289,30 @@ def main() -> int:
     ap.add_argument("--date", help="any date in the target week (YYYY-MM-DD); default = today")
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--dry-run", action="store_true", help="save JSON only, skip HTML render")
+    ap.add_argument("--today", action="store_true", help="TODAY edition: scope to today's news only")
     args = ap.parse_args()
 
     anchor = datetime.strptime(args.date, "%Y-%m-%d").date() if args.date else date.today()
-    monday, sunday, slug, label = week_window(anchor)
+
+    if args.today:
+        start = end = anchor
+        slug = anchor.isoformat()
+        label = anchor.strftime("%B %-d, %Y")
+        scope_word = f"TODAY edition ({label})"
+    else:
+        start, end, slug, label = week_window(anchor)
+        scope_word = f"week of {label}"
     num = issue_number(slug)
 
-    print(f"→ Generating issue #{num} for week of {label} (slug {slug}) with {args.model}")
+    print(f"→ Generating issue #{num} — {scope_word} (slug {slug}) with {args.model}")
     client = get_client()
-    issue = generate(client, args.model, monday, sunday, label)
+    issue = generate(client, args.model, start, end, label, today_only=args.today)
+    issue = clean_issue(issue)  # strip citation markup + enforce house style
 
     # Stamp metadata (don't trust the model with these)
     issue["slug"] = slug
     issue["number"] = num
-    issue["date"] = sunday.isoformat()
+    issue["date"] = end.isoformat()
     issue["week_of"] = label
     issue["publication"] = PUBLICATION
     issue["tagline"] = TAGLINE

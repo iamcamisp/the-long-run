@@ -1,5 +1,22 @@
 {
   "publication": "The Long Run",
   "tagline": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
-  "issues": []
+  "issues": [
+    {
+      "slug": "2026-05-28",
+      "number": 1,
+      "date": "2026-05-28",
+      "week_of": "May 28, 2026",
+      "title": "Energy shocks, embedded rates, and the great tech bifurcation",
+      "editors_note": "This week, three stories collided. Brazil's central bank admitted its inflation anchors are slipping even as it cuts rates, the US and China effectively split the semiconductor supply chain into two incompatible systems, and the AI industry moved decisively from models to enterprise deployment. All three expose the same problem: when you're dealing with structural shocks and geopolitical divides, monetary policy and trade law act like antibiotics on a resistant infection. Let us explain why.",
+      "categories": [
+        "Brazil",
+        "USA",
+        "International",
+        "Technology"
+      ],
+      "lead_count": 2,
+      "brief_count": 4
+    }
+  ]
 }
