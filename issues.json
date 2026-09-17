@@ -23,6 +23,25 @@
       ],
       "lead_count": 2,
       "brief_count": 4
+    },
+    {
+      "slug": "2026-09-14",
+      "number": 2,
+      "date": "2026-09-17",
+      "week_of": "September 14, 2026",
+      "title_en": "The cost of keeping things running",
+      "title_pt": "O custo de manter tudo funcionando",
+      "note_en": "The electricity bill and the price of borrowing are telling parts of the same story: keeping an economy running gets expensive when energy is scarce. Brazil has had a welcome breather, while the Fed has made credit dearer and AI companies are negotiating their place on the power grid. This edition follows developments from 10 to 17 September, with reporting closed at 11:15 Zurich time on 17 September; the consequences below are our analysis, with forecasts identified as such.",
+      "note_pt": "A conta de luz e o custo do crédito contam partes da mesma história: manter a economia funcionando fica caro quando falta energia. O Brasil ganhou um respiro, enquanto o Fed encareceu o dinheiro e as empresas de IA negociam seu espaço na rede elétrica. Esta edição acompanha os acontecimentos de 10 a 17 de setembro, com apuração encerrada às 11h15 de Zurique em 17 de setembro; as consequências discutidas são nossa análise, e as projeções estão identificadas como tal.",
+      "categories": [
+        "Brazil",
+        "Europe",
+        "USA",
+        "International",
+        "Technology"
+      ],
+      "lead_count": 1,
+      "brief_count": 4
     }
   ]
 }
