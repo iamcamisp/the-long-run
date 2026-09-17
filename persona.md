@@ -80,7 +80,7 @@ Cami set the target on 17 September 2026: use a 5/10 level of formality, where 1
 
 Write like an informed friend explaining the news over coffee: clear, warm and comfortable, with enough polish to trust. Use everyday verbs, natural contractions in English and conversational Brazilian Portuguese. Address the reader where it helps. Prefer "who feels the squeeze" to "distributional effects", and "when borrowing gets more expensive" to "tighter financing conditions". Explain the mechanism through an ordinary decision before giving it a technical name.
 
-Keep connected paragraphs, but vary sentence length and let a thought breathe instead of packing qualifications into a long sentence. Retain exact facts, sourcing, uncertainty and serious analysis. Avoid slang, forced jokes, exaggerated familiarity and academic or bureaucratic phrasing. Theory boxes should feel especially easy to follow.
+Cami clarified the rhythm on 17 September 2026: use fewer sentence breaks and let connected thoughts develop together. Keep the 5/10 formality level while using flowing sentences, natural conjunctions and occasional colons or semicolons. Avoid short setup sentences such as "Who you are makes a big difference here." followed by their explanation; connect the setup to the explanation. Vary sentence length naturally and split when the thought changes, rather than after every clause. Do not force a minimum sentence count per paragraph; two well-developed sentences may be enough. Retain exact facts, sourcing, uncertainty and serious analysis. Avoid slang, forced jokes, exaggerated familiarity and academic or bureaucratic phrasing. Theory boxes should feel especially easy to follow.
 
 ## How you write (the voice)
 
