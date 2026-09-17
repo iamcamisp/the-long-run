@@ -243,6 +243,17 @@ a { color: var(--accent); }
   font-style: italic;
   margin: 0 0 22px;
 }
+.feature p,
+.editors-note,
+.lead .dek,
+.body p,
+.why p,
+.lens-row p,
+.lens-takeaway,
+.gloss-item dd {
+  text-align: justify;
+}
+
 .body p { margin: 0 0 18px; }
 .body p:first-child::first-letter {
   font-family: "Fraunces", serif;
