@@ -1,0 +1,290 @@
+{
+  "slug": "2026-09-21",
+  "number": 3,
+  "date": "2026-09-21",
+  "week_of": "September 21, 2026",
+  "publication": "The Long Run",
+  "tagline": {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
+  },
+  "content": {
+    "en": {
+      "title": "Different routes to a little breathing room",
+      "editors_note": "Brazil has made a little room for cheaper borrowing while other central banks are worrying about the next price rise, which makes this a good week to look beyond the direction of the headline rate. The practical question is how much room reaches your budget, whether through a loan, a benefit payment or the cost of services you use. We cover 14 September through our cutoff at 04:05 Zurich time on 21 September; the explanations are our analysis, and measures starting later are identified as such.",
+      "leads": [
+        {
+          "headline": "Brazil cuts rates while the dollar pulls the other way",
+          "dek": "A lower Selic can help borrowers, but getting that relief into a monthly payment takes more than a central bank announcement.",
+          "categories": [
+            "Brazil",
+            "USA"
+          ],
+          "body": [
+            "Brazil's Copom reduced the Selic to 13.75% in its 16 September decision, effective the following day, while the Federal Reserve raised its range to 3.75% to 4% on the same date. That puts the two banks on different paths, with Brazil easing a little even as borrowing in dollars becomes more expensive.",
+            "The Brazilian statement describes activity slowing gradually and recent inflation measures cooling, while warning that inflation is still above target. That helps explain a cautious reduction: keeping credit expensive has costs for businesses and households, and the bank is trying to ease those costs without losing control of prices.",
+            "For a small shop, the first useful change would be a better offer on the credit used to buy stock before customers pay, leaving more of each sale available for wages or another order. But the Selic is only one ingredient in the lender's price: the risk of not being repaid and competition between banks also matter, so a cut doesn't promise an equal reduction in the rate on your statement.",
+            "The dollar adds another complication, because an investor comparing Brazilian and American assets also cares about what the currencies might do. A smaller interest advantage can make holding reais less attractive, putting pressure on the exchange rate and potentially making imported machinery more expensive; that's a possible chain of events, not a forecast that the real must fall.",
+            "The tension is particularly awkward for a business hoping to expand: a cheaper local loan helps, but the equipment it wants to buy may be priced in dollars. In our reading, this is why judging policy by the latest rate alone misses so much of daily life, where the financing cost and the purchase price arrive on the same spreadsheet.",
+            "We think gradual relief makes sense when activity is slowing, provided the bank keeps checking whether inflation is settling and credit is actually reaching borrowers on better terms. The task also belongs to policy outside the central bank: improving the conditions for productive investment can make it easier to supply what people need, while relying on expensive loans to do all the work leaves households carrying a heavy share of the adjustment."
+          ],
+          "why_it_matters": "If you're financing a purchase, the relevant number is the total cost in the bank's offer, which may change much less than the Selic. A business buying imported equipment has a second moving part in the exchange rate, so cheaper local money can bring only part of the relief it expected.",
+          "theory_lens": {
+            "concept": "Making credit cheaper when money can move abroad",
+            "orthodox": "The mainstream view weighs lower inflation and slower spending against the risk that a weaker currency will make imports dearer. A careful cut can reduce the pressure on activity while leaving rates high enough to help keep prices under control.",
+            "heterodox": "A structuralist would ask why firms depend so much on expensive finance and imported equipment in the first place. When an economy lacks parts of the production chain, exchange rate swings can interrupt investment just as local borrowing becomes easier.",
+            "takeaway": "A cautious cut can help, but lasting breathing room also needs better access to credit and stronger capacity to produce. The useful test is whether businesses can invest and households can pay their bills with less strain."
+          },
+          "sources": [
+            {
+              "title": "BCB statement of 16 September, reproduced by Okai",
+              "url": "https://okai.com.br/banco-central/documentos/2026-09-16/comunicado-n-45-963"
+            },
+            {
+              "title": "Federal Reserve: 16 September decision",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "An unchanged British rate can still come with a dearer mortgage",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "The Bank of England held Bank Rate at 3.75% in its 17 September announcement, with three members preferring a rise. Its minutes also describe lending rates already moving higher, which explains why a pause at the central bank doesn't necessarily mean a pause in the mortgage offers reaching households.",
+            "Banks price a fixed mortgage partly around the funding costs they expect over its life, so the prospect of future increases can reach a new borrower before the official rate changes. For someone coming to the end of a fixed deal, that timing matters far more than the word hold in a headline; our view is that the squeeze already arriving through lenders deserves weight when the bank considers its next move."
+          ],
+          "why_it_matters": "A household renewing its mortgage may face a larger payment even after this hold. The effect depends on the contract and the new offer, while an existing fixed payment normally stays fixed for its agreed period.",
+          "concept": "Expected future rates can affect the price of borrowing today.",
+          "sources": [
+            {
+              "title": "Bank of England: September decision and minutes",
+              "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026"
+            }
+          ]
+        },
+        {
+          "headline": "Japan's next rate step reaches beyond Japan",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "The Bank of Japan decided on 18 September to guide its overnight rate to around 1.25%, with the change taking effect on 24 September. That date matters: the decision is already public, while the new operating rate was still ahead at our reporting cutoff.",
+            "A higher yen funding cost can make borrowing in Japan to invest elsewhere less attractive, especially when an exchange rate move could wipe out the interest advantage. If investors reduce those positions, the effects can travel across markets, though the scale depends on how much of the decision was already expected; for a household, the more direct route is through local loan and deposit pricing as banks adjust."
+          ],
+          "why_it_matters": "Japanese borrowers and savers may see different offers as the change works through banks. Abroad, the possible effect is through currencies and financing conditions, rather than an automatic increase in everyone's loan payment.",
+          "concept": "A carry trade borrows in a cheaper currency to invest in one offering a higher return.",
+          "sources": [
+            {
+              "title": "Bank of Japan: 18 September decision",
+              "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf"
+            }
+          ]
+        },
+        {
+          "headline": "The Bolsa Família adjustment reaches the budget in October",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "Brazil's decree of 17 September adjusts Bolsa Família benefits using accumulated INPC inflation, with financial effects starting on 1 October. It sets the level used for the complementary benefit at R$691, meaning the change belongs in the discussion of October income rather than being treated as money already paid in September.",
+            "For a family that spends most of its income on essentials, restoring buying power can quickly become an extra supermarket purchase and income for the shop nearby. That is the social and economic case for the adjustment, while the budget still has to accommodate the expense; our view is that its value should be judged alongside a clear funding plan, keeping the household benefit and the public cost visible together."
+          ],
+          "why_it_matters": "Eligible families can plan around the new rules from October, but the amount received still depends on their situation under the programme. An announced adjustment is different from a payment already in the account.",
+          "concept": "Indexation adjusts a payment using a price index to help preserve buying power.",
+          "sources": [
+            {
+              "title": "Presidency of Brazil: Decree 13,120 of 17 September",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13120.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Brazil offers data centres a tax deal, with a public return to prove",
+          "categories": [
+            "Brazil",
+            "Technology"
+          ],
+          "body": [
+            "Brazil's law of 15 September creates Redata, a special tax regime for data-centre services that includes cloud computing and AI processing. The text attaches conditions to access and leaves parts of the implementation to regulation, so passing the law starts a process rather than showing that the promised investment has already arrived.",
+            "Lowering the cost of equipment can help attract a project, but the public gives up revenue in exchange for benefits that need to be checked. We would look for useful capacity available to local customers and skills that stay in the country, while watching who pays for the infrastructure; a building full of servers becomes a stronger development story when firms outside its gates can do more with it."
+          ],
+          "why_it_matters": "The potential benefit is better access to computing for businesses whose services you use, while the tax cost is shared through the public budget. Cheaper digital services and new jobs are possible outcomes to measure, rather than automatic results of an incentive.",
+          "concept": "Industrial policy uses public rules or support to shape what an economy can produce.",
+          "sources": [
+            {
+              "title": "Presidency of Brazil: Law 15,504 of 15 September",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15504.htm"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Selic",
+          "plain": "Brazil's basic interest rate, which influences funding costs across the economy."
+        },
+        {
+          "term": "Interest differential",
+          "plain": "The gap between interest rates in two markets, which investors weigh alongside currency risk."
+        },
+        {
+          "term": "Carry trade",
+          "plain": "Borrowing in a cheaper currency to invest elsewhere, with the risk that the exchange rate moves against you."
+        },
+        {
+          "term": "Indexation",
+          "plain": "Adjusting a payment using an index, often to account for rising prices."
+        },
+        {
+          "term": "Tax expenditure",
+          "plain": "Revenue the government forgoes by giving a tax break, with a cost that belongs in the budget discussion."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Caminhos diferentes para um pouco de alívio",
+      "editors_note": "O Brasil abriu um pouco de espaço para o crédito ficar mais barato enquanto outros bancos centrais se preocupam com a próxima alta de preços, o que faz desta uma boa semana para olhar além da direção dos juros. A pergunta prática é quanto desse espaço chega ao seu orçamento, seja no empréstimo, no benefício ou no preço dos serviços que você usa. Acompanhamos o período de 14 de setembro até o fechamento às 4h05 de Zurique em 21 de setembro; as explicações são nossa análise, e as medidas que começam depois estão identificadas.",
+      "leads": [
+        {
+          "headline": "O Brasil corta os juros enquanto o dólar puxa para o outro lado",
+          "dek": "Uma Selic menor pode ajudar quem toma crédito, mas fazer esse alívio chegar à prestação exige mais do que um anúncio do Banco Central.",
+          "categories": [
+            "Brazil",
+            "USA"
+          ],
+          "body": [
+            "O Copom reduziu a Selic para 13,75% na decisão de 16 de setembro, com vigência a partir do dia seguinte, enquanto o Federal Reserve elevou sua faixa para 3,75% a 4% na mesma data. Os dois bancos seguem caminhos diferentes, com o Brasil aliviando um pouco o aperto enquanto tomar dinheiro em dólar fica mais caro.",
+            "O comunicado brasileiro descreve uma desaceleração gradual da atividade e um recuo das medidas recentes de inflação, mas ressalta que ela continua acima da meta. Isso ajuda a entender um corte cauteloso: manter o crédito caro pesa sobre empresas e famílias, e o BC tenta aliviar esse custo sem perder o controle dos preços.",
+            "Para uma loja pequena, a primeira mudança útil seria uma oferta melhor no crédito usado para comprar estoque antes de receber dos clientes, deixando uma parte maior de cada venda para salários ou uma nova encomenda. A Selic, porém, é só um ingrediente do preço cobrado pelo banco: o risco de não receber de volta e a concorrência entre as instituições também contam, então o corte não promete uma redução igual no juro do seu extrato.",
+            "O dólar acrescenta uma dificuldade, porque o investidor que compara ativos brasileiros e americanos também se importa com o que pode acontecer às moedas. Uma vantagem menor nos juros pode tornar menos atraente manter dinheiro em reais, pressionando o câmbio e possivelmente encarecendo máquinas importadas; esse é um caminho possível, sem significar que o real necessariamente vai cair.",
+            "A tensão fica especialmente incômoda para a empresa que quer crescer: um empréstimo local mais barato ajuda, mas o equipamento desejado pode ter preço em dólar. Na nossa leitura, é por isso que avaliar a política só pela última decisão de juros deixa tanta coisa de fora do dia a dia, em que o custo do financiamento e o preço da compra aparecem na mesma planilha.",
+            "Achamos que um alívio gradual faz sentido quando a atividade desacelera, desde que o banco continue verificando se a inflação está cedendo e se as condições melhores chegam a quem toma crédito. A tarefa também passa por políticas fora do BC: melhorar as condições para investir na produção pode facilitar a oferta do que as pessoas precisam, enquanto depender do empréstimo caro para fazer todo o trabalho deixa uma parte pesada do ajuste nas costas das famílias."
+          ],
+          "why_it_matters": "Se você vai financiar uma compra, o número relevante é o custo total da proposta do banco, que pode mudar bem menos que a Selic. Uma empresa que compra equipamento importado ainda tem o câmbio pela frente, então o dinheiro local mais barato pode trazer apenas parte do alívio esperado.",
+          "theory_lens": {
+            "concept": "Baratear o crédito quando o dinheiro pode ir para fora",
+            "orthodox": "A visão mais convencional pesa a inflação menor e a desaceleração do gasto contra o risco de um câmbio mais fraco encarecer as importações. Um corte cuidadoso pode aliviar a pressão sobre a atividade enquanto mantém os juros altos o suficiente para ajudar a controlar os preços.",
+            "heterodox": "Um estruturalista perguntaria por que as empresas dependem tanto de financiamento caro e equipamento importado. Quando faltam partes da cadeia produtiva dentro do país, o câmbio pode atrapalhar o investimento justamente quando o crédito local começa a melhorar.",
+            "takeaway": "Um corte cauteloso pode ajudar, mas um alívio duradouro também precisa de acesso melhor ao crédito e mais capacidade de produzir. O teste útil é saber se as empresas conseguem investir e se as famílias pagam as contas com menos aperto."
+          },
+          "sources": [
+            {
+              "title": "Comunicado do BCB de 16 de setembro, reproduzido pela Okai",
+              "url": "https://okai.com.br/banco-central/documentos/2026-09-16/comunicado-n-45-963"
+            },
+            {
+              "title": "Federal Reserve: decisão de 16 de setembro",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Juro parado no Reino Unido ainda pode vir com prestação maior",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "O Banco da Inglaterra manteve o juro básico em 3,75% no anúncio de 17 de setembro, com três integrantes preferindo uma alta. A ata também descreve juros de empréstimos que já vinham subindo, o que ajuda a entender por que uma pausa no banco central não significa necessariamente uma pausa nas propostas de financiamento que chegam às famílias.",
+            "O banco define o preço de um financiamento a taxa fixa levando em conta, entre outras coisas, quanto espera pagar pelo dinheiro ao longo do contrato, então a perspectiva de altas futuras pode chegar ao novo cliente antes da mudança do juro oficial. Para quem está perto do fim de um período de taxa fixa, esse momento pesa mais do que a palavra manutenção na manchete; achamos que o aperto que já chega pelos bancos merece atenção na próxima decisão."
+          ],
+          "why_it_matters": "Uma família que renova o financiamento pode enfrentar uma prestação maior mesmo depois da manutenção dos juros. O efeito depende do contrato e da nova oferta, enquanto uma prestação já fixada normalmente continua igual durante o período combinado.",
+          "concept": "A expectativa de juros futuros pode mudar o preço do crédito hoje.",
+          "sources": [
+            {
+              "title": "Banco da Inglaterra: decisão e ata de setembro",
+              "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026"
+            }
+          ]
+        },
+        {
+          "headline": "O próximo passo dos juros japoneses vai além do Japão",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "O Banco do Japão decidiu em 18 de setembro levar o juro de curtíssimo prazo para cerca de 1,25%, com a mudança entrando em vigor em 24 de setembro. A data importa: a decisão já era pública, enquanto a nova taxa operacional ainda estava por vir no fechamento desta edição.",
+            "Um custo maior para tomar dinheiro em ienes pode tornar menos atraente o empréstimo no Japão para investir em outro país, sobretudo quando uma mudança no câmbio pode consumir a vantagem dos juros. Se os investidores reduzirem essas posições, o efeito pode atravessar mercados, embora o tamanho dependa do que já era esperado; para uma família, o caminho mais direto passa pelas condições de empréstimos e depósitos conforme os bancos se ajustam."
+          ],
+          "why_it_matters": "Quem toma crédito ou guarda dinheiro no Japão pode encontrar ofertas diferentes à medida que a mudança passa pelos bancos. Fora do país, o possível efeito vem das moedas e das condições de financiamento, sem uma alta automática na prestação de todo mundo.",
+          "concept": "No carry trade, toma-se dinheiro numa moeda mais barata para investir em outra que oferece retorno maior.",
+          "sources": [
+            {
+              "title": "Banco do Japão: decisão de 18 de setembro",
+              "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf"
+            }
+          ]
+        },
+        {
+          "headline": "O reajuste do Bolsa Família chega ao orçamento em outubro",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "O decreto brasileiro de 17 de setembro corrige os benefícios do Bolsa Família pela inflação acumulada medida pelo INPC, com efeitos financeiros a partir de 1º de outubro. O texto estabelece em R$691 o patamar usado para o benefício complementar, então a mudança entra na conversa sobre a renda de outubro, sem ser tratada como dinheiro já pago em setembro.",
+            "Para uma família que gasta quase tudo com o básico, recuperar poder de compra pode virar rapidamente uma compra a mais no supermercado e renda para o comércio perto de casa. Esse é o argumento social e econômico a favor do reajuste, enquanto o orçamento público ainda precisa acomodar a despesa; achamos que seu valor deve ser avaliado junto com um plano claro de financiamento, mantendo o benefício para a família e o custo público à vista."
+          ],
+          "why_it_matters": "As famílias elegíveis podem se planejar pelas novas regras a partir de outubro, mas o valor recebido continua dependendo da sua situação no programa. Um reajuste anunciado é diferente de um pagamento que já entrou na conta.",
+          "concept": "A indexação ajusta um pagamento por um índice de preços para ajudar a preservar o poder de compra.",
+          "sources": [
+            {
+              "title": "Presidência da República: Decreto 13.120, de 17 de setembro",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13120.htm"
+            }
+          ]
+        },
+        {
+          "headline": "O Brasil oferece incentivo aos data centers, com retorno público a comprovar",
+          "categories": [
+            "Brazil",
+            "Technology"
+          ],
+          "body": [
+            "A lei brasileira de 15 de setembro cria o Redata, regime especial de tributação para serviços de data center que inclui computação em nuvem e processamento de IA. O texto vincula o acesso a condições e deixa parte da implementação para regulamentação, então a aprovação da lei abre um processo, sem demonstrar que o investimento prometido já chegou.",
+            "Baratear o equipamento pode ajudar a atrair um projeto, mas o poder público abre mão de receita em troca de benefícios que precisam ser verificados. Olharíamos para a capacidade útil disponível a clientes locais e para o conhecimento que fica no país, acompanhando quem paga pela infraestrutura; um prédio cheio de servidores contribui mais para o desenvolvimento quando as empresas do lado de fora conseguem fazer mais com ele."
+          ],
+          "why_it_matters": "O ganho possível é acesso melhor à computação para empresas cujos serviços você usa, enquanto o custo tributário é dividido pelo orçamento público. Serviços digitais mais baratos e novos empregos são resultados a medir, sem decorrer automaticamente do incentivo.",
+          "concept": "A política industrial usa regras ou apoio público para influenciar o que uma economia consegue produzir.",
+          "sources": [
+            {
+              "title": "Presidência da República: Lei 15.504, de 15 de setembro",
+              "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15504.htm"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Selic",
+          "plain": "O juro básico brasileiro, que influencia o custo do dinheiro pela economia."
+        },
+        {
+          "term": "Diferencial de juros",
+          "plain": "A distância entre os juros de dois mercados, que o investidor compara junto com o risco cambial."
+        },
+        {
+          "term": "Carry trade",
+          "plain": "Tomar dinheiro numa moeda mais barata para investir em outro lugar, correndo o risco de o câmbio se mover contra a operação."
+        },
+        {
+          "term": "Indexação",
+          "plain": "Ajustar um pagamento por um índice, muitas vezes para acompanhar a alta dos preços."
+        },
+        {
+          "term": "Gasto tributário",
+          "plain": "Receita de que o governo abre mão ao dar um benefício fiscal, com um custo que precisa entrar na discussão do orçamento."
+        }
+      ]
+    }
+  },
+  "research_cutoff": "2026-09-21T04:05:00+02:00",
+  "reporting_period": {
+    "start": "2026-09-14",
+    "end": "2026-09-21"
+  }
+}
