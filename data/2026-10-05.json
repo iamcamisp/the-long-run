@@ -1,0 +1,340 @@
+{
+  "slug": "2026-10-05",
+  "number": 4,
+  "date": "2026-10-05",
+  "week_of": "October 5, 2026",
+  "publication": "The Long Run",
+  "tagline": {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
+  },
+  "content": {
+    "en": {
+      "title": "What a job can buy",
+      "editors_note": "A stronger jobs figure feels different when you're still waiting for enough hours or watching the rent climb, which is why this week's numbers deserve a closer look. Brazil's employment releases, Europe's prices and America's hiring figures tell us different things about how much room families have to breathe. Reporting covers September 28 to October 5, with a cutoff of 04:03 in Zurich (23:03 on October 4 in Brasília); the election brief distinguishes reported results from the official calendar.",
+      "leads": [
+        {
+          "headline": "Brazil keeps adding jobs, but security takes more than a low unemployment rate",
+          "dek": "The latest releases show why employment, available hours and purchasing power need to be read together.",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "Brazil's labour market gave households some encouraging news before election weekend: the Labour Ministry's September 29 release recorded a net gain of 165,827 formal jobs in August. Because that figure subtracts departures from new hires, it describes the additional jobs left at the end of the process; it doesn't tell us how many people changed employers or how secure their new contracts feel.",
+            "The broader household picture also improved compared with a year earlier: unemployment stood at 5.3% in the June–August quarter, against 5.6% in the same period of 2025, according to the Finance Ministry's summary of IBGE data. After adjusting for seasonal patterns, however, the ministry calculated an unchanged rate of 5.4% relative to July, a useful reminder that an annual improvement can coexist with little recent movement.",
+            "These are different windows on work, so adding the numbers together would create a misleading picture: Caged tracks formal employment records, while the household survey also reaches people working outside those arrangements. For a family, moving from irregular shifts into a dependable job can matter even when the national unemployment rate barely moves, because a predictable income makes it easier to commit to rent or arrange childcare.",
+            "There is also a gap between having some work and having enough of it: the broader labour underutilisation rate was 13.1%, a measure that reaches beyond unemployment to include insufficient hours and potential workers outside the labour force. A person who needs more hours may appear in the employment total while still struggling to cover the same monthly bills, which is why the headline rate cannot stand in for financial security.",
+            "Purchasing power brings another piece of the story: IBGE's release, reproduced by Agência Gov, put average usual earnings from all jobs at R$3,777, up 3.7% from a year earlier after inflation. That average is encouraging, though it doesn't describe every household; someone whose rent has risen faster than their pay can reasonably feel squeezed while the national measure improves.",
+            "Our reading is that the improvement deserves to be protected by making work more productive and dependable, rather than assuming a low unemployment rate settles the question. Investment that helps a small business fulfil more orders can support better pay without simply passing every extra cost to customers, while more reliable hours give workers a firmer basis for spending; the next releases should be judged on both the amount of work and what it actually buys."
+          ],
+          "why_it_matters": "A dependable wage makes it easier to plan the grocery shop and pay rent without borrowing between paydays. When reading the next jobs headline, look at hours and pay alongside unemployment: those are often the details that decide whether your household feels any relief.",
+          "theory_lens": {
+            "concept": "When more jobs become a better living",
+            "orthodox": "Mainstream economics asks whether firms can produce more as employment expands: if output keeps pace with pay, workers can earn more without an equivalent rise in prices. If businesses cannot expand, competition for scarce staff can instead raise costs, so productivity matters alongside hiring.",
+            "heterodox": "A labour and institutional view asks how much bargaining power workers have and whether jobs come with stable hours and protection. More spending by households can also help firms sell enough to invest, so better wages can support production as well as add to costs.",
+            "takeaway": "The releases support cautious optimism, with enough remaining underused labour to make blanket claims of overheating unconvincing. The useful goal is sustained improvements in earnings and job security, supported by the capacity to produce more."
+          },
+          "sources": [
+            {
+              "title": "Labour Ministry: August formal employment, September 29",
+              "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/setembro/novo-caged-emprego-formal-gera-165-8-mil-vagas-em-agosto-e-acumula-1-13-milhao-de-postos-no-ano/"
+            },
+            {
+              "title": "Finance Ministry: August PNAD indicators",
+              "url": "https://www.gov.br/fazenda/pt-br/central-de-conteudo/publicacoes/conjuntura-economica/emprego-e-renda/defeso-eleitoral-2026/informativo-pnad-ago2026.html"
+            },
+            {
+              "title": "IBGE release reproduced by Agência Gov",
+              "url": "https://agenciagov.ebc.com.br/noticias/202609/desemprego-cai-no-trimestre-e-numero-de-pessoas-ocupadas-e-o-maior-da-serie-historica"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Brazil heads towards a runoff, with household promises still to be tested",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "Exame's election-night report says Lula and Flávio Bolsonaro will contest the presidential runoff on October 25, the date established in the TSE's election rules. We are attributing the pairing to that reporting and leaving out vote shares, because the accessible reports did not provide a consistent count at our cutoff.",
+            "The economic question for the next stage is how campaign promises become a budget: a pledge to leave families with more money needs an explanation of who pays and how it will be delivered. Our test for either candidate is the same: show the financing and the route through the institutions that must implement it, because an announcement alone cannot change a grocery bill."
+          ],
+          "why_it_matters": "For households, the useful comparison is the likely effect of a proposal on disposable income and public services once its funding is included. A campaign promise remains a proposal until the necessary decisions are made.",
+          "concept": "Following the money behind a campaign promise",
+          "sources": [
+            {
+              "title": "Exame: reported presidential runoff, October 4",
+              "url": "https://exame.com/brasil/vai-ter-segundo-turno-veja-o-resultado-das-eleicoes-2026/"
+            },
+            {
+              "title": "TSE: official election dates, Resolution 23.751",
+              "url": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-751-de-26-de-fevereiro-de-2026"
+            }
+          ]
+        },
+        {
+          "headline": "US hiring leaves little room for complacency",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "The October 2 US employment report put September's payroll gain at 29,000 and unemployment at 4.2%, with the Bureau of Labor Statistics describing both as little changed. Hiring had averaged 45,000 a month over the preceding year, so the latest figure belongs in a longer picture of limited job creation rather than supporting a sweeping conclusion on its own.",
+            "For someone looking to move jobs, slower hiring can mean fewer alternatives even without a sudden wave of dismissals, weakening the leverage that comes from having another offer. Our reading is that policymakers should take that risk seriously while checking the wider evidence on prices: raising borrowing costs can restrain spending, but it can also make a hesitant employer postpone the next vacancy."
+          ],
+          "why_it_matters": "A quiet hiring market can make a pay rise harder to negotiate and a job search longer. One monthly estimate is too narrow a basis for assuming that borrowing will soon become cheaper.",
+          "concept": "The value of having another job offer",
+          "sources": [
+            {
+              "title": "BLS: September employment report, October 2",
+              "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Europe’s inflation pickup lands unevenly on household budgets",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "Eurostat's October 2 flash estimate put euro area annual inflation at 3.8% in September, up from 3.2% in August, with energy prices 18.8% above a year earlier. These are preliminary annual comparisons, so they describe how prices differ from last September rather than saying the typical household's monthly bill rose by those amounts.",
+            "The pressure depends on what you have to buy: someone who drives to work or heats a poorly insulated home has less room to avoid an energy increase. Higher interest rates can slow other spending but cannot quickly supply cheaper fuel, which is why we would judge any response by how well it limits wider price pressure while helping exposed households reduce their energy needs."
+          ],
+          "why_it_matters": "Your own inflation can run above the average if energy takes a large share of your budget. The release warrants checking upcoming bills, without treating a regional index as a forecast for every household.",
+          "concept": "Why the same inflation rate feels different",
+          "sources": [
+            {
+              "title": "Eurostat: September inflation flash estimate, October 2",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap"
+            }
+          ]
+        },
+        {
+          "headline": "A slower rise in European house prices still raises the entry cost",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "Eurostat's October 1 release showed euro area house prices up 4.0% from a year earlier in the second quarter, compared with annual growth of 4.6% in the first. Prices also rose 1.1% from the previous quarter, meaning the easing annual growth rate still came with a higher purchase price on average.",
+            "For a first-time buyer saving a deposit, that distinction matters: a slower increase can still move the required savings further away, while an owner sees an asset gain on paper. Housing policy therefore needs to look beyond the speed of price growth to whether homes are available where people need to live, since adding purchasing power without more supply can push buyers into bidding against each other."
+          ],
+          "why_it_matters": "A lower house-price growth rate does not necessarily make a home cheaper to buy. The practical test is the price and financing cost of a suitable home relative to your income and savings.",
+          "concept": "Slower price growth versus falling prices",
+          "sources": [
+            {
+              "title": "Eurostat: second-quarter house prices, October 1",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-01102026-bp"
+            }
+          ]
+        },
+        {
+          "headline": "Washington gives AI a new name; buyers still need proof of performance",
+          "categories": [
+            "USA",
+            "Technology"
+          ],
+          "body": [
+            "A September 29 executive order, published in the Federal Register on October 2, directs the US executive branch to use “Super Intelligence” in place of “Artificial Intelligence” where the law permits. For now it points to the existing statutory definition of AI, while requesting proposed legislative language within 60 days; that request is a future step, not an enacted new definition.",
+            "The economic risk is that official language makes a product sound more capable than the evidence supports, especially when a buyer cannot easily inspect how it works. Our view is that procurement should reward demonstrated accuracy and a clear way to handle failures: a stronger label gives a school or small business no assurance that software will save time once checking and correction are included."
+          ],
+          "why_it_matters": "If your employer adopts an AI tool, the useful questions concern the work it actually improves and who checks mistakes. A change in government terminology supplies no evidence that a particular product has become more reliable.",
+          "concept": "Checking quality when a label tells you too little",
+          "sources": [
+            {
+              "title": "Federal Register: Executive Order 14434",
+              "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20321.pdf"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Seasonal adjustment",
+          "plain": "A statistical way to remove recurring calendar patterns so recent movements are easier to compare."
+        },
+        {
+          "term": "Labour underutilisation",
+          "plain": "A broader view of unmet demand for work, including unemployment, insufficient hours and potential workers outside the labour force."
+        },
+        {
+          "term": "Real earnings",
+          "plain": "Pay measured after allowing for inflation, to show what it can buy."
+        },
+        {
+          "term": "Productivity",
+          "plain": "How much can be produced with a given amount of work and other resources."
+        },
+        {
+          "term": "Disposable income",
+          "plain": "The income a household has available to spend or save after taxes and transfers."
+        }
+      ]
+    },
+    "pt": {
+      "title": "O que o trabalho permite comprar",
+      "editors_note": "O avanço do emprego tem outro gosto para quem ainda espera conseguir mais horas de trabalho ou vê o aluguel subir, por isso vale olhar os números da semana com um pouco mais de cuidado. Os dados brasileiros de trabalho, os preços na Europa e as contratações nos Estados Unidos mostram quanto espaço sobra no orçamento das famílias. Esta edição cobre de 28 de setembro a 5 de outubro, com fechamento às 4h03 de Zurique (23h03 de 4 de outubro em Brasília); a nota eleitoral distingue o resultado noticiado do calendário oficial.",
+      "leads": [
+        {
+          "headline": "Brasil segue criando vagas, mas segurança exige mais que desemprego baixo",
+          "dek": "Os dados mais recentes mostram por que emprego, horas disponíveis e poder de compra precisam ser lidos juntos.",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "O mercado de trabalho trouxe uma notícia animadora antes do fim de semana eleitoral: a divulgação de 29 de setembro do Ministério do Trabalho registrou saldo de 165.827 vagas formais em agosto. Como esse número desconta os desligamentos das admissões, ele mostra quantos postos ficaram a mais ao fim desse movimento; sozinho, não revela quantas pessoas trocaram de empregador nem a segurança que sentem no novo contrato.",
+            "O quadro mais amplo das famílias também melhorou em relação ao ano anterior: o desemprego ficou em 5,3% no trimestre de junho a agosto, ante 5,6% no mesmo período de 2025, segundo o resumo dos dados do IBGE feito pelo Ministério da Fazenda. Já com o ajuste que desconta padrões sazonais, a Fazenda calculou uma taxa de 5,4%, estável em relação a julho, lembrando que a melhora anual pode conviver com pouco movimento recente.",
+            "Cada levantamento observa o trabalho por um caminho, por isso somar seus números produziria uma imagem enganosa: o Caged acompanha registros de emprego formal, enquanto a pesquisa domiciliar também alcança quem trabalha fora desses vínculos. Para uma família, sair de jornadas irregulares e conseguir um emprego com renda previsível pode fazer diferença mesmo quando a taxa nacional quase não muda, porque fica mais fácil assumir um aluguel ou organizar os cuidados com os filhos.",
+            "Também existe uma distância entre ter algum trabalho e ter trabalho suficiente: a taxa de subutilização ficou em 13,1%, uma medida que vai além do desemprego e inclui horas insuficientes e pessoas da força de trabalho potencial. Quem precisa trabalhar mais pode aparecer entre os ocupados e continuar sem conseguir pagar as mesmas contas do mês, por isso a taxa principal não resume a segurança financeira.",
+            "O poder de compra completa parte desse quadro: a divulgação do IBGE reproduzida pela Agência Gov apontou rendimento médio habitual de todos os trabalhos de R$ 3.777, alta de 3,7% em um ano já descontada a inflação. A média é animadora, mas não descreve cada família; quem teve reajuste de aluguel maior que o aumento de salário pode sentir aperto mesmo com a melhora do indicador nacional.",
+            "Nossa leitura é que vale preservar esse avanço tornando o trabalho mais produtivo e estável, sem tratar o desemprego baixo como resposta para tudo. Um investimento que permita à pequena empresa atender mais pedidos pode sustentar salários melhores sem repassar todo custo adicional ao consumidor, enquanto jornadas mais previsíveis dão ao trabalhador uma base mais firme para gastar; as próximas divulgações precisam ser avaliadas tanto pela quantidade de trabalho quanto pelo que ele permite comprar."
+          ],
+          "why_it_matters": "Um salário previsível ajuda a organizar a compra do mês e pagar o aluguel sem recorrer ao crédito entre um pagamento e outro. Na próxima manchete sobre emprego, vale olhar as horas e a renda junto com o desemprego: muitas vezes são esses detalhes que definem se o alívio chega à sua casa.",
+          "theory_lens": {
+            "concept": "Quando mais emprego vira uma vida melhor",
+            "orthodox": "A visão ortodoxa pergunta se as empresas conseguem produzir mais à medida que o emprego cresce: quando a produção acompanha os salários, a renda pode melhorar sem uma alta equivalente dos preços. Se a empresa não consegue expandir, a disputa por trabalhadores pode elevar custos, por isso a produtividade precisa ser olhada junto com as contratações.",
+            "heterodox": "Uma leitura trabalhista e institucional pergunta quanto poder de negociação o trabalhador tem e se a vaga oferece proteção e horários estáveis. O consumo das famílias também pode dar às empresas vendas suficientes para investir, de modo que salários melhores sustentam a produção ao mesmo tempo que entram nos custos.",
+            "takeaway": "Os dados permitem um otimismo moderado, com trabalho ainda subutilizado suficiente para tornar pouco convincentes afirmações genéricas de superaquecimento. O objetivo deve ser melhorar renda e segurança de forma duradoura, com capacidade de produzir mais."
+          },
+          "sources": [
+            {
+              "title": "Ministério do Trabalho: emprego formal de agosto, 29 de setembro",
+              "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2026/setembro/novo-caged-emprego-formal-gera-165-8-mil-vagas-em-agosto-e-acumula-1-13-milhao-de-postos-no-ano/"
+            },
+            {
+              "title": "Ministério da Fazenda: indicadores da PNAD de agosto",
+              "url": "https://www.gov.br/fazenda/pt-br/central-de-conteudo/publicacoes/conjuntura-economica/emprego-e-renda/defeso-eleitoral-2026/informativo-pnad-ago2026.html"
+            },
+            {
+              "title": "Divulgação do IBGE reproduzida pela Agência Gov",
+              "url": "https://agenciagov.ebc.com.br/noticias/202609/desemprego-cai-no-trimestre-e-numero-de-pessoas-ocupadas-e-o-maior-da-serie-historica"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Brasil caminha para o segundo turno, com promessas para o bolso ainda em teste",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "A cobertura da noite eleitoral da Exame informa que Lula e Flávio Bolsonaro disputarão o segundo turno presidencial em 25 de outubro, data prevista nas regras do TSE. Atribuímos essa definição à reportagem e deixamos de fora os percentuais de votos, porque os relatos acessíveis não apresentavam uma contagem consistente no fechamento.",
+            "A pergunta econômica da próxima etapa é como as promessas de campanha entram no orçamento: dizer que vai sobrar mais dinheiro para as famílias exige explicar quem paga e como a medida será entregue. Nosso critério para qualquer candidato é o mesmo: mostrar o financiamento e o caminho pelas instituições que precisam executar a proposta, porque um anúncio sozinho não muda a conta do supermercado."
+          ],
+          "why_it_matters": "Para as famílias, vale comparar o efeito provável de cada proposta sobre a renda disponível e os serviços públicos depois de incluir seu financiamento. Uma promessa de campanha continua sendo uma proposta até que as decisões necessárias sejam tomadas.",
+          "concept": "Seguir o dinheiro por trás da promessa eleitoral",
+          "sources": [
+            {
+              "title": "Exame: segundo turno presidencial noticiado em 4 de outubro",
+              "url": "https://exame.com/brasil/vai-ter-segundo-turno-veja-o-resultado-das-eleicoes-2026/"
+            },
+            {
+              "title": "TSE: datas oficiais das eleições, Resolução 23.751",
+              "url": "https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-751-de-26-de-fevereiro-de-2026"
+            }
+          ]
+        },
+        {
+          "headline": "Contratações nos EUA deixam pouco espaço para acomodação",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "O relatório americano divulgado em 2 de outubro apontou criação de 29 mil vagas em setembro e desemprego de 4,2%, com o Bureau of Labor Statistics classificando ambos como pouco alterados. Nos 12 meses anteriores, as contratações haviam avançado em média 45 mil por mês, por isso o dado mais recente precisa ser lido dentro de um quadro mais longo de geração limitada de vagas, sem sustentar sozinho uma conclusão definitiva.",
+            "Para quem procura mudar de emprego, menos contratações podem significar menos alternativas mesmo sem uma onda repentina de demissões, reduzindo o poder de negociação que vem de ter outra oferta. Nossa leitura é que a política econômica deve levar esse risco a sério enquanto acompanha o conjunto dos dados de preços: encarecer o crédito pode conter o consumo, mas também levar um empregador indeciso a adiar a próxima vaga."
+          ],
+          "why_it_matters": "Um mercado com poucas contratações pode dificultar a negociação de um aumento e prolongar a busca por emprego. Uma estimativa mensal é uma base estreita demais para contar com crédito mais barato em breve.",
+          "concept": "O valor de ter outra oferta de emprego",
+          "sources": [
+            {
+              "title": "BLS: relatório de emprego de setembro, 2 de outubro",
+              "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Alta da inflação europeia pesa de forma desigual no orçamento",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "A estimativa preliminar da Eurostat de 2 de outubro colocou a inflação anual da área do euro em 3,8% em setembro, ante 3,2% em agosto, com energia 18,8% mais cara que um ano antes. São comparações anuais ainda preliminares: mostram a diferença em relação a setembro passado, sem dizer que a conta mensal de uma família típica subiu nesses percentuais.",
+            "O aperto depende do que é difícil deixar de comprar: quem precisa dirigir para trabalhar ou aquecer uma casa com isolamento ruim tem menos espaço para escapar da alta da energia. Juros maiores podem reduzir outros gastos, mas não entregam combustível barato rapidamente, por isso avaliaríamos a resposta pela capacidade de conter a disseminação das altas enquanto ajuda as famílias mais expostas a diminuir sua necessidade de energia."
+          ],
+          "why_it_matters": "A inflação que você sente pode superar a média quando a energia consome uma parcela grande do orçamento. O dado justifica conferir as próximas contas, sem transformar um índice regional em previsão para cada família.",
+          "concept": "Por que a mesma inflação pesa de maneiras diferentes",
+          "sources": [
+            {
+              "title": "Eurostat: estimativa preliminar da inflação de setembro, 2 de outubro",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-02102026-ap"
+            }
+          ]
+        },
+        {
+          "headline": "Imóvel europeu sobe menos, mas a entrada continua ficando mais cara",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "A divulgação de 1º de outubro da Eurostat mostrou alta anual de 4,0% nos preços dos imóveis da área do euro no segundo trimestre, ante 4,6% no primeiro. Os preços também avançaram 1,1% em relação ao trimestre anterior, ou seja, a desaceleração da taxa anual ainda veio acompanhada de um preço médio de compra maior.",
+            "Para quem junta dinheiro para a entrada do primeiro imóvel, a diferença importa: uma alta menor ainda pode afastar a meta de poupança, enquanto o proprietário vê seu patrimônio valorizar no papel. A política habitacional precisa olhar além da velocidade dos preços e verificar se há moradia onde as pessoas precisam viver, porque ampliar o poder de compra sem aumentar a oferta pode apenas levar compradores a disputar o mesmo imóvel."
+          ],
+          "why_it_matters": "Uma taxa menor de valorização não significa necessariamente uma casa mais barata. O teste prático é comparar preço e custo do financiamento de um imóvel adequado com sua renda e suas economias.",
+          "concept": "Alta menor dos preços e queda dos preços",
+          "sources": [
+            {
+              "title": "Eurostat: preços dos imóveis no segundo trimestre, 1º de outubro",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-01102026-bp"
+            }
+          ]
+        },
+        {
+          "headline": "Washington dá novo nome à IA; quem compra ainda precisa de prova",
+          "categories": [
+            "USA",
+            "Technology"
+          ],
+          "body": [
+            "Uma ordem executiva de 29 de setembro, publicada no Federal Register em 2 de outubro, determina que o Executivo americano use “Super Intelligence” no lugar de “Artificial Intelligence” onde a lei permitir. Por enquanto, o texto remete à definição legal existente de IA e pede uma proposta de redação legislativa em até 60 dias; esse pedido é uma etapa futura, sem equivaler a uma nova definição já aprovada em lei.",
+            "O risco econômico é a linguagem oficial fazer um produto parecer mais capaz do que as evidências mostram, sobretudo quando o comprador não consegue examinar facilmente como ele funciona. Nossa visão é que a contratação deve premiar precisão demonstrada e uma forma clara de lidar com falhas: um nome mais forte não garante à escola ou à pequena empresa que o programa economizará tempo depois de incluir conferência e correção."
+          ],
+          "why_it_matters": "Se a empresa onde você trabalha adotar uma ferramenta de IA, vale perguntar quais tarefas ela realmente melhora e quem confere os erros. A mudança na terminologia do governo não demonstra que um produto específico ficou mais confiável.",
+          "concept": "Conferir a qualidade quando o nome explica pouco",
+          "sources": [
+            {
+              "title": "Federal Register: Ordem Executiva 14434",
+              "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-02/pdf/2026-20321.pdf"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Ajuste sazonal",
+          "plain": "Um cálculo que retira padrões recorrentes do calendário para facilitar a comparação dos movimentos recentes."
+        },
+        {
+          "term": "Subutilização do trabalho",
+          "plain": "Uma medida mais ampla da falta de trabalho, que inclui desemprego, horas insuficientes e pessoas da força de trabalho potencial."
+        },
+        {
+          "term": "Rendimento real",
+          "plain": "A renda depois de descontar a inflação, para mostrar o que ela permite comprar."
+        },
+        {
+          "term": "Produtividade",
+          "plain": "Quanto se consegue produzir com determinada quantidade de trabalho e outros recursos."
+        },
+        {
+          "term": "Renda disponível",
+          "plain": "A renda que a família tem para gastar ou poupar depois de impostos e transferências."
+        }
+      ]
+    }
+  },
+  "research_cutoff": "2026-10-05T04:03:00+02:00",
+  "reporting_period": {
+    "start": "2026-09-28",
+    "end": "2026-10-05"
+  }
+}

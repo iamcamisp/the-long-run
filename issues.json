@@ -61,6 +61,24 @@
       ],
       "lead_count": 1,
       "brief_count": 4
+    },
+    {
+      "slug": "2026-10-05",
+      "number": 4,
+      "date": "2026-10-05",
+      "week_of": "October 5, 2026",
+      "title_en": "What a job can buy",
+      "title_pt": "O que o trabalho permite comprar",
+      "note_en": "A stronger jobs figure feels different when you're still waiting for enough hours or watching the rent climb, which is why this week's numbers deserve a closer look. Brazil's employment releases, Europe's prices and America's hiring figures tell us different things about how much room families have to breathe. Reporting covers September 28 to October 5, with a cutoff of 04:03 in Zurich (23:03 on October 4 in Brasília); the election brief distinguishes reported results from the official calendar.",
+      "note_pt": "O avanço do emprego tem outro gosto para quem ainda espera conseguir mais horas de trabalho ou vê o aluguel subir, por isso vale olhar os números da semana com um pouco mais de cuidado. Os dados brasileiros de trabalho, os preços na Europa e as contratações nos Estados Unidos mostram quanto espaço sobra no orçamento das famílias. Esta edição cobre de 28 de setembro a 5 de outubro, com fechamento às 4h03 de Zurique (23h03 de 4 de outubro em Brasília); a nota eleitoral distingue o resultado noticiado do calendário oficial.",
+      "categories": [
+        "Brazil",
+        "Europe",
+        "USA",
+        "Technology"
+      ],
+      "lead_count": 1,
+      "brief_count": 5
     }
   ]
 }
