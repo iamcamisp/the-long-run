@@ -1,0 +1,296 @@
+{
+  "slug": "2026-10-12",
+  "number": 5,
+  "date": "2026-10-12",
+  "week_of": "October 12, 2026",
+  "publication": "The Long Run",
+  "tagline": {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
+  },
+  "content": {
+    "en": {
+      "title": "The bills that leave less room",
+      "editors_note": "An electricity bill can rise because a discount has ended, while a shop can take more money without selling much more: the explanation changes what we should expect next. This week's releases show how pressure on household budgets can coexist with hesitant demand, and why the electricity behind AI belongs in the same conversation. We cover October 5–12, with a research cutoff of 04:06 Zurich time on October 12; forecasts and our interpretation are identified separately from reported results.",
+      "leads": [
+        {
+          "headline": "Brazil’s inflation jumps as the electricity discount drops out",
+          "dek": "September’s price rise needs a response that distinguishes a bill returning to normal from pressure that keeps spreading.",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "Brazil's September IPCA rose 0.82%, taking annual inflation to 4.58%, according to the October 9 IBGE release reported by Agência Brasil. For a household trying to stretch the same pay cheque, the higher price level is real, even when part of the monthly jump has an explanation that may not repeat.",
+            "Electricity illustrates the distinction: Agência Brasil reports that the end of August's Itaipu bill credit helped drive September's increase. When a temporary discount disappears, the comparison starts from an unusually low bill, so a sharp monthly rise can occur without a fresh increase of the same size in the underlying cost every month.",
+            "That arithmetic changes the forecast more than the experience of paying: a family still has to find the money when its bill returns to the higher level. A temporary credit can offer useful breathing room, but treating it as a permanent improvement in disposable income leaves less room for groceries when the credit ends.",
+            "There is already a separate change to keep in view: ANEEL announced on September 25 that October would have a green tariff flag, with no flag surcharge. This is background for the next inflation reading, rather than a new announcement this week; removing that surcharge cannot guarantee a smaller final bill if consumption or other charges move the other way.",
+            "The policy question is how far the initial pressure travels: a business facing higher electricity costs might absorb some in its margin, raise its prices or postpone hiring, depending on competition and demand. Those choices connect an energy bill to the broader economy, and they are the reason a central bank needs to look at persistence across prices rather than mechanically extrapolating a single monthly jump.",
+            "Our view is that the clearest response combines attention to persistent inflation with help that reaches households least able to absorb the bill, while investment reduces exposure to expensive energy over time. Broad subsidies can become costly and hide the incentive to save power; relying only on dearer credit can squeeze a small firm's investment before doing much to improve electricity supply."
+          ],
+          "why_it_matters": "A temporary reduction in the electricity bill is useful money, but it is safer to keep it separate from the income you can rely on each month. When the next bill arrives, compare consumption and individual charges as well as the total, because the national inflation rate cannot tell you which part changed in your home.",
+          "theory_lens": {
+            "concept": "When a temporary price jump becomes lasting pressure",
+            "orthodox": "Mainstream economics distinguishes an initial change in a particular price from inflation that spreads through wages and other prices. Monetary policy has more reason to respond when the shock changes expectations and spending across the economy, since interest rates cannot undo an expired discount.",
+            "heterodox": "A structuralist view starts with the supply constraint and who bears its cost: making credit dearer does little to add electricity quickly, while households with little spare income have fewer ways to adjust. It puts more weight on reliable supply and targeted protection, alongside attention to firms' pricing power.",
+            "takeaway": "The discount's expiry helps explain the jump, but does not settle whether wider inflation will persist. We would watch the spread of price increases while protecting essential consumption and improving supply, rather than choosing policy from one headline."
+          },
+          "sources": [
+            {
+              "title": "Agência Brasil: September IPCA, October 9",
+              "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inflacao-oficial-de-setembro-fica-em-082-mostra-ibge"
+            },
+            {
+              "title": "ANEEL: October green tariff flag, September 25 (background)",
+              "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026-defeso-eleitoral/outubro-tera-bandeira-verde-contas-de-luz-sem-custo-extra"
+            },
+            {
+              "title": "IBGE: September annual inflation indicator",
+              "url": "https://www.ibge.gov.br/indicadores-e-dados/"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Europe’s shops see only a small recovery in sales volumes",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "Eurostat's October 6 release estimated that euro area retail volumes rose 0.1% in August after falling 0.6% in July, with seasonal patterns removed. These figures measure the amount sold after allowing for price changes, which makes them more useful than cash receipts for judging whether shoppers are actually buying more.",
+            "The small rebound gives little basis for declaring a strong recovery, and the figures describe August rather than what happened in shops last week. For a retailer deciding whether to add shifts, quantities sold and margins matter together: higher takings caused by higher prices may still leave the business reluctant to hire if suppliers are charging more too."
+          ],
+          "why_it_matters": "A shop's rising revenue does not automatically mean healthier demand or more jobs. For households, the useful question is whether their budget buys more goods, while for workers it is whether demand supports dependable hours.",
+          "concept": "Separating price increases from extra purchases",
+          "sources": [
+            {
+              "title": "Eurostat: August retail trade volumes, October 6",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/4-06102026-ap"
+            }
+          ]
+        },
+        {
+          "headline": "US consumers feel worse about the present, even as expectations edge up",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "The University of Michigan's preliminary October survey put consumer sentiment at 46.3, down from 48.1 in September. Its measure of current conditions fell while the expectations component rose, so the headline decline contains different assessments of life now and what may come next.",
+            "A sentiment survey measures what people report feeling, which can influence spending without telling us how much they have actually spent. Our reading is that the split deserves attention: a household can hope things will improve and still delay replacing a washing machine because today's finances feel too tight, leaving businesses waiting for optimism to turn into orders."
+          ],
+          "why_it_matters": "A more hopeful outlook need not loosen this month's budget. For anyone assessing the economy through confidence headlines, spending and income data are needed before concluding that households have changed their purchases.",
+          "concept": "Confidence versus the capacity to spend",
+          "sources": [
+            {
+              "title": "University of Michigan: preliminary October consumer survey",
+              "url": "https://www.sca.isr.umich.edu/"
+            }
+          ]
+        },
+        {
+          "headline": "Business surveys flag a fuel-price risk beyond the petrol pump",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "S&P Global's October 7 analysis of its September PMI surveys reported that transport had the fastest rise in selling charges among global sectors, reflecting higher fuel costs. The firm's indicators point to further inflation pressure, but that is a signal from business surveys and an analytical forecast, rather than a completed reading of future consumer prices.",
+            "The route to a household budget is straightforward: when delivery becomes more expensive, a seller must decide how much to absorb and how much to pass on. Weak demand can limit that pass-through, so our view is that the survey warrants watching delivery charges and margins without assuming that every increase in fuel costs will appear immediately, or in full, on the supermarket shelf."
+          ],
+          "why_it_matters": "Transport costs can reach purchases that have nothing obvious to do with driving. The effect on your grocery bill depends partly on competition and sellers' ability to absorb costs, which makes a survey warning useful without turning it into a precise household forecast.",
+          "concept": "How a business cost reaches the customer",
+          "sources": [
+            {
+              "title": "S&P Global: global PMI price analysis, October 7",
+              "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/global-pmi-shows-inflation-set-to-heat-up-further-as-energy-fuels-higher-prices"
+            }
+          ]
+        },
+        {
+          "headline": "AI’s power demand puts the electricity bill in the technology story",
+          "categories": [
+            "Technology",
+            "USA"
+          ],
+          "body": [
+            "In its October 6 Energy Evolution publication, S&P Global reported rising energy demand and emissions as AI infrastructure expands. Its accompanying utility research found that two-thirds of the 30 largest US electric utilities surveyed were off track on climate goals, had delayed them or had dropped them; the finding describes that surveyed group, rather than every electricity supplier.",
+            "The practical question is who finances the additional capacity: a large customer can help pay for new generation and grid connections, but poorly designed arrangements could leave other users carrying costs if the expected demand never arrives. Our view is that AI projects should be judged partly by the additional power they secure and the costs they cover, while emissions claims need to account for the electricity actually available when the equipment runs."
+          ],
+          "why_it_matters": "AI can affect a household through the power system as well as through a subscription or a job. The local impact on bills depends on utility contracts and regulation, so this research does not establish that every new data centre raises residential prices.",
+          "concept": "Who pays to expand a shared network",
+          "sources": [
+            {
+              "title": "S&P Global Energy: AI power demand and climate commitments, October 6",
+              "url": "https://www.spglobal.com/energy/en/news-research/podcasts/energy-evolution/100626-ais-power-boom-tests-big-techs-net-zero-promises"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Price level",
+          "plain": "The overall level of prices; it can remain high even after the rate of increase slows."
+        },
+        {
+          "term": "Disposable income",
+          "plain": "The money a household has available to spend or save after taxes and transfers."
+        },
+        {
+          "term": "Retail volume",
+          "plain": "A measure of the amount sold that removes the effect of changing prices."
+        },
+        {
+          "term": "Pass-through",
+          "plain": "The share of a business cost increase that reaches the prices paid by its customers."
+        },
+        {
+          "term": "PMI",
+          "plain": "A purchasing managers’ survey that tracks reported changes in business conditions, rather than directly measuring household spending."
+        }
+      ]
+    },
+    "pt": {
+      "title": "As contas que deixam menos espaço",
+      "editors_note": "A conta de luz pode subir porque um desconto acabou, enquanto uma loja pode faturar mais sem vender muito mais: entender o motivo muda o que faz sentido esperar depois. As divulgações da semana mostram como o aperto no orçamento pode conviver com uma demanda sem força, e por que a eletricidade que alimenta a IA também entra nessa conversa. Acompanhamos o período de 5 a 12 de outubro, com fechamento às 4h06 de Zurique em 12 de outubro; projeções e nossa interpretação aparecem separadas dos resultados divulgados.",
+      "leads": [
+        {
+          "headline": "Inflação brasileira salta com o fim do desconto na conta de luz",
+          "dek": "A alta de setembro pede uma resposta que diferencie a volta de uma conta ao valor normal da pressão que continua se espalhando.",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "O IPCA de setembro subiu 0,82%, levando a inflação em 12 meses a 4,58%, segundo a divulgação do IBGE de 9 de outubro noticiada pela Agência Brasil. Para quem tenta fazer o mesmo salário chegar ao fim do mês, o nível de preços maior pesa de verdade, mesmo quando parte do salto mensal tem uma explicação que pode não se repetir.",
+            "A energia elétrica ajuda a entender essa diferença: segundo a Agência Brasil, o fim do crédito de Itaipu concedido na conta de agosto contribuiu para a alta de setembro. Quando um desconto temporário desaparece, a comparação parte de uma conta excepcionalmente baixa, de modo que pode haver uma alta mensal forte sem um novo aumento do mesmo tamanho no custo básico a cada mês.",
+            "Essa conta muda mais a projeção do que a experiência de pagar: a família ainda precisa encontrar o dinheiro quando a fatura volta ao patamar maior. Um crédito temporário dá um respiro útil, mas tratá-lo como melhora permanente da renda disponível deixa menos espaço para o supermercado quando o benefício termina.",
+            "Já existe outra mudança para acompanhar: em 25 de setembro, a ANEEL anunciou bandeira verde para outubro, sem adicional de bandeira tarifária. Essa é uma informação anterior que ajuda a interpretar a próxima leitura da inflação, sem ser um anúncio novo da semana; retirar o adicional não garante uma fatura final menor se o consumo ou outras cobranças subirem.",
+            "A pergunta para a política econômica é até onde a pressão inicial vai: uma empresa com energia mais cara pode absorver parte do custo na margem, reajustar seus preços ou adiar uma contratação, dependendo da concorrência e da demanda. São essas decisões que ligam a conta de luz ao restante da economia e fazem o Banco Central precisar olhar a persistência das altas, em vez de simplesmente projetar para a frente um salto mensal.",
+            "Nossa leitura é que a resposta mais clara combina atenção à inflação persistente com ajuda que chegue às famílias com menos espaço para absorver a conta, enquanto o investimento reduz a exposição à energia cara ao longo do tempo. Subsídios amplos podem custar muito e esconder o incentivo a economizar eletricidade; depender apenas do crédito mais caro pode apertar o investimento da pequena empresa antes de melhorar a oferta de energia."
+          ],
+          "why_it_matters": "Um desconto temporário na conta de luz ajuda, mas é mais seguro separá-lo da renda com que você pode contar todos os meses. Na próxima fatura, vale comparar o consumo e cada cobrança além do total, porque a inflação nacional não mostra qual parte mudou na sua casa.",
+          "theory_lens": {
+            "concept": "Quando um salto temporário vira pressão persistente",
+            "orthodox": "A visão ortodoxa distingue a mudança inicial de um preço da inflação que se espalha pelos salários e outros preços. A política monetária tem mais motivo para reagir quando o choque altera expectativas e gastos no conjunto da economia, já que os juros não conseguem desfazer o fim de um desconto.",
+            "heterodox": "A leitura estruturalista parte do limite da oferta e de quem paga a conta: encarecer o crédito pouco faz para acrescentar energia rapidamente, enquanto famílias com pouca sobra têm menos opções para se ajustar. Ela dá mais peso à oferta confiável e à proteção direcionada, junto com a atenção ao poder das empresas de reajustar preços.",
+            "takeaway": "O fim do desconto ajuda a explicar o salto, mas não resolve se a inflação mais ampla vai persistir. Acompanharíamos a disseminação das altas, protegendo o consumo essencial e melhorando a oferta, em vez de escolher a política por uma única manchete."
+          },
+          "sources": [
+            {
+              "title": "Agência Brasil: IPCA de setembro, 9 de outubro",
+              "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/inflacao-oficial-de-setembro-fica-em-082-mostra-ibge"
+            },
+            {
+              "title": "ANEEL: bandeira verde de outubro, 25 de setembro (contexto)",
+              "url": "https://www.gov.br/aneel/pt-br/assuntos/noticias/2026-defeso-eleitoral/outubro-tera-bandeira-verde-contas-de-luz-sem-custo-extra"
+            },
+            {
+              "title": "IBGE: indicador da inflação anual de setembro",
+              "url": "https://www.ibge.gov.br/indicadores-e-dados/"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Varejo europeu tem recuperação pequena no volume de vendas",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "A divulgação de 6 de outubro da Eurostat estimou alta de 0,1% no volume do varejo da área do euro em agosto, depois da queda de 0,6% em julho, com ajuste sazonal. Esses números medem a quantidade vendida descontando as mudanças de preços, por isso ajudam mais que o faturamento a entender se o consumidor está comprando mais de fato.",
+            "A reação pequena oferece pouca base para anunciar uma recuperação forte, e os dados retratam agosto, sem mostrar o que ocorreu nas lojas na semana passada. Para um lojista que avalia ampliar turnos, quantidade vendida e margem precisam caminhar juntas: faturar mais por causa dos preços ainda pode deixá-lo receoso de contratar se os fornecedores também estão cobrando mais."
+          ],
+          "why_it_matters": "Faturamento maior não significa automaticamente demanda mais forte ou mais empregos. Para a família, importa saber se o orçamento compra mais produtos; para o trabalhador, se as vendas sustentam horas de trabalho previsíveis.",
+          "concept": "Separar aumento de preços de compras adicionais",
+          "sources": [
+            {
+              "title": "Eurostat: volume do varejo em agosto, 6 de outubro",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/4-06102026-ap"
+            }
+          ]
+        },
+        {
+          "headline": "Consumidor americano vê piora no presente, mas expectativa melhora um pouco",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "A pesquisa preliminar de outubro da Universidade de Michigan apontou confiança do consumidor em 46,3, ante 48,1 em setembro. O indicador das condições atuais caiu enquanto o componente de expectativas subiu, de modo que a queda do índice principal reúne avaliações diferentes sobre a vida agora e o que pode vir depois.",
+            "Uma pesquisa de confiança mede o que as pessoas dizem sentir, algo que pode influenciar o consumo sem revelar quanto elas efetivamente gastaram. Nossa leitura é que essa diferença merece atenção: uma família pode esperar melhora e ainda adiar a troca da máquina de lavar porque o dinheiro está curto hoje, deixando as empresas à espera de que o otimismo vire pedido."
+          ],
+          "why_it_matters": "Uma perspectiva mais animadora não precisa aliviar o orçamento deste mês. Para avaliar a economia pelas manchetes de confiança, é preciso conferir consumo e renda antes de concluir que as famílias mudaram suas compras.",
+          "concept": "Confiança e capacidade de gastar",
+          "sources": [
+            {
+              "title": "Universidade de Michigan: pesquisa preliminar do consumidor de outubro",
+              "url": "https://www.sca.isr.umich.edu/"
+            }
+          ]
+        },
+        {
+          "headline": "Pesquisa com empresas aponta risco do combustível além do posto",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "A análise de 7 de outubro da S&P Global sobre suas pesquisas PMI de setembro apontou os transportes como o setor com a alta mais rápida dos preços cobrados no mundo, refletindo combustíveis mais caros. Seus indicadores sinalizam mais pressão inflacionária, mas isso é um sinal de pesquisa empresarial e uma projeção analítica, sem equivaler a uma medição já concluída dos preços futuros ao consumidor.",
+            "O caminho até o orçamento doméstico é direto: quando a entrega encarece, o vendedor precisa decidir quanto absorve e quanto repassa. Uma demanda fraca pode limitar esse repasse, por isso entendemos que a pesquisa justifica acompanhar fretes e margens sem presumir que toda alta do combustível chegará imediatamente, ou por inteiro, à prateleira do supermercado."
+          ],
+          "why_it_matters": "O custo do transporte pode alcançar compras que parecem não ter relação com dirigir. O efeito no supermercado depende em parte da concorrência e da capacidade de absorver custos, o que torna o alerta útil sem transformá-lo numa previsão exata para cada casa.",
+          "concept": "Como o custo da empresa chega ao consumidor",
+          "sources": [
+            {
+              "title": "S&P Global: análise global dos preços nos PMIs, 7 de outubro",
+              "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/global-pmi-shows-inflation-set-to-heat-up-further-as-energy-fuels-higher-prices"
+            }
+          ]
+        },
+        {
+          "headline": "Demanda elétrica da IA traz a conta de luz para a conversa sobre tecnologia",
+          "categories": [
+            "Technology",
+            "USA"
+          ],
+          "body": [
+            "Na publicação Energy Evolution de 6 de outubro, a S&P Global relatou aumento da demanda de energia e das emissões com a expansão da infraestrutura de IA. A pesquisa apresentada sobre empresas de eletricidade encontrou dois terços das 30 maiores companhias americanas consultadas fora do ritmo necessário para suas metas climáticas, com metas adiadas ou abandonadas; o resultado descreve esse grupo, sem representar todos os fornecedores.",
+            "A questão prática é quem financia a capacidade adicional: um grande cliente pode ajudar a pagar nova geração e conexões à rede, mas contratos mal desenhados podem deixar custos para os demais usuários se a demanda esperada não aparecer. Nossa visão é que projetos de IA também devem ser avaliados pela energia adicional que viabilizam e pelos custos que cobrem, enquanto as promessas sobre emissões precisam considerar a eletricidade realmente disponível quando os equipamentos funcionam."
+          ],
+          "why_it_matters": "A IA pode afetar uma família pelo sistema elétrico, além da assinatura de um serviço ou do emprego. O efeito local na conta depende dos contratos e da regulação, por isso a pesquisa não demonstra que todo novo centro de dados eleva a tarifa residencial.",
+          "concept": "Quem paga pela expansão de uma rede compartilhada",
+          "sources": [
+            {
+              "title": "S&P Global Energy: demanda elétrica da IA e compromissos climáticos, 6 de outubro",
+              "url": "https://www.spglobal.com/energy/en/news-research/podcasts/energy-evolution/100626-ais-power-boom-tests-big-techs-net-zero-promises"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Nível de preços",
+          "plain": "O patamar geral dos preços, que pode continuar alto mesmo quando o ritmo de aumento diminui."
+        },
+        {
+          "term": "Renda disponível",
+          "plain": "O dinheiro que a família tem para gastar ou poupar depois de impostos e transferências."
+        },
+        {
+          "term": "Volume do varejo",
+          "plain": "Uma medida da quantidade vendida que desconta o efeito das mudanças de preços."
+        },
+        {
+          "term": "Repasse de custos",
+          "plain": "A parcela do aumento de custos de uma empresa que chega aos preços pagos pelos clientes."
+        },
+        {
+          "term": "PMI",
+          "plain": "Uma pesquisa com gerentes de compras que acompanha mudanças relatadas nas condições dos negócios, sem medir diretamente o gasto das famílias."
+        }
+      ]
+    }
+  },
+  "research_cutoff": "2026-10-12T04:06:00+02:00",
+  "reporting_period": {
+    "start": "2026-10-05",
+    "end": "2026-10-12"
+  }
+}

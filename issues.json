@@ -79,6 +79,25 @@
       ],
       "lead_count": 1,
       "brief_count": 5
+    },
+    {
+      "slug": "2026-10-12",
+      "number": 5,
+      "date": "2026-10-12",
+      "week_of": "October 12, 2026",
+      "title_en": "The bills that leave less room",
+      "title_pt": "As contas que deixam menos espaço",
+      "note_en": "An electricity bill can rise because a discount has ended, while a shop can take more money without selling much more: the explanation changes what we should expect next. This week's releases show how pressure on household budgets can coexist with hesitant demand, and why the electricity behind AI belongs in the same conversation. We cover October 5–12, with a research cutoff of 04:06 Zurich time on October 12; forecasts and our interpretation are identified separately from reported results.",
+      "note_pt": "A conta de luz pode subir porque um desconto acabou, enquanto uma loja pode faturar mais sem vender muito mais: entender o motivo muda o que faz sentido esperar depois. As divulgações da semana mostram como o aperto no orçamento pode conviver com uma demanda sem força, e por que a eletricidade que alimenta a IA também entra nessa conversa. Acompanhamos o período de 5 a 12 de outubro, com fechamento às 4h06 de Zurique em 12 de outubro; projeções e nossa interpretação aparecem separadas dos resultados divulgados.",
+      "categories": [
+        "Brazil",
+        "Europe",
+        "USA",
+        "International",
+        "Technology"
+      ],
+      "lead_count": 1,
+      "brief_count": 4
     }
   ]
 }
