@@ -1,0 +1,298 @@
+{
+  "slug": "2026-10-19",
+  "number": 6,
+  "date": "2026-10-19",
+  "week_of": "October 19, 2026",
+  "publication": "The Long Run",
+  "tagline": {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
+  },
+  "content": {
+    "en": {
+      "title": "Growth that reaches some doors first",
+      "editors_note": "A growing world economy can still leave a family with less room in its budget, particularly when expensive essentials absorb the gains. The week's releases bring that unevenness into focus, from the investment behind AI to the time children should have for school. This delayed October 19 edition was prepared and published on October 24, covering October 12 through 04:00 Zurich time on October 19; it uses releases available by that cutoff, with forecasts kept separate from results.",
+      "leads": [
+        {
+          "headline": "The IMF sees growth holding up, with the gains becoming harder to share",
+          "dek": "An investment boom can support global activity while dearer energy leaves other households and businesses struggling.",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "The IMF's October 13 World Economic Outlook projected global growth of 3.1% in 2026 and 3.4% in 2027, alongside global headline inflation of 4.7% and 4.1% respectively. These are forecasts built on information available through October 1, so they describe a conditional path rather than the outcome of years that have not yet finished.",
+            "At the accompanying briefing, the Fund described expensive energy and the AI investment boom as forces pulling activity in different directions: energy raises production costs, while technology spending adds demand. That combination helps explain why a respectable growth figure can coexist with a difficult month for someone whose wages buy less fuel or whose employer has few new orders.",
+            "Consider a bakery and a supplier of equipment for a new factory: the bakery may face a larger energy bill without selling more bread, while the equipment supplier receives extra orders. This is an illustration of the mechanism, not a claim about a particular business; the same national growth rate can conceal very different choices about hiring and pay.",
+            "The next link is the household budget: when essentials take a larger share of income, discretionary purchases are easier to postpone, which can weaken demand for businesses outside the investment boom. A worker does not need to lose a job to feel that squeeze, because unchanged pay and fewer affordable purchases already represent a loss of purchasing power.",
+            "Policy has to reckon with those differences, since stimulating all spending equally can add to pressure where capacity is already tight, while cutting support broadly can deepen the weakness elsewhere. Our view is that temporary help should reach households unable to absorb essential costs, with investment directed towards easing bottlenecks that otherwise make the next shock expensive too.",
+            "The longer test for the technology boom is whether its gains spread into useful, affordable services and higher productivity beyond its immediate suppliers. If that happens, more output can support better living standards; if the benefits remain concentrated while the wider economy carries higher infrastructure costs, the growth total will tell only part of the story."
+          ],
+          "why_it_matters": "A global growth forecast says little about the next pay rise or grocery bill without knowing which sectors are expanding and which costs are rising. For households, the practical improvement is income that buys more and work that remains dependable, rather than a stronger aggregate number alone.",
+          "theory_lens": {
+            "concept": "Why growing output can leave households squeezed",
+            "orthodox": "Mainstream economics asks whether investment raises productive capacity fast enough to meet demand, because limited supply can turn extra spending into higher prices. It favours well-targeted support that protects vulnerable households while preserving incentives to expand production.",
+            "heterodox": "A structuralist and distributional view asks who owns the growing sectors and who bears the costs of essential goods. Public investment and stronger worker bargaining power can help spread gains, because productivity improvements need not automatically become better wages or cheaper services.",
+            "takeaway": "We would judge resilience by the breadth of real income gains and by whether investment eases the constraints households face. Aggregate growth is useful evidence, but support and investment need to be designed around the uneven effects beneath it."
+          },
+          "sources": [
+            {
+              "title": "IMF: October 2026 World Economic Outlook, October 13",
+              "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+            },
+            {
+              "title": "IMF: October 13 press briefing, published October 14",
+              "url": "https://mediacenter.imf.org/news/imf-world-economic-output-press-briefing/s/85df82f1-2ffe-44b3-91c4-a7a0e01042ae"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Brazil’s child-labour decline still leaves a large burden on childhood",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "IBGE's October 16 release, reported by Agência Brasil, estimated 1.499 million children and adolescents in child labour in 2025, down 9.2% from 2024. The figures concern ages 5–17 and the previous year; IBGE classifies this statistical work as experimental, so it should be read with the methodological caution that designation requires.",
+            "The economic stakes extend beyond the income earned today, because time spent working can compete with school and rest, narrowing future opportunities. Our view is that enforcement needs to work alongside reliable adult income and access to education: a family under financial pressure needs a workable way to replace the child's contribution, while employers must still face accountability."
+          ],
+          "why_it_matters": "Reducing child labour protects time for learning and development, with consequences for future earnings as well as wellbeing now. The reported decline is encouraging, but the remaining total warrants sustained attention.",
+          "concept": "How present hardship can limit future opportunities",
+          "sources": [
+            {
+              "title": "Agência Brasil: IBGE child-labour results, October 16",
+              "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/trabalho-infantil-no-pais-recua-92-de-2024-para-2025-aponta-ibge"
+            },
+            {
+              "title": "IBGE: experimental-statistics methodology and release notice",
+              "url": "https://www.ibge.gov.br/comunicados/48063-ibge-divulgara-em-16-de-outubro-como-estatisticas-experimentais-a-pesquisa-nacional-por-amostra-de-domicilio"
+            }
+          ]
+        },
+        {
+          "headline": "US inflation rises as petrol absorbs more of the budget",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "The October 14 BLS release put September consumer inflation at 0.6% for the month after seasonal adjustment and 3.7% over a year. Petrol prices rose 9.1% in the month and accounted for more than half of the overall monthly increase, making driving costs an important part of this particular reading.",
+            "For someone who must drive to work, substituting away from fuel can be difficult, so the adjustment may come through spending less elsewhere. That gives policymakers a difficult balance: weaker discretionary spending can cool demand even while the inflation headline rises, and the persistence of broader price pressure matters more than assuming petrol will repeat the same jump every month."
+          ],
+          "why_it_matters": "A higher fuel bill can reduce what is left for other purchases without any change in income. The national average also conceals differences between households that can use public transport and those that cannot.",
+          "concept": "Essential costs crowding out other spending",
+          "sources": [
+            {
+              "title": "BLS: September CPI release, October 14",
+              "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Europe’s full inflation release shows pressure beyond energy",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "Eurostat's October 16 release confirmed September euro area annual inflation at 3.8%, matching the earlier flash estimate. Energy contributed 1.71 percentage points and services 1.52 points to the annual rate; these are contributions to the total, rather than the inflation rates of those categories.",
+            "That breakdown matters because a fall in energy pressure would still leave other prices influencing the household budget. Our reading is that the services contribution warrants attention without assigning it one cause: wages, rents and productivity can all affect service costs, and the aggregate alone cannot show which mechanism dominates in a particular business."
+          ],
+          "why_it_matters": "Relief on an energy bill would not automatically bring equivalent relief across every service you use. The full release helps identify where pressure remains, while your own spending mix determines how much of it you feel.",
+          "concept": "Understanding contributions to inflation",
+          "sources": [
+            {
+              "title": "Eurostat: final September inflation release, October 16",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-16102026-ap"
+            }
+          ]
+        },
+        {
+          "headline": "TSMC’s investment plan shows how much capacity the AI boom demands",
+          "categories": [
+            "Technology",
+            "International"
+          ],
+          "body": [
+            "In its October 15 earnings call, TSMC reiterated a 2026 capital budget of US$60–64 billion, pointing to customer demand including agentic AI. Management also described equipment supply as tight, making the figure a company investment plan with execution constraints rather than evidence that all the new capacity is already operating.",
+            "A chip factory takes time and specialised equipment to build, so spending today can support suppliers before it delivers more chips to customers. Our view is that the economic payoff depends on whether useful demand lasts long enough to justify that capacity: strong orders can support skilled jobs, while overoptimistic expectations can leave expensive facilities earning less than planned."
+          ],
+          "why_it_matters": "The investment can reach workers through construction and equipment supply well before consumers see any benefit. More planned capacity by itself does not guarantee cheaper devices or AI services, since demand and competition also influence prices.",
+          "concept": "Investment now, productive capacity later",
+          "sources": [
+            {
+              "title": "TSMC: third-quarter earnings-call transcript, October 15",
+              "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Purchasing power",
+          "plain": "How much your income can buy at the prices you face."
+        },
+        {
+          "term": "Supply shock",
+          "plain": "A disruption that changes the availability or cost of producing goods and services."
+        },
+        {
+          "term": "Productivity",
+          "plain": "The amount produced with a given quantity of work and other resources."
+        },
+        {
+          "term": "Percentage-point contribution",
+          "plain": "How much one component adds to a total rate, rather than that component’s own rate of change."
+        },
+        {
+          "term": "Capital budget",
+          "plain": "Planned spending on assets such as factories and equipment that can produce output over time."
+        }
+      ]
+    },
+    "pt": {
+      "title": "O crescimento chega primeiro a algumas portas",
+      "editors_note": "A economia mundial pode crescer e ainda deixar menos espaço no orçamento de uma família, sobretudo quando os gastos essenciais absorvem os ganhos. As divulgações da semana ajudam a enxergar essa desigualdade, do investimento por trás da IA ao tempo que crianças deveriam ter para a escola. Esta edição atrasada de 19 de outubro foi preparada e publicada em 24 de outubro, cobrindo de 12 de outubro até as 4h de Zurique de 19 de outubro; usamos divulgações disponíveis até esse limite, separando projeções de resultados.",
+      "leads": [
+        {
+          "headline": "FMI vê crescimento resistindo, mas ganhos mais difíceis de repartir",
+          "dek": "Um ciclo forte de investimento pode sustentar a atividade mundial enquanto a energia cara aperta outras empresas e famílias.",
+          "categories": [
+            "International"
+          ],
+          "body": [
+            "O Panorama Econômico Mundial divulgado pelo FMI em 13 de outubro projetou crescimento global de 3,1% em 2026 e 3,4% em 2027, com inflação mundial de 4,7% e 4,1%, respectivamente. São projeções construídas com informações disponíveis até 1º de outubro, por isso descrevem uma trajetória condicionada às hipóteses do relatório, sem representar o resultado de anos ainda não encerrados.",
+            "Na entrevista que acompanhou a divulgação, o Fundo apresentou a energia cara e o avanço do investimento em IA como forças que empurram a atividade em direções diferentes: a energia eleva os custos de produção, enquanto o gasto em tecnologia acrescenta demanda. Essa combinação ajuda a entender por que um crescimento razoável pode conviver com um mês difícil para quem compra menos combustível com o salário ou trabalha numa empresa com poucos pedidos novos.",
+            "Pense numa padaria e num fornecedor de equipamentos para uma fábrica nova: a padaria pode receber uma conta de energia maior sem vender mais pão, enquanto o fornecedor ganha encomendas. É uma ilustração do mecanismo, sem descrever uma empresa específica; a mesma taxa nacional de crescimento pode esconder decisões muito diferentes sobre contratação e salários.",
+            "A ligação seguinte passa pelo orçamento doméstico: quando os gastos essenciais ocupam uma parcela maior da renda, fica mais fácil adiar outras compras, enfraquecendo a demanda de empresas fora do ciclo de investimento. O trabalhador não precisa perder o emprego para sentir o aperto, porque salário parado e menos compras possíveis já significam perda de poder de compra.",
+            "A política econômica precisa levar essas diferenças em conta, porque estimular todos os gastos da mesma forma pode acrescentar pressão onde a capacidade já está apertada, enquanto cortar apoio de maneira ampla pode aprofundar a fraqueza em outros lugares. Nossa leitura é que a ajuda temporária deve alcançar quem não consegue absorver os custos essenciais, com investimento voltado a reduzir os gargalos que também encareceriam o próximo choque.",
+            "O teste mais longo para o avanço da tecnologia é se os ganhos chegam a serviços úteis e acessíveis e à produtividade além dos fornecedores diretamente envolvidos. Se isso acontecer, produzir mais pode sustentar condições de vida melhores; se os benefícios ficarem concentrados enquanto o restante da economia carrega custos maiores de infraestrutura, o crescimento agregado contará apenas parte da história."
+          ],
+          "why_it_matters": "Uma projeção mundial de crescimento diz pouco sobre o próximo reajuste salarial ou a conta do supermercado sem saber quais setores avançam e quais custos sobem. Para a família, a melhora concreta é uma renda que compra mais e um trabalho que continua estável, além do avanço do número agregado.",
+          "theory_lens": {
+            "concept": "Por que produzir mais pode conviver com aperto no orçamento",
+            "orthodox": "A visão ortodoxa pergunta se o investimento amplia a capacidade de produzir a tempo de atender à demanda, porque uma oferta limitada pode transformar gasto adicional em preços maiores. Ela favorece apoio bem direcionado que proteja famílias vulneráveis e preserve incentivos para ampliar a produção.",
+            "heterodox": "A leitura estruturalista e distributiva pergunta quem é dono dos setores que crescem e quem paga pelos bens essenciais. Investimento público e maior poder de negociação do trabalhador podem ajudar a repartir os ganhos, porque produtividade maior não vira automaticamente salário melhor ou serviço mais barato.",
+            "takeaway": "Avaliaríamos a resistência da economia pela abrangência dos ganhos reais de renda e pela capacidade do investimento de aliviar as limitações das famílias. O crescimento agregado informa, mas apoio e investimento precisam considerar os efeitos desiguais que ele reúne."
+          },
+          "sources": [
+            {
+              "title": "FMI: Panorama Econômico Mundial de outubro, 13 de outubro",
+              "url": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026"
+            },
+            {
+              "title": "FMI: entrevista de 13 de outubro, publicada em 14 de outubro",
+              "url": "https://mediacenter.imf.org/news/imf-world-economic-output-press-briefing/s/85df82f1-2ffe-44b3-91c4-a7a0e01042ae"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Trabalho infantil cai no Brasil, mas ainda pesa sobre muitas infâncias",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "A divulgação do IBGE de 16 de outubro, noticiada pela Agência Brasil, estimou 1,499 milhão de crianças e adolescentes em situação de trabalho infantil em 2025, queda de 9,2% ante 2024. Os números tratam da população de 5 a 17 anos e do ano anterior; o IBGE classifica essas estatísticas como experimentais, o que exige o cuidado metodológico indicado por essa condição.",
+            "O efeito econômico vai além da renda recebida hoje, porque o tempo de trabalho pode disputar espaço com a escola e o descanso, limitando oportunidades futuras. Nossa leitura é que a fiscalização precisa caminhar com renda adulta previsível e acesso à educação: uma família sob pressão financeira precisa de uma forma viável de substituir a contribuição da criança, enquanto os empregadores continuam responsáveis por suas práticas."
+          ],
+          "why_it_matters": "Reduzir o trabalho infantil protege o tempo de aprendizagem e desenvolvimento, com efeito sobre a renda futura e o bem-estar de hoje. A queda é animadora, mas o contingente restante exige atenção contínua.",
+          "concept": "Como a dificuldade presente pode limitar oportunidades futuras",
+          "sources": [
+            {
+              "title": "Agência Brasil: resultados do IBGE sobre trabalho infantil, 16 de outubro",
+              "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-10/trabalho-infantil-no-pais-recua-92-de-2024-para-2025-aponta-ibge"
+            },
+            {
+              "title": "IBGE: metodologia experimental e aviso de divulgação",
+              "url": "https://www.ibge.gov.br/comunicados/48063-ibge-divulgara-em-16-de-outubro-como-estatisticas-experimentais-a-pesquisa-nacional-por-amostra-de-domicilio"
+            }
+          ]
+        },
+        {
+          "headline": "Inflação americana sobe e gasolina ocupa mais espaço no orçamento",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "A divulgação do BLS de 14 de outubro apontou inflação ao consumidor de 0,6% em setembro, com ajuste sazonal, e de 3,7% em 12 meses. A gasolina subiu 9,1% no mês e respondeu por mais da metade da alta mensal do índice geral, colocando o custo de dirigir no centro dessa leitura.",
+            "Para quem precisa do carro para trabalhar, reduzir o uso de combustível pode ser difícil, e o ajuste acaba aparecendo no corte de outras compras. Isso cria um equilíbrio delicado para a política econômica: menos gastos adiáveis podem esfriar a demanda enquanto a inflação principal sobe, e a persistência das pressões mais amplas importa mais que presumir a repetição do salto da gasolina todos os meses."
+          ],
+          "why_it_matters": "Uma conta maior no posto reduz o dinheiro para outras compras mesmo sem mudança na renda. A média nacional também esconde diferenças entre quem pode recorrer ao transporte público e quem não tem essa opção.",
+          "concept": "Gastos essenciais tomando espaço de outras compras",
+          "sources": [
+            {
+              "title": "BLS: inflação ao consumidor de setembro, 14 de outubro",
+              "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Dado completo da inflação europeia mostra pressão além da energia",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "A divulgação de 16 de outubro da Eurostat confirmou a inflação anual da área do euro em 3,8% em setembro, igual à estimativa preliminar. A energia contribuiu com 1,71 ponto percentual e os serviços com 1,52 ponto para a taxa anual; são contribuições ao resultado total, sem equivaler à inflação de cada grupo.",
+            "Essa composição importa porque um alívio na energia ainda deixaria outros preços pesando no orçamento. Nossa leitura é que a contribuição dos serviços merece atenção sem atribuí-la a uma causa única: salários, aluguéis e produtividade podem afetar seus custos, e o agregado sozinho não mostra qual mecanismo domina numa empresa específica."
+          ],
+          "why_it_matters": "Alívio na conta de energia não produziria automaticamente uma melhora equivalente em todos os serviços que você utiliza. A divulgação completa ajuda a localizar a pressão restante, enquanto a composição dos seus gastos define quanto dela chega à sua casa.",
+          "concept": "Entender as contribuições para a inflação",
+          "sources": [
+            {
+              "title": "Eurostat: divulgação completa da inflação de setembro, 16 de outubro",
+              "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-16102026-ap"
+            }
+          ]
+        },
+        {
+          "headline": "Plano de investimento da TSMC mostra a capacidade que o avanço da IA exige",
+          "categories": [
+            "Technology",
+            "International"
+          ],
+          "body": [
+            "Na apresentação de resultados de 15 de outubro, a TSMC reafirmou orçamento de investimento de US$ 60 bilhões a US$ 64 bilhões para 2026, citando a demanda dos clientes, inclusive por IA com agentes. A administração também descreveu uma oferta apertada de equipamentos, de modo que o número representa um plano empresarial sujeito a limites de execução, sem demonstrar que toda a capacidade nova já está funcionando.",
+            "Uma fábrica de chips exige tempo e equipamentos especializados, por isso o gasto de hoje pode sustentar fornecedores antes de entregar mais chips aos clientes. Nossa leitura é que o retorno econômico depende de a demanda útil durar o suficiente para justificar essa capacidade: pedidos fortes podem sustentar empregos qualificados, enquanto expectativas otimistas demais podem deixar instalações caras rendendo menos que o planejado."
+          ],
+          "why_it_matters": "O investimento pode chegar ao trabalhador pela construção e pelo fornecimento de equipamentos antes de beneficiar o consumidor. Mais capacidade planejada, sozinha, não garante aparelhos ou serviços de IA mais baratos, porque demanda e concorrência também influenciam os preços.",
+          "concept": "Investimento agora, capacidade produtiva depois",
+          "sources": [
+            {
+              "title": "TSMC: transcrição da apresentação de resultados do terceiro trimestre, 15 de outubro",
+              "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/eba4fac72873bf546b669bd2b5d973df5c93215d/TSMC%203Q26%20Transcript.pdf"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Poder de compra",
+          "plain": "Quanto sua renda permite comprar aos preços que você encontra."
+        },
+        {
+          "term": "Choque de oferta",
+          "plain": "Uma alteração que afeta a disponibilidade ou o custo de produzir bens e serviços."
+        },
+        {
+          "term": "Produtividade",
+          "plain": "A quantidade produzida com determinado volume de trabalho e outros recursos."
+        },
+        {
+          "term": "Contribuição em pontos percentuais",
+          "plain": "Quanto um componente acrescenta à taxa total, sem equivaler à sua própria taxa de variação."
+        },
+        {
+          "term": "Orçamento de investimento",
+          "plain": "Gasto planejado em ativos como fábricas e equipamentos que podem produzir ao longo do tempo."
+        }
+      ]
+    }
+  },
+  "research_cutoff": "2026-10-19T04:00:00+02:00",
+  "reporting_period": {
+    "start": "2026-10-12",
+    "end": "2026-10-19"
+  },
+  "prepared_on": "2026-10-24",
+  "publication_note": "Delayed edition; reporting limited to releases available by October 19 at 04:00 Europe/Zurich."
+}
