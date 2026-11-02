@@ -1,0 +1,290 @@
+{
+  "publication": "The Long Run",
+  "tagline": {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
+  },
+  "slug": "2026-11-02",
+  "number": 8,
+  "date": "2026-11-02",
+  "week_of": "November 2, 2026",
+  "research_cutoff": "2026-11-02T04:04:00+01:00",
+  "reporting_period": {
+    "start": "2026-10-26",
+    "end": "2026-11-02"
+  },
+  "content": {
+    "en": {
+      "title": "The cost of waiting",
+      "editors_note": "A central bank can leave rates untouched while the pressure on a household keeps changing: a loan comes up for renewal, the energy bill arrives, or someone finally finds work. This week's releases show why the headline needs that second look, especially when strong growth and an expensive shopping basket arrive together. Reporting covers 26 October–2 November 2026, through 04:04 CET on Monday, 2 November.",
+      "leads": [
+        {
+          "headline": "Two rate holds, two different worries",
+          "dek": "The Fed sees a strong economy with persistent inflation, while the ECB faces energy costs that can lift prices and weaken spending together.",
+          "categories": [
+            "USA",
+            "Europe"
+          ],
+          "body": [
+            "The Federal Reserve held its policy rate at 3.75–4.00% on 28 October, and the European Central Bank kept its deposit rate at 2.50% the following day. For borrowers hoping for cheaper credit, neither announcement offered an immediate policy cut, but the explanation behind each hold matters for what might happen next.",
+            "The Fed described strong activity and elevated inflation, with two voters preferring a quarter-point increase. The ECB warned that costlier energy could raise inflation while hurting growth, and said financing conditions had already tightened. Those assessments point to different problems: spending that remains resilient gives a central bank room to resist inflation, whereas a rising essential bill can squeeze demand even before interest rates do any more work.",
+            "Imagine a household renewing a loan while spending more to heat its home. A higher repayment leaves less for local shops, and a business facing weaker sales may postpone hiring; this is one way monetary restraint travels through the economy. A policy hold also leaves existing pressures in place, although the rate offered by a bank depends on its funding costs and the borrower's circumstances, rather than matching the central bank's rate exactly.",
+            "The mainstream case for patience is that inflation can become harder to contain if firms and workers start treating repeated price increases as normal. Keeping borrowing sufficiently expensive can limit that spread, but policymakers need to distinguish a temporary shock from persistent pressure. In that reading, waiting for evidence is useful only if it preserves the ability to act before expectations drift.",
+            "A Post-Keynesian reading puts more weight on how the shock starts and who absorbs it. When energy becomes dearer, restraining demand can reduce employment without fixing the original supply problem, while investment that could reduce energy dependence also becomes harder to finance. That points towards targeted household support and measures that expand supply, with attention to their funding and to whether they would add demand where capacity is already stretched.",
+            "My view is that restraint should be judged against the source of inflation and the damage it causes on the way through. The American and European statements give good reasons to avoid treating every unchanged rate as the same signal; for households, the useful things to watch are whether essential bills keep rising and whether income can keep up. Until those pressures ease, a pause in policy can still feel like a long wait for relief."
+          ],
+          "why_it_matters": "If you're refinancing or borrowing for a purchase, an unchanged policy rate offers no guarantee that your next quote will be cheaper. Savers may benefit from interest income, while households with debt and large energy bills can face pressure from both directions.",
+          "theory_lens": {
+            "concept": "When expensive credit helps, and when it adds to the squeeze",
+            "orthodox": "If buyers keep bidding for more than businesses can supply, dearer credit can slow spending and price increases. Mainstream economists also worry that expectations of persistent inflation can influence today's wage and pricing decisions.",
+            "heterodox": "If the problem begins with an essential input becoming scarce or expensive, squeezing spending cannot directly replace that input. Post-Keynesian economists put greater emphasis on supply measures and on protecting people with little room to absorb the shock.",
+            "takeaway": "The sensible test is whether a policy reaches the cause of inflation at an acceptable cost in lost income and jobs. That requires watching the composition of prices as closely as their average."
+          },
+          "sources": [
+            {
+              "title": "Federal Reserve: decision of 28 October",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+            },
+            {
+              "title": "ECB: decision of 29 October",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Brazil’s employment gains give household budgets more support",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "Brazil's unemployment rate fell to 5.2% in July–September, from 5.4% in April–June, according to the IBGE release published on 30 October. Employment reached 103.6 million people, so the improvement included an increase in the number working, a useful check alongside the unemployment rate.",
+            "Finding work can turn postponed purchases into spending at nearby businesses, helping income circulate through a neighbourhood. The quality of that work still matters: a household can plan rent and groceries more confidently when hours and earnings are dependable, while a national employment total cannot tell us whether an individual job offers that security."
+          ],
+          "why_it_matters": "For someone who has found work, the gain is a new source of income and more room to plan. For those still searching, national progress can coexist with a difficult local job market.",
+          "concept": "More employment and the security of income",
+          "sources": [
+            {
+              "title": "IBGE release via Agência Gov, 30 October",
+              "url": "https://agenciagov.ebc.com.br/noticias/202610/taxa-de-desemprego-tem-queda-e-alcanca-menor-resultado-para-setembro-em-14-anos"
+            }
+          ]
+        },
+        {
+          "headline": "US growth accelerates, but mind the measuring stick",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "The first estimate of US output for July–September put real GDP growth at an annualised 3.4%, after 2.2% in the previous quarter, the BEA reported on 29 October. Investment and consumer spending contributed to the expansion, alongside government spending, while exports declined; the estimate remains subject to revision.",
+            "Annualised growth expresses what the pace would look like if it continued for a year, so the headline should not be read as the actual increase over those three months. Stronger output can support demand for labour and suppliers, but the route to your pay packet depends on which activities expand and how the resulting income is shared."
+          ],
+          "why_it_matters": "A business receiving more orders may offer more work, while a family outside the growing sectors may see little immediate improvement. GDP is a useful view of overall activity, with limited detail about an individual household's finances.",
+          "concept": "Annualised growth and the distribution of gains",
+          "sources": [
+            {
+              "title": "BEA: advance estimate of third-quarter GDP, 29 October",
+              "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+            }
+          ]
+        },
+        {
+          "headline": "Germany’s inflation eases, with energy still expensive",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "Germany's provisional October figures put annual consumer inflation at 2.8%, down from 3.3% in September, Destatis reported on 30 October. Energy was still 12.2% dearer than a year earlier, while inflation excluding food and energy was estimated at 2.1%; the release therefore shows both an easing headline and a large remaining energy burden.",
+            "A slower annual rise can bring welcome relief without restoring an earlier price level, and the average masks how exposed a household is to heating or driving costs. When an essential bill takes more of a fixed income, other spending becomes the adjustment margin, which is how an energy shock can weaken demand at businesses that never sell energy themselves."
+          ],
+          "why_it_matters": "Your own relief depends on the contract you have and how much energy you use. A lower national inflation rate can coexist with a bill that still takes a larger share of your income than it did last year.",
+          "concept": "Slower inflation and a still-high price level",
+          "sources": [
+            {
+              "title": "Destatis: provisional October consumer prices, 30 October",
+              "url": "https://www.destatis.de/EN/Press/2026/10/PE26_382_611.html"
+            }
+          ]
+        },
+        {
+          "headline": "Microsoft’s cloud growth raises a question for its customers",
+          "categories": [
+            "USA",
+            "Technology"
+          ],
+          "body": [
+            "Microsoft reported revenue of $92.3 billion for the quarter ended 30 September, up 19% from a year earlier, in its 28 October results. Microsoft Cloud revenue reached $63.9 billion, up 30%, showing a growing business for the supplier while leaving customers with their own question about what the spending delivers.",
+            "For a small firm, renting computing capacity can avoid buying and maintaining equipment upfront, but subscriptions become a recurring bill that needs to earn its place. The economic gain comes when the tools let staff complete useful work more efficiently; rising supplier revenue alone cannot establish that gain, or tell us whether the benefit reaches employees through better pay and manageable workloads."
+          ],
+          "why_it_matters": "If your workplace adds cloud or AI tools, the practical test is whether they save useful time after training and checking are included. For a business owner, those savings need to justify the ongoing bill.",
+          "concept": "Technology spending and actual productivity",
+          "sources": [
+            {
+              "title": "Microsoft: fiscal 2027 first-quarter results, 28 October",
+              "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Monetary restraint",
+          "plain": "Using the cost and availability of credit to limit spending and inflation pressure."
+        },
+        {
+          "term": "Supply shock",
+          "plain": "A disruption in the availability or cost of producing something, such as energy."
+        },
+        {
+          "term": "Annualised growth",
+          "plain": "A quarterly pace expressed as if it continued for a full year."
+        },
+        {
+          "term": "Core inflation",
+          "plain": "A price measure that excludes selected volatile categories; here, food and energy."
+        },
+        {
+          "term": "Productivity",
+          "plain": "How much useful output is produced with a given amount of work or other resources."
+        }
+      ]
+    },
+    "pt": {
+      "title": "O custo da espera",
+      "editors_note": "Um banco central pode manter os juros enquanto o aperto de uma família muda: chega a hora de renovar um empréstimo, vem a conta de energia ou alguém finalmente consegue trabalho. Os dados da semana ajudam a entender por que vale olhar além do número principal, sobretudo quando o crescimento da economia convive com compras caras. Esta edição cobre o período de 26 de outubro a 2 de novembro de 2026, com apuração até as 4h04 de segunda-feira, 2 de novembro, no horário da Europa Central (CET).",
+      "leads": [
+        {
+          "headline": "Juros mantidos, preocupações diferentes",
+          "dek": "O Fed vê uma economia forte com inflação persistente, enquanto o BCE enfrenta energia mais cara, capaz de elevar preços e enfraquecer os gastos ao mesmo tempo.",
+          "categories": [
+            "USA",
+            "Europe"
+          ],
+          "body": [
+            "O Federal Reserve manteve os juros básicos na faixa de 3,75% a 4,00% em 28 de outubro, e o Banco Central Europeu deixou a taxa de depósito em 2,50% no dia seguinte. Para quem esperava crédito mais barato, nenhum dos anúncios trouxe um corte imediato, mas o motivo de cada decisão importa para entender o que pode vir adiante.",
+            "O Fed descreveu uma atividade forte e inflação elevada, com dois votos a favor de uma alta de 0,25 ponto percentual. O BCE alertou que a energia mais cara pode elevar a inflação e prejudicar o crescimento, e informou que as condições de financiamento já haviam apertado. São problemas diferentes: uma demanda resistente dá espaço para o banco central combater a inflação, enquanto a alta de uma despesa essencial pode conter o consumo antes mesmo de qualquer efeito adicional dos juros.",
+            "Imagine uma família que precisa renovar um empréstimo enquanto gasta mais para aquecer a casa. Uma prestação maior deixa menos dinheiro para o comércio local, e uma empresa que vende menos pode adiar contratações; esse é um dos caminhos pelos quais o aperto monetário chega à economia. Manter os juros também preserva pressões existentes, embora a taxa oferecida pelo banco dependa do custo de captar recursos e da situação do cliente, sem reproduzir exatamente a taxa do banco central.",
+            "O argumento mais tradicional a favor da cautela é que a inflação fica mais difícil de controlar quando empresas e trabalhadores passam a considerar normais os reajustes recorrentes. Manter o crédito suficientemente caro pode limitar essa propagação, mas exige distinguir um choque passageiro de uma pressão persistente. Nessa leitura, esperar por mais evidências ajuda desde que ainda seja possível agir antes que as expectativas se afastem da estabilidade.",
+            "Uma leitura pós-keynesiana dá mais peso à origem do choque e a quem absorve a perda. Quando a energia encarece, conter a demanda pode reduzir o emprego sem resolver o problema inicial de oferta, ao mesmo tempo que dificulta financiar investimentos capazes de diminuir a dependência energética. Isso favorece a discussão de apoio direcionado às famílias e de medidas para ampliar a oferta, com cuidado sobre o financiamento e sobre o risco de estimular gastos onde a capacidade já está no limite.",
+            "Minha leitura é que o aperto precisa ser avaliado pela origem da inflação e pelo estrago que provoca no caminho. Os comunicados americano e europeu dão boas razões para não interpretar toda manutenção de juros da mesma forma; para as famílias, vale acompanhar se as despesas essenciais continuam subindo e se a renda consegue acompanhar. Enquanto essas pressões persistirem, uma pausa na política monetária ainda pode parecer uma longa espera por alívio."
+          ],
+          "why_it_matters": "Se você vai refinanciar uma dívida ou fazer uma compra a prazo, juros básicos estáveis não garantem uma proposta mais barata. Quem tem aplicações pode ganhar com os rendimentos, enquanto famílias endividadas e com contas de energia elevadas sentem pressão dos dois lados.",
+          "theory_lens": {
+            "concept": "Quando o crédito caro ajuda e quando aumenta o aperto",
+            "orthodox": "Se a procura cresce além do que as empresas conseguem oferecer, encarecer o crédito pode frear os gastos e os reajustes. Economistas mais tradicionais também se preocupam com a influência da expectativa de inflação persistente nas decisões de preços e salários de hoje.",
+            "heterodox": "Se o problema começa com um insumo essencial mais escasso ou caro, conter os gastos não repõe diretamente esse insumo. Economistas pós-keynesianos dão mais atenção à oferta e à proteção de quem tem pouca margem para absorver a perda.",
+            "takeaway": "O teste relevante é saber se a política alcança a causa da inflação a um custo aceitável em renda e empregos. Para isso, é preciso acompanhar a composição dos preços com tanto cuidado quanto a média."
+          },
+          "sources": [
+            {
+              "title": "Federal Reserve: decisão de 28 de outubro",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+            },
+            {
+              "title": "BCE: decisão de 29 de outubro",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "O avanço do emprego dá mais sustentação ao orçamento das famílias",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "A taxa de desocupação do Brasil caiu para 5,2% no trimestre de julho a setembro, ante 5,4% entre abril e junho, segundo a divulgação do IBGE de 30 de outubro. A população ocupada chegou a 103,6 milhões, de modo que a melhora incluiu mais gente trabalhando, uma informação importante para ler junto com a taxa de desemprego.",
+            "Conseguir trabalho pode transformar compras adiadas em movimento no comércio do bairro, fazendo a renda circular. A qualidade dessa ocupação continua importante: uma família consegue planejar melhor o aluguel e a alimentação quando as horas trabalhadas e os ganhos são previsíveis, enquanto o total nacional de ocupados não revela se uma vaga específica oferece essa segurança."
+          ],
+          "why_it_matters": "Para quem conseguiu trabalho, há uma nova fonte de renda e mais espaço para planejar. Para quem ainda procura, a melhora nacional pode conviver com dificuldades no mercado local.",
+          "concept": "Mais ocupação e segurança de renda",
+          "sources": [
+            {
+              "title": "Divulgação do IBGE reproduzida pela Agência Gov, 30 de outubro",
+              "url": "https://agenciagov.ebc.com.br/noticias/202610/taxa-de-desemprego-tem-queda-e-alcanca-menor-resultado-para-setembro-em-14-anos"
+            }
+          ]
+        },
+        {
+          "headline": "A economia americana acelera, mas a medida exige atenção",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "A primeira estimativa do PIB dos Estados Unidos para julho a setembro apontou crescimento real de 3,4% em taxa anualizada, depois de 2,2% no trimestre anterior, informou o BEA em 29 de outubro. Os investimentos e o consumo das famílias contribuíram para a expansão, assim como os gastos do governo, enquanto as exportações recuaram; o resultado ainda está sujeito a revisão.",
+            "A taxa anualizada mostra como seria o crescimento se aquele ritmo continuasse por um ano, portanto o número não corresponde à alta efetiva apenas daqueles três meses. Uma produção maior pode sustentar a procura por trabalhadores e fornecedores, mas o caminho até o seu salário depende de quais atividades crescem e de como a renda gerada é distribuída."
+          ],
+          "why_it_matters": "Uma empresa com mais encomendas pode oferecer mais trabalho, enquanto uma família fora dos setores em expansão pode sentir pouca melhora imediata. O PIB ajuda a enxergar a atividade geral, mas diz pouco sobre as finanças de uma casa específica.",
+          "concept": "Crescimento anualizado e distribuição dos ganhos",
+          "sources": [
+            {
+              "title": "BEA: primeira estimativa do PIB do terceiro trimestre, 29 de outubro",
+              "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+            }
+          ]
+        },
+        {
+          "headline": "A inflação alemã perde força, com energia ainda cara",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "A prévia de outubro colocou a inflação anual ao consumidor da Alemanha em 2,8%, ante 3,3% em setembro, informou a Destatis em 30 de outubro. A energia ainda estava 12,2% mais cara que um ano antes, enquanto a inflação sem alimentos e energia foi estimada em 2,1%; o resultado combina uma desaceleração do índice geral com um peso energético ainda elevado.",
+            "Uma alta anual menor pode trazer alívio sem devolver os preços ao patamar anterior, e a média esconde o quanto cada família depende de aquecimento ou de deslocamentos de carro. Quando uma despesa essencial consome mais de uma renda fixa, o ajuste acaba em outras compras, levando o choque de energia a empresas que nem sequer vendem energia."
+          ],
+          "why_it_matters": "O alívio no seu orçamento depende do contrato e do consumo de energia da sua casa. A inflação nacional pode cair enquanto uma conta ainda leva uma parcela maior da sua renda do que levava no ano passado.",
+          "concept": "Inflação menor com preços ainda elevados",
+          "sources": [
+            {
+              "title": "Destatis: prévia dos preços ao consumidor de outubro, 30 de outubro",
+              "url": "https://www.destatis.de/EN/Press/2026/10/PE26_382_611.html"
+            }
+          ]
+        },
+        {
+          "headline": "O avanço da nuvem da Microsoft deixa uma pergunta para os clientes",
+          "categories": [
+            "USA",
+            "Technology"
+          ],
+          "body": [
+            "A Microsoft informou receita de US$ 92,3 bilhões no trimestre encerrado em 30 de setembro, alta de 19% em relação a um ano antes, no resultado divulgado em 28 de outubro. A receita da Microsoft Cloud chegou a US$ 63,9 bilhões, com avanço de 30%, mostrando um negócio em expansão para a fornecedora, enquanto os clientes precisam avaliar o que esse gasto entrega.",
+            "Para uma empresa pequena, alugar capacidade de computação pode evitar a compra e a manutenção inicial de equipamentos, mas a assinatura vira uma despesa recorrente que precisa se justificar. O ganho econômico aparece quando as ferramentas permitem realizar trabalho útil com mais eficiência; a receita maior da fornecedora, sozinha, não demonstra esse ganho nem revela se ele chega aos funcionários em melhores salários e uma carga de trabalho administrável."
+          ],
+          "why_it_matters": "Se o seu trabalho adota ferramentas de nuvem ou de IA, vale observar se elas poupam tempo útil depois de incluir treinamento e conferência. Para quem administra a empresa, essa economia precisa compensar a conta recorrente.",
+          "concept": "Gasto em tecnologia e produtividade de fato",
+          "sources": [
+            {
+              "title": "Microsoft: resultados do primeiro trimestre fiscal de 2027, 28 de outubro",
+              "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Aperto monetário",
+          "plain": "Uso do custo e da disponibilidade de crédito para conter gastos e pressões inflacionárias."
+        },
+        {
+          "term": "Choque de oferta",
+          "plain": "Uma mudança brusca na disponibilidade ou no custo de produzir algo, como energia."
+        },
+        {
+          "term": "Crescimento anualizado",
+          "plain": "Ritmo de um trimestre expresso como se continuasse durante um ano inteiro."
+        },
+        {
+          "term": "Núcleo da inflação",
+          "plain": "Medida de preços que exclui determinados grupos mais voláteis; aqui, alimentos e energia."
+        },
+        {
+          "term": "Produtividade",
+          "plain": "Quanto se produz de útil com uma determinada quantidade de trabalho ou de outros recursos."
+        }
+      ]
+    }
+  }
+}
