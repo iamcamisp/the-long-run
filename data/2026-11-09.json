@@ -1,0 +1,298 @@
+{
+  "publication": "The Long Run",
+  "tagline": {
+    "en": "Economics, politics & technology, explained. Once a week, with the theory underneath.",
+    "pt": "Economia, política e tecnologia, explicadas. Uma vez por semana, com a teoria por trás."
+  },
+  "slug": "2026-11-09",
+  "number": 9,
+  "date": "2026-11-09",
+  "week_of": "November 9, 2026",
+  "research_cutoff": "2026-11-09T04:00:00+01:00",
+  "reporting_period": {
+    "start": "2026-11-02",
+    "end": "2026-11-09"
+  },
+  "prepared_on": "2026-11-10",
+  "publication_note": "Delayed edition; reporting limited to information available by 9 November at 04:00 Europe/Zurich.",
+  "content": {
+    "en": {
+      "title": "Who gets to decide",
+      "editors_note": "A change in political power can alter the choices on the table well before it changes the bills on yours. This week, America's election sits alongside decisions about the cost of borrowing and fresh evidence on jobs and computing investment, each with a different route into everyday life. This delayed edition was prepared on 10 November and covers 2–9 November 2026, using only information available by Monday, 9 November at 04:00 CET.",
+      "leads": [
+        {
+          "headline": "Democrats win Congress, and economic policy faces a new negotiation",
+          "dek": "The election changes the balance of legislative power, while household gains still depend on what can pass into law.",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "The Associated Press called Democratic control of the Senate on the night of 3 November and of the House early on 4 November. These are AP's election calls, rather than final certified totals, and they point to a change in who will control the next Congress; they do not mean a new tax or spending programme has already taken effect.",
+            "The distinction matters because legislation has several gates to pass. As the House's own guide explains, a bill must pass through both chambers before reaching the president, who can sign or veto it. Winning congressional majorities changes the negotiating position, while the presidency remains a separate source of power in that process.",
+            "For a household, the economic consequences would come through the contents of an eventual agreement. A tax change can alter disposable income, the money left after taxes, while a change in public support can shift how much a family pays from its own pocket. Whether either route improves a particular family's position depends on eligibility and funding, so a victory alone gives us too little information to calculate the effect.",
+            "A mainstream economist would watch the clarity and durability of the rules that emerge. Imagine a small employer considering another location: uncertainty about future costs can make waiting attractive, whereas a workable agreement can make planning easier. Divided political power can encourage compromise or prolong a dispute, and neither outcome follows automatically from the party labels.",
+            "An institutional or heterodox reading adds a question about bargaining power: whose priorities survive the negotiation? Businesses with money to organise and households with little time to follow legislation do not necessarily have equal influence over the details. That is an analytical concern rather than a claim about a specific deal this week, and it makes the design of a measure as important as the headline amount attached to it.",
+            "My view is that the result deserves attention because it changes the route by which policy is made, but the economic verdict should follow actual decisions. Watch which proposals move far enough to become enforceable rules, and who gains or pays under them; a family needs a dependable benefit or a manageable bill. For now, the change in negotiating power is clear, while its eventual effect on living standards remains open."
+          ],
+          "why_it_matters": "A future agreement on taxes or public services could change what you keep from your income or must pay yourself. Until there is an enacted measure with clear terms, the election result alone cannot tell you how much your household budget will change.",
+          "theory_lens": {
+            "concept": "How political bargaining shapes an economic outcome",
+            "orthodox": "Predictable rules help people commit to spending or investment. If a shop owner cannot judge future costs, postponing expansion may look safer than hiring now.",
+            "heterodox": "Institutions determine who gets heard and who has leverage over the rules. A policy can look efficient in the aggregate while directing most of its benefits towards those with the strongest voice.",
+            "takeaway": "Assess both whether an agreement makes planning easier and who it serves. A stable arrangement earns its value when it also improves concrete opportunities for households."
+          },
+          "sources": [
+            {
+              "title": "AP: how it called control of Congress",
+              "url": "https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/"
+            },
+            {
+              "title": "US House: the legislative process",
+              "url": "https://www.house.gov/the-house-explained/the-legislative-process"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Brazil keeps the Selic at 13.75%, leaving borrowers waiting",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "The Copom kept Brazil's Selic target at 13.75% a year on 4 November, as reported that evening by Banco do Brasil; the central bank's official daily series confirms the unchanged target across the meeting. The decision offers no new reduction in the policy benchmark for a household or business hoping to refinance.",
+            "The rate on a particular loan also reflects default risk and the lender's costs, so even a future Selic change would not translate point for point into the offer on your screen. Sustained expensive credit can discourage a financed purchase or an expansion, while interest income helps people with savings; those effects reach different households in very different ways."
+          ],
+          "why_it_matters": "For someone carrying costly debt, a policy hold leaves the need to compare actual financing terms unchanged. For a small business, the relevant question remains whether expected sales justify the full cost of borrowing.",
+          "concept": "The policy rate and the price of your loan",
+          "sources": [
+            {
+              "title": "Banco do Brasil: Copom decision, 4 November",
+              "url": "https://investalk.bb.com.br/noticias/economia/copom-novembro-2026"
+            },
+            {
+              "title": "Central Bank of Brazil: official Selic target series, 3–6 November",
+              "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=03/11/2026&dataFinal=06/11/2026"
+            }
+          ]
+        },
+        {
+          "headline": "US hiring improves, while more workers want extra hours",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "US nonfarm payrolls rose by 165,000 in October and unemployment was little changed at 4.1%, the BLS reported on 6 November. A less comfortable detail came from its household survey: the number working part time for economic reasons increased by 339,000 to 4.8 million, including people whose hours had been cut or who could not find full-time work.",
+            "The payroll and household surveys measure different things, so those changes should not be subtracted from one another. Together they show why a positive hiring headline can coexist with insecure income: having a job helps, but a worker who needs more hours may still struggle to cover a fixed rent bill."
+          ],
+          "why_it_matters": "For a household, dependable hours matter alongside the hourly wage. More hiring can widen opportunities without resolving the squeeze for people who are already employed but cannot get enough work.",
+          "concept": "Employment versus enough paid work",
+          "sources": [
+            {
+              "title": "BLS: October employment report, 6 November",
+              "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+            }
+          ]
+        },
+        {
+          "headline": "The Bank of England raises rates as energy pressure builds",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "The Bank of England announced a quarter-point increase in Bank Rate to 4% on 5 November, with eight members backing that move and one preferring a larger rise. It said energy costs were creating enough inflation pressure to warrant action, even though evidence of wider effects on wages and prices remained limited.",
+            "That is a decision to act against a risk before its full extent is visible. Dearer credit can restrain spending and reduce the room for businesses to pass on costs, but it also puts pressure on borrowers already paying more for essentials; the balance depends on how strongly the energy shock spreads and how much demand weakens."
+          ],
+          "why_it_matters": "A borrower on a variable rate may feel the change sooner than someone whose rate is fixed. A household approaching renewal needs to judge the new repayment alongside its energy budget.",
+          "concept": "Acting on inflation risk before it fully appears",
+          "sources": [
+            {
+              "title": "Bank of England: November decision, 5 November",
+              "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+            }
+          ]
+        },
+        {
+          "headline": "AMD’s data-centre boom shows where computing money is going",
+          "categories": [
+            "USA",
+            "Technology"
+          ],
+          "body": [
+            "AMD reported third-quarter revenue of $13.4 billion on 3 November, with data-centre revenue up 97% from a year earlier. The company attributed the segment's growth to record sales of its Instinct GPUs and EPYC CPUs, chips used to carry out computing work, making the release a concrete measure of spending on infrastructure.",
+            "More chip sales can support work across the supply chain and give customers more capacity to run services, but equipment spending comes before the test of whether those services pay their way. For the wider economy, the useful gain comes when that capacity enables better work at a sustainable cost, while competition determines how much of any saving reaches the customer."
+          ],
+          "why_it_matters": "Businesses buying computing services ultimately need useful output that justifies the bill. Workers benefit when the investment creates durable demand for their skills, rather than a brief burst of orders.",
+          "concept": "Investment in capacity and the demand that must follow",
+          "sources": [
+            {
+              "title": "AMD: third-quarter results, 3 November",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Disposable income",
+          "plain": "Income left after taxes, available for spending or saving."
+        },
+        {
+          "term": "Bargaining power",
+          "plain": "The ability to influence the terms of an agreement."
+        },
+        {
+          "term": "Selic target",
+          "plain": "The policy interest-rate target set by Brazil’s central bank."
+        },
+        {
+          "term": "Involuntary part-time work",
+          "plain": "Working fewer hours than desired because full-time work is unavailable or hours have been reduced."
+        },
+        {
+          "term": "Data centre",
+          "plain": "A facility housing computing equipment that processes and stores information."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Quem decide daqui para a frente",
+      "editors_note": "Uma mudança de poder pode alterar as opções em discussão muito antes de mudar as contas da sua casa. Nesta semana, a eleição americana divide espaço com decisões sobre o custo do crédito e novos dados de emprego e investimento em computação, cada qual com um caminho diferente até a vida cotidiana. Preparada em 10 de novembro, esta edição atrasada cobre o período de 2 a 9 de novembro de 2026, usando apenas informações disponíveis até as 4h de segunda-feira, dia 9, no horário da Europa Central (CET).",
+      "leads": [
+        {
+          "headline": "Democratas vencem o Congresso, e a política econômica entra em nova negociação",
+          "dek": "A eleição muda o equilíbrio de poder no Legislativo, enquanto a melhora para as famílias ainda depende do que conseguir virar lei.",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "A Associated Press anunciou a vitória democrata pelo controle do Senado na noite de 3 de novembro e da Câmara na madrugada do dia 4. São resultados declarados pela AP, e não totais finais oficialmente certificados, que apontam uma mudança no comando do próximo Congresso; isso não significa que um novo programa de impostos ou gastos já esteja em vigor.",
+            "A diferença importa porque uma lei precisa passar por várias etapas. Como explica o guia da própria Câmara, um projeto deve ser aprovado nas duas casas antes de chegar ao presidente, que pode sancioná-lo ou vetá-lo. Conquistar as maiorias no Congresso muda a posição na negociação, enquanto a Presidência continua sendo um centro de poder separado nesse processo.",
+            "Para uma família, os efeitos econômicos viriam do conteúdo de um eventual acordo. Uma mudança nos impostos pode alterar a renda disponível, o dinheiro que sobra depois dos tributos, enquanto uma alteração no apoio público pode mudar o quanto sai do próprio bolso. O resultado depende de quem tem direito à medida e de como ela será financiada, portanto a vitória, sozinha, ainda não permite calcular o efeito.",
+            "Um economista mais tradicional acompanharia a clareza e a duração das regras que saírem da negociação. Imagine um pequeno empresário avaliando abrir outra unidade: a incerteza sobre custos futuros pode favorecer a espera, enquanto um acordo viável facilita o planejamento. A divisão de poder pode estimular um compromisso ou prolongar uma disputa, sem que nenhum desses caminhos decorra automaticamente das siglas partidárias.",
+            "Uma leitura institucional ou heterodoxa acrescenta uma pergunta sobre poder de negociação: quais prioridades sobrevivem ao acordo? Empresas com recursos para se organizar e famílias com pouco tempo para acompanhar projetos de lei não necessariamente têm a mesma influência sobre os detalhes. Esse é um problema de análise, e não uma afirmação sobre um acordo específico desta semana, que torna o desenho da medida tão importante quanto o valor anunciado.",
+            "Minha leitura é que o resultado merece atenção porque muda o caminho das decisões, mas a avaliação econômica deve acompanhar o que de fato for decidido. Vale observar quais propostas avançam até se tornarem regras aplicáveis e quem ganha ou paga com elas; uma família precisa de um benefício confiável ou de uma conta que caiba no orçamento. Por enquanto, a mudança no poder de negociação está clara, enquanto seu efeito sobre o padrão de vida continua em aberto."
+          ],
+          "why_it_matters": "Um futuro acordo sobre impostos ou serviços públicos pode mudar quanto sobra da sua renda ou quanto você precisa pagar por conta própria. Até existir uma medida em vigor com regras claras, o resultado eleitoral não permite dizer de quanto será a mudança no orçamento da sua casa.",
+          "theory_lens": {
+            "concept": "Como a negociação política molda o resultado econômico",
+            "orthodox": "Regras previsíveis ajudam a decidir gastos e investimentos. Se o dono de uma loja não consegue avaliar os custos futuros, adiar a expansão pode parecer mais seguro do que contratar agora.",
+            "heterodox": "As instituições determinam quem é ouvido e quem tem força para influenciar as regras. Uma política pode parecer eficiente no conjunto e, ainda assim, concentrar os benefícios em quem tem mais voz.",
+            "takeaway": "Vale avaliar tanto se o acordo facilita o planejamento quanto a quem ele atende. Uma solução estável ganha valor quando também amplia oportunidades concretas para as famílias."
+          },
+          "sources": [
+            {
+              "title": "AP: como declarou o controle do Congresso",
+              "url": "https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/"
+            },
+            {
+              "title": "Câmara dos EUA: o processo legislativo",
+              "url": "https://www.house.gov/the-house-explained/the-legislative-process"
+            }
+          ]
+        }
+      ],
+      "briefs": [
+        {
+          "headline": "Selic fica em 13,75%, e quem precisa de crédito continua esperando",
+          "categories": [
+            "Brazil"
+          ],
+          "body": [
+            "O Copom manteve a meta da Selic em 13,75% ao ano em 4 de novembro, conforme informou o Banco do Brasil naquela noite; a série diária oficial do BC confirma a estabilidade da meta ao longo da reunião. A decisão não traz uma nova redução dos juros básicos para a família ou empresa que pretende refinanciar uma dívida.",
+            "A taxa de um empréstimo também reflete o risco de inadimplência e os custos do banco, portanto mesmo uma mudança futura na Selic não chegaria ponto por ponto à proposta na tela. Crédito caro por mais tempo pode desestimular uma compra financiada ou uma expansão, enquanto a renda de juros ajuda quem tem aplicações; os efeitos chegam de formas bastante diferentes a cada família."
+          ],
+          "why_it_matters": "Para quem tem uma dívida cara, a manutenção dos juros preserva a necessidade de comparar as condições reais de financiamento. Para uma pequena empresa, continua valendo avaliar se as vendas esperadas compensam o custo total do empréstimo.",
+          "concept": "Os juros básicos e o preço do seu empréstimo",
+          "sources": [
+            {
+              "title": "Banco do Brasil: decisão do Copom, 4 de novembro",
+              "url": "https://investalk.bb.com.br/noticias/economia/copom-novembro-2026"
+            },
+            {
+              "title": "Banco Central: série oficial da meta Selic, 3 a 6 de novembro",
+              "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=03/11/2026&dataFinal=06/11/2026"
+            }
+          ]
+        },
+        {
+          "headline": "Contratações avançam nos EUA, mas cresce a busca por mais horas",
+          "categories": [
+            "USA"
+          ],
+          "body": [
+            "Os Estados Unidos criaram 165 mil vagas fora do setor agrícola em outubro, e a taxa de desemprego ficou praticamente estável em 4,1%, informou o BLS em 6 de novembro. Um dado menos favorável veio da pesquisa domiciliar: o número de pessoas trabalhando em tempo parcial por razões econômicas aumentou em 339 mil, para 4,8 milhões, incluindo quem teve a jornada reduzida ou não encontrou trabalho em tempo integral.",
+            "A pesquisa de estabelecimentos e a domiciliar medem coisas diferentes, por isso essas variações não devem ser subtraídas uma da outra. Juntas, elas ajudam a entender como um bom resultado de contratações pode conviver com renda insegura: ter trabalho ajuda, mas quem precisa de mais horas ainda pode enfrentar dificuldade para pagar um aluguel que não diminuiu."
+          ],
+          "why_it_matters": "Para uma família, a previsibilidade das horas trabalhadas importa tanto quanto o salário por hora. Mais contratações podem ampliar oportunidades sem resolver o aperto de quem já tem ocupação, mas não consegue trabalho suficiente.",
+          "concept": "Ter emprego e ter horas remuneradas suficientes",
+          "sources": [
+            {
+              "title": "BLS: relatório de emprego de outubro, 6 de novembro",
+              "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Banco da Inglaterra sobe os juros diante da pressão da energia",
+          "categories": [
+            "Europe"
+          ],
+          "body": [
+            "O Banco da Inglaterra anunciou em 5 de novembro uma alta de 0,25 ponto percentual nos juros básicos, para 4%, com oito integrantes a favor desse ajuste e um defendendo uma elevação maior. Segundo o banco, o custo da energia já criava pressão inflacionária suficiente para agir, embora ainda houvesse evidência limitada de efeitos mais amplos sobre salários e preços.",
+            "A decisão procura conter um risco antes que sua dimensão fique totalmente visível. Crédito mais caro pode frear os gastos e limitar o espaço das empresas para repassar custos, mas também aperta quem já paga mais pelas despesas essenciais; o equilíbrio depende da propagação do choque de energia e da intensidade da desaceleração da demanda."
+          ],
+          "why_it_matters": "Quem tem um empréstimo com juros variáveis pode sentir a mudança antes de quem contratou uma taxa fixa. Para uma família perto da renovação, importa avaliar a nova prestação junto com o orçamento de energia.",
+          "concept": "Agir sobre o risco de inflação antes de ele aparecer por inteiro",
+          "sources": [
+            {
+              "title": "Banco da Inglaterra: decisão de novembro, 5 de novembro",
+              "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+            }
+          ]
+        },
+        {
+          "headline": "O avanço dos data centers da AMD mostra para onde vai o gasto em computação",
+          "categories": [
+            "USA",
+            "Technology"
+          ],
+          "body": [
+            "A AMD informou em 3 de novembro receita de US$ 13,4 bilhões no terceiro trimestre, com alta de 97% na receita de data centers em relação a um ano antes. A empresa atribuiu o crescimento do segmento às vendas recordes de GPUs Instinct e CPUs EPYC, chips que executam tarefas de computação, tornando o balanço uma medida concreta dos gastos em infraestrutura.",
+            "Mais vendas de chips podem sustentar trabalho na cadeia de fornecedores e dar aos clientes capacidade para oferecer serviços, mas a compra dos equipamentos vem antes do teste de viabilidade desses serviços. Para a economia, o ganho útil aparece quando essa capacidade permite trabalhar melhor a um custo sustentável, enquanto a concorrência influencia quanto da economia de custos chega ao cliente."
+          ],
+          "why_it_matters": "Empresas que contratam computação precisam de resultados úteis que justifiquem a conta. Trabalhadores ganham quando o investimento cria demanda duradoura por suas habilidades, em vez de apenas um impulso breve nas encomendas.",
+          "concept": "Investimento em capacidade e a demanda necessária depois",
+          "sources": [
+            {
+              "title": "AMD: resultados do terceiro trimestre, 3 de novembro",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
+            }
+          ]
+        }
+      ],
+      "glossary": [
+        {
+          "term": "Renda disponível",
+          "plain": "Renda que sobra depois dos impostos, para gastar ou poupar."
+        },
+        {
+          "term": "Poder de negociação",
+          "plain": "Capacidade de influenciar os termos de um acordo."
+        },
+        {
+          "term": "Meta Selic",
+          "plain": "Meta dos juros básicos definida pelo Banco Central do Brasil."
+        },
+        {
+          "term": "Trabalho parcial involuntário",
+          "plain": "Jornada menor do que a desejada por falta de trabalho em tempo integral ou por redução das horas."
+        },
+        {
+          "term": "Data center",
+          "plain": "Instalação que abriga equipamentos para processar e armazenar informações."
+        }
+      ]
+    }
+  }
+}
